@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html lang="en" data-theme="light">
+<head>
+    <title>Home</title>
+    <!-- TODO: add favicon -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./common/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="./common/styles/parallax.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <script src="./common/javascript/cookies.js"></script>
+    <script src="./common/javascript/theme.js"></script>
+    <script src="./common/javascript/menu.js"></script>
+    <script src="./common/javascript/parallax.js"></script>
+</head>
+<body>
+    <header id="header" class="header">
+        <a href="#about-me" class="logo">Catwithamask</a>
+        <div class="toggle" onclick="menuToggle()"></div>
+        <ul class="navigation">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="#">Characters</a></li>
+            <li><a href="#">Stories</a></li>
+            <li><a href=".\contact.html">Contact</a></li>
+            <li><button class="theme parallax-switcher" id="theme-switcher" onclick="switchTheme(data-theme)"></button></li>
+        </ul>
+    </header>
+    <section class="parallax">
+        <img src="assets/parallax/lines.png" id="lines" class="lines"/>
+        <img src="assets/parallax/stars.png" id="stars" class="stars"/>
+        <img src="assets/parallax/layer-1.png" id="layer-1" class="layer-1"/>
+        <img src="assets/parallax/layer-2.png" id="layer-2" class="layer-2"/>
+        <img src="assets/parallax/layer-3.png" id="layer-3" class="layer-3"/> <!--Toggle this-->
+        
+        <img src="assets/parallax/red-2.jpg" id="red-2" class="red-2"/>
+        
+        <img src="assets/parallax/layer-4.png" id="layer-4" class="layer-4"/> <!--Toggle this-->
+        <img src="assets/parallax/red-1.png" id="red-1" class="red-1"/>
+
+        <img src="assets/parallax/sun.png" id="sun" class="sun"/> <!--Toggle this-->
+    </section>
+    <div id="about-me" class="sec">
+        <!-- TODO: Fill in content -->
+        <h2>About me</h2>
+        <p>
+            Hi, my name is Cat (short for Catwithamask) <br>
+            I am a hobby artist and writer and love to create stories!<br>
+        </p>
+        <br>
+        <p>
+            Stick around and take a look at my art in the Gallery :D
+        </p>
+    </div>
+</body>
+</html>

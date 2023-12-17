@@ -1,0 +1,25 @@
+.sec {
+    position: relative;
+    padding: 100px;
+    background-color: var(--tertiary-background);
+    /* background: linear-gradient(var(--tertiary-background), var(--secondary-background)); */
+}
+
+.sec h2 {
+    font-size: 3em;
+    color: var(--secondary-accent-color);
+    margin-bottom: 10px;
+}
+.sec p {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+@media (max-width: 992px) {
+    .sec {
+        padding: 20px;
+    }
+    .sec h2 {
+        font-size: 1.5em;
+    }
+}
