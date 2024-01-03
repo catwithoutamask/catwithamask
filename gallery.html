@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./common/styles/style.css">
-    <link rel="stylesheet" type="text/css" href="./index.css"> <!-- TODO: refer the right stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./gallery.css"> <!-- TODO: refer the right stylesheet -->
     <script src="common/javascript/cookies.js"></script>
     <script src="./common/javascript/theme.js"></script>
     <script src="./common/javascript/menu.js"></script>
@@ -22,25 +22,134 @@
             <li><a href="#">Characters</a></li>
             <li><a href="#">Stories</a></li>
             <li><a href="./contact.html">Contact</a></li>
-            <li><button class="theme" id="theme-switcher" onclick="switchTheme(data-theme)"></button></li>
+            <li><button class="theme" id="theme-switcher"></button></li>
         </ul>
     </header>
-    <section class="gallery">
-        <div class="info-container">
-            <div class="wrapper">
-            <h3>Take a look around at my gallery!</h3>
-            <button class="top-3">⭐ Cat's Top 3</button>
+    <section>
+        <div id="info-container">
+            <!-- <h3>Take a look around my gallery!</h3> -->
+        </div>
+        <div class="gallery">
+            <div>
+                <div class="sort-container">
+                    <p>
+                        Sort Images by:
+                    </p>
+                    <div class="dropdown">
+                        <button id="dd_button" onclick="toggleDropdown()" class="dropdownbtn">Creation Date</button>
+                        <div id="dd_menu" class="dropdown-content">
+                            <a onclick="sortImagesBy('Creation Date', 'asc')">Creation Date</a>
+                            </br>
+                            <a onclick="sortImagesBy('Title', 'asc')">Title</a>
+                        </div>
+                    </div>
+                    <p id="arrow" class="asc" onclick="toggleSortDirection()">
+                        ▲
+                    </p>
+                </div>
+                <div id="image-container">Coudn't load the images, sorry :/</div>
             </div>
-            <div class="sort-container">
-    
-            </div>
-        </div>
-        <div class="image-container">
-            
-        </div>
-        </div>
-        <div class="filter-container"> 
+            <div id="filter-container">
 
+                <button class="dropdownbtn" onclick="removeAllFilters()">Remove All Filters</button>
+                
+                <h4>Filter images by</h4>
+
+                <div class="trigger box">
+                    <input type="checkbox" checked="checked" id="tw" value="trigger warning"/>
+                    <label for="tw">Trigger Warning</label> <br>
+                </div>
+
+                <form class="medium box">
+                    <h5>Medium</h5>
+                    <input type="radio" onclick="changeMediumFilter(this)" name="medium" id="trad" value="Traditional Art"/>
+                    <label for="trad">Traditional Art</label> <br>
+
+                    <input type="radio" onclick="changeMediumFilter(this)" name="medium" id="dig" value="Digital Art"/>
+                    <label for="dig">Digital Art</label> <br>
+
+                    <input type="radio" onclick="changeMediumFilter(this)" checked="checked" name="medium" id="all" value="All"/>
+                    <label for="all">All</label>
+                </form>
+
+                <div class="categories box">
+                    <h5>Categories</h5>
+                    <input type="checkbox" onclick="changeCategoriesFilter(this)" id="1" value="Blood"/>
+                    <label for="1">Blood</label> <br>
+
+                    <input type="checkbox" onclick="changeCategoriesFilter(this)" id="2" value="Character art"/>
+                    <label for="2">Character Art</label> <br>
+
+                    <input type="checkbox" onclick="changeCategoriesFilter(this)" id="3" value="Comic"/>
+                    <label for="3">Comic</label> <br>
+
+                    <input type="checkbox" onclick="changeCategoriesFilter(this)" id="4" value="Experimental"/>
+                    <label for="4">Experimental</label> <br>
+
+                    <input type="checkbox" onclick="changeCategoriesFilter(this)" id="5" value="Fan Art"/>
+                    <label for="5">Fan Art</label> <br>
+
+                    <input type="checkbox" onclick="changeCategoriesFilter(this)" id="6" value="Fantasy"/>
+                    <label for="6">Fantasy</label> <br>
+
+                    <input type="checkbox" onclick="changeCategoriesFilter(this)" id="7" value="Illustration"/>
+                    <label for="7">Illustration</label>
+                </div>
+                
+                <div class="characters box">
+                    <h5>Characters</h5>
+                    <input type="checkbox" onclick="changeCharacterFilter(this)" id="8" value="Aquavia"/>
+                    <label for="8">Aquavia</label> <br>
+
+                    <input type="checkbox" onclick="changeCharacterFilter(this)" id="9" value="Bee"/>
+                    <label for="9">Bee</label> <br>
+
+                    <input type="checkbox" onclick="changeCharacterFilter(this)" id="10" value="Benjamin"/>
+                    <label for="10">Benjamin</label> <br>
+
+                    <input type="checkbox" onclick="changeCharacterFilter(this)" id="11" value="Benny"/>
+                    <label for="11">Benny</label> <br>
+
+                    <input type="checkbox" onclick="changeCharacterFilter(this)" id="12" value="Bryan"/>
+                    <label for="12">Bryan</label> <br>
+
+                    <input type="checkbox" onclick="changeCharacterFilter(this)" id="13" value="Clisty"/>
+                    <label for="13">Clisty</label> <br>
+
+                    <input type="checkbox" onclick="changeCharacterFilter(this)" id="14" value="Delyria"/>
+                    <label for="14">Delyria</label> <br>
+                    
+                    <input type="checkbox" onclick="changeCharacterFilter(this)" id="15" value="Eve"/>
+                    <label for="15">Eve</label> <br>
+                    
+                    <input type="checkbox" onclick="changeCharacterFilter(this)" id="16" value="Francis"/>
+                    <label for="16">Françis</label> <br>
+
+                    <input type="checkbox" onclick="changeCharacterFilter(this)" id="17" value="Hestya"/>
+                    <label for="17">Hestya</label> <br>
+                    
+                    <input type="checkbox" onclick="changeCharacterFilter(this)" id="18" value="Jane"/>
+                    <label for="18">Jane</label> <br>
+                    
+                    <input type="checkbox" onclick="changeCharacterFilter(this)" id="19" value="Lillieth"/>
+                    <label for="19">Lillieth</label> <br>
+                    
+                    <input type="checkbox" onclick="changeCharacterFilter(this)" id="20" value="Lukas"/>
+                    <label for="20">Lukas</label> <br>
+                    
+                    <input type="checkbox" onclick="changeCharacterFilter(this)" id="21" value="Lydia"/>
+                    <label for="21">Lydia</label> <br> 
+
+                    <input type="checkbox" onclick="changeCharacterFilter(this)" id="22" value="Nathan"/>
+                    <label for="22">Nathan</label> <br>
+                     
+                    <input type="checkbox" onclick="changeCharacterFilter(this)" id="23" value="Samantha"/>
+                    <label for="23">Samantha</label> <br>
+                    
+                    <input type="checkbox" onclick="changeCharacterFilter(this)" id="24" value="MoRem"/>
+                    <label for="24">MoRem</label> 
+                </div>
+            </div>
         </div>
     </section>
 </body>
