@@ -10,8 +10,7 @@ fetch('../../assets/gallery/gallery-images.json')
 function loadData(data){
     imageList = data;
     allImages = data;
-    sortImagesBy("Creation Date", "asc");
-    storeDataInDOM();
+    sortImagesBy("Title", "asc");
 }
 
 function storeDataInDOM(){
@@ -26,6 +25,54 @@ function storeDataInDOM(){
   });
   
   imageContainer.innerHTML = imagesHTML;
+}
+
+function storeDataInDOM_withInfo(){
+  const imageContainer = document.getElementById('image-container');
+  
+  let imagesHTML = "";
+  imageList.forEach(image => {
+    let pathOfImage = "./assets/gallery" + image.PathOfImage.substring(1);
+    imagesHTML += "<div>";
+    imagesHTML += "<img src='" + pathOfImage +"' alt='" + image.AltText + "' loading='lazy' style='object-fit: contain;' height='100%' width='auto'/>"
+    imagesHTML += "<div id='infoBox'>";
+    imagesHTML += "<h4 class='title'>" + image.Title + "</h4>";
+    imagesHTML += "<span class='date'>" + image.CreationDate + "</span>";
+    imagesHTML += "</br>";
+    imagesHTML += "</br>";
+    imagesHTML += "<p>" + image.Description + "</p>";
+    imagesHTML += "</div>";
+    imagesHTML += "</div>";
+  });
+  
+  imageContainer.innerHTML = imagesHTML;
+}
+
+function toggleInformation(){
+  const imageContainer = document.getElementById('image-container');
+  imageContainer.classList.toggle("grid");
+  
+  const infoButton = document.getElementById('infoButton');
+
+  if(imageContainer.classList.contains("grid")){
+    infoButton.innerHTML = "ʭʭ";
+    storeDataInDOM();
+  }
+  else{
+    infoButton.innerHTML = "ʭ≣";
+    storeDataInDOM_withInfo();
+  }
+}
+
+function showData(){
+  const imageContainer = document.getElementById('image-container');
+
+  if(imageContainer.classList.contains("grid")){
+    storeDataInDOM();
+  }
+  else{
+    storeDataInDOM_withInfo();
+  }
 }
 
 function addFilterByCategory(filterText, index) {
@@ -46,11 +93,11 @@ function removeFilter(index) {
 
 function removeAllFilters() {
   filter = [];
-  applyFilter();
+  applyFilters();
   disableAllCheckboxes();
 }
 
-function applyFilter(){
+function applyFilters(){
   console.log(filter);
 
   imageList = allImages;
@@ -59,13 +106,13 @@ function applyFilter(){
       imageList = imageList.filter(f);
     }
   });
-  storeDataInDOM();
+  showData();
 }
 
 function sortImagesBy(property, direction){
   imageList.sort(compareBy(property.replace(' ', ''), direction));
   document.getElementById("dd_button").innerHTML = property;
-  storeDataInDOM();
+  showData();
 }
 
 function compareBy(property, direction){
@@ -132,7 +179,7 @@ function changeCharacterFilter(ele) {
   } else {
     removeFilter(ele.id);
   }
-  applyFilter();
+  applyFilters();
 }
 
 function changeCategoriesFilter(ele) {
@@ -141,7 +188,7 @@ function changeCategoriesFilter(ele) {
   } else {
     removeFilter(ele.id);
   }
-  applyFilter();
+  applyFilters();
 }
 
 function changeMediumFilter(ele) {
@@ -150,5 +197,5 @@ function changeMediumFilter(ele) {
   } else {
     removeFilter(0);
   }
-  applyFilter();
+  applyFilters();
 }
