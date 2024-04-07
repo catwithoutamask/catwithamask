@@ -112,9 +112,9 @@ body {
     width: 50px;
     height: 50px;
     cursor: pointer;
-    background: url(../../assets/light.png);
-    background-size: 50px;
-    background-position: center;
+    background: url(../../assets/dark.png);
+    background-size: 30px;
+    background-position: center; 
     background-repeat: no-repeat;
     z-index: 10000;
     border: none;
@@ -125,7 +125,7 @@ body {
     width: 50px;
     height: 50px;
     cursor: pointer;
-    background: url(../../assets/dark.png);
+    background: url(../../assets/light.png);
     background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
