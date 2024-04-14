@@ -9,14 +9,15 @@ function switchTheme(ele = document.getElementById('theme-switcher'), theme = !l
 
     if(lightTheme) {
         ele.classList.remove('dark');
+        document.getElementById('hamburger').classList.remove('dark');
+        document.getElementsByTagName("body")[0].classList.remove('dark'); 
         setCookie('theme', 'light', 720);
     }else {
         ele.classList.add('dark');
+        document.getElementById('hamburger').classList.add('dark');
+        document.getElementsByTagName("body")[0].classList.add('dark'); 
         setCookie('theme', 'dark', 720);
     }
-
-    document.getElementById('hamburger').classList.toggle('dark');
-    document.getElementsByTagName("body")[0].classList.toggle('dark'); 
 }
 
 document.addEventListener('DOMContentLoaded', () => {
