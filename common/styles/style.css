@@ -1,23 +1,17 @@
-:root[data-theme="light"]{
-    --primary-background: #f7f9f9;
-    --secondary-background: #3a788b;
-    --tertiary-background: #6b9693; /*355788  */
-    --primary-accent-color: #919cb1; 
-    --secondary-accent-color: #060808; 
-    --text-color: #060808;
-    --link-hover-color: #6fc6ff;   
-    --neutral-background: #cfd8e7; 
-}
-:root[data-theme="dark"]{
-    --primary-background: #090505;
-    --secondary-background: #4d1d1d;
-    --tertiary-background: #86272c; /*355788*/
-    --text-color: #f1e5e5;
-    --primary-accent-color: #4d1d1d; /*4fa3d1*/
-    --secondary-accent-color: #d69c9f; /*4fa3d1*/
-    --link-hover-color: #86272c;
-    --neutral-background: #090505;
-}
+:root[data-theme="light"] {
+    --text: #050315;
+    --background: #fbfbfe;
+    --primary: #5a94e5;
+    --secondary: #dedcff;
+    --accent: #70d074;
+  }
+  :root[data-theme="dark"] {
+    --text: #f1e2e0;
+    --background: #090606;
+    --secondary: #e69686;
+    --primary: #912611;
+    --accent: #f7401a;
+  }
 
 /* width */
 ::-webkit-scrollbar {
@@ -42,14 +36,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: var(--text-color)
+    color: var(--text)
 }
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(var(--primary-background), var(--secondary-background));
+    background: linear-gradient(var(--primary), var(--background));
     min-height: 100vh;
     overflow-x: hidden;
+}
+body.dark {
+    background: linear-gradient(var(--background), var(--primary));
 }
 
 .header {
@@ -87,7 +84,7 @@ body {
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background: var(--secondary-background);
+    background: var(--background);
 }
 
 .header .navigation li {
@@ -99,13 +96,14 @@ body {
     text-decoration: none;
     padding: 6px 15px;
     border-radius: 20px;
-    background: var(--primary-background);
+    background: var(--background);
 }
 
 .header .navigation li a:hover,
 .header .navigation li a.active {
-    background: var(--text-color);
-    color: var(--link-hover-color);
+    background: var(--text);
+    color: var(--background);
+    
 }
 
 .header .theme {
@@ -113,7 +111,7 @@ body {
     width: 50px;
     height: 50px;
     cursor: pointer;
-    background: url(../../assets/dark.png);
+    background: url(../../assets/dark2.png);
     background-size: 30px;
     background-position: center; 
     background-repeat: no-repeat;
@@ -149,16 +147,22 @@ body {
         width: 30px;
         height: 30px;
         cursor: pointer;
-        background: url(../../assets/parallax/menu.png);
+        background: url(../../assets/parallax/menu2.png);
         background-size: 30px;
         background-position: center;
         background-repeat: no-repeat;
         z-index: 10000;
     }
+    .toggle.dark {
+        background: url(../../assets/parallax/menu.png);
+    }
     .toggle.active {
         position: fixed;
         top: 20px;
         right: 20px;
+        background: url(../../assets/parallax/close2.png);
+    }
+    .toggle.active.dark {
         background: url(../../assets/parallax/close.png);
     }
     

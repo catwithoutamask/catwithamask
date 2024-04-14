@@ -1,13 +1,13 @@
 .sec {
     position: relative;
     padding: 100px;
-    background-color: var(--tertiary-background);
+    background-color: var(--background);
     /* background: linear-gradient(var(--tertiary-background), var(--secondary-background)); */
 }
 
 .sec h2 {
     font-size: 3em;
-    color: var(--secondary-accent-color);
+    color: var(--primary);
     margin-bottom: 10px;
 }
 .sec p {

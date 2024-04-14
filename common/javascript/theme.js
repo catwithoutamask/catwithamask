@@ -1,7 +1,7 @@
 let lightTheme = true;
 function switchTheme(ele = document.getElementById('theme-switcher'), theme = !lightTheme) {
     lightTheme = theme;
-    document.documentElement.dataset.theme = lightTheme ? 'light' : 'dark';
+    document.documentElement.dataset.theme = lightTheme ? 'light' : 'dark';   
 
     if(ele.classList.contains('parallax-switcher')){
         switchThemeParallax();
@@ -14,6 +14,9 @@ function switchTheme(ele = document.getElementById('theme-switcher'), theme = !l
         ele.classList.add('dark');
         setCookie('theme', 'dark', 720);
     }
+
+    document.getElementById('hamburger').classList.toggle('dark');
+    document.getElementsByTagName("body")[0].classList.toggle('dark'); 
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -33,7 +36,6 @@ function switchThemeParallax() {
     const stars =  document.getElementById('stars');
     const red1 =  document.getElementById('red-1');
     const red2 =  document.getElementById('red-2');
-    
     
     if(lightTheme) {
         sun_moon.setAttribute('src', "assets/parallax/sun.png");
