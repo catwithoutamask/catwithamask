@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function filterToggle() {
     filterbtn.classList.toggle('active');
     filtercontainer.classList.toggle('active');
-    header.classList.toggle('hide');
+    // header.classList.toggle('hide');
     console.log("I was pressed!");
 }
 

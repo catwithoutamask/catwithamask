@@ -241,44 +241,44 @@ p.but:hover {
 
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1024px) {
   .gallery {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   #filter-container {
-    display: none;
-  }
-
-  #filter-container.active {
-    position: fixed;
-    top: 0;
-    left: 0;
+    overflow: hidden;
+    max-height: 0vh;
+    transition: max-height ease-in-out 0.5s, padding cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s;
+    padding: 0;
+    margin: 0;
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
+    width: 100%;  
+  }
+
+  #filter-container.active {
+    max-height: 100rem;
+    padding: 20px 50px;
+  }
+  
+  #filter-container.active .box {
     margin: 0;
-    border-radius: 0;
-    background: var(--background);
+    grid-gap: 15px;
   }
 
   .filterbtn.ftoggle {
     display: block;
     background-image: none;
-    margin-top: 30px
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
-  .filterbtn.filterbtn.ftoggle.active {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-  }
-
-  .header.hide {
+  #show.active {
     display: none;
   }
 }
