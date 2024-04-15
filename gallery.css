@@ -123,6 +123,12 @@ span.date {
   min-width: 130px;
   user-select: none;
   border: 1px solid var(--background);
+  align-self: center;
+  margin: auto;
+}
+
+.filterbtn.toggle {
+  display: none;
 }
 
 .filterbtn:hover{
@@ -227,56 +233,52 @@ p.but:hover {
   color: var(--background);
 }
 
-
-
-
-
-
-
-
-
-
-/* Create a custom checkbox 
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
-}
-
-/* On mouse-over, add a grey background color 
-.container:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-
-/* When the checkbox is checked, add a blue background 
-.container input:checked ~ .checkmark {
-  background-color: #2196F3;
-}
-
-/* Create the checkmark/indicator (hidden when not checked) 
-.checkmark:after {
-  content: "";
-  position: absolute;
+.filterbtn.ftoggle {
   display: none;
 }
 
-/* Show the checkmark when checked 
-.container input:checked ~ .checkmark:after {
-  display: block;
+@media (max-width: 1024px) {
+
 }
 
-/* Style the checkmark/indicator 
-.container .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}  */
+@media (max-width: 750px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #filter-container {
+    display: none;
+  }
+
+  #filter-container.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 0;
+    background: var(--background);
+  }
+
+  .filterbtn.ftoggle {
+    display: block;
+    background-image: none;
+    margin-top: 30px
+  }
+
+  .filterbtn.filterbtn.ftoggle.active {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+
+  .header.hide {
+    display: none;
+  }
+}

@@ -7,6 +7,23 @@ fetch('../../assets/gallery/gallery-images.json')
   .then(loadData)
   .catch(error => console.log(error));
 
+let filterbtn;
+let filtercontainer;
+let header;
+   
+document.addEventListener('DOMContentLoaded', () => {
+    filterbtn = document.querySelector('.filterbtn.ftoggle');
+    header = document.querySelector('.header');
+    filtercontainer = document.querySelector('#filter-container');
+});
+
+function filterToggle() {
+    filterbtn.classList.toggle('active');
+    filtercontainer.classList.toggle('active');
+    header.classList.toggle('hide');
+    console.log("I was pressed!");
+}
+
 function loadData(data){
     imageList = data;
     allImages = data;
