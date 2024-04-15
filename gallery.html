@@ -48,7 +48,7 @@
                         ▲
                     </p>
                     <p id="infoButton" class="but" onclick="toggleInformation()">
-                        ʭʭ
+                        ʭ≣
                     </p>
                 </div>
                 <div id="image-container" class="grid">Coudn't load the images, sorry :/</div>
@@ -61,8 +61,13 @@
                 <h2>Filter images by</h2>
                 
                 <div class="trigger-box">
-                    <input type="checkbox" checked="checked" id="tw" value="trigger warning"/>
-                    <label for="tw">Trigger Warning</label> <br>
+                    <div style="display: flex; align-items: center;">
+                        <label class="switch" for="tw">
+                            <input type="checkbox" checked="checked" onclick="toggleTriggerWarning()" id="tw" value="trigger warning">
+                            <span class="slider round"></span>
+                        </label>
+                        <label class="none" for="tw">Trigger Warning</label>
+                    </div>
                 </div>
 
                 <h3>Medium</h3>

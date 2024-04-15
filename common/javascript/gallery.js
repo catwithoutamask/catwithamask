@@ -9,19 +9,31 @@ fetch('../../assets/gallery/gallery-images.json')
 
 let filterbtn;
 let filtercontainer;
-let header;
    
 document.addEventListener('DOMContentLoaded', () => {
-    filterbtn = document.querySelector('.filterbtn.ftoggle');
-    header = document.querySelector('.header');
-    filtercontainer = document.querySelector('#filter-container');
+  filterbtn = document.querySelector('.filterbtn.ftoggle');
+  filtercontainer = document.querySelector('#filter-container');
 });
 
 function filterToggle() {
-    filterbtn.classList.toggle('active');
-    filtercontainer.classList.toggle('active');
-    // header.classList.toggle('hide');
-    console.log("I was pressed!");
+  filterbtn.classList.toggle('active');
+  filtercontainer.classList.toggle('active');
+  console.log("I was pressed!");
+}
+
+function toggleTriggerWarning() {
+
+  let twbtn = document.getElementById('twbtn');
+  let twChecked = document.getElementById('tw').checked;
+
+  let triggerboxes = document.getElementsByClassName('triggercontainer');
+  console.log(triggerboxes);
+  console.log(triggerboxes.length);
+  let i = 0;
+  while(i < triggerboxes.length) {
+    triggerboxes[i].classList.toggle('warning');
+    i++;
+  };
 }
 
 function loadData(data){
@@ -36,7 +48,11 @@ function storeDataInDOM(){
   let imagesHTML = "";
   imageList.forEach(image => {
     let pathOfImage = "./assets/gallery/thumbnails/" + image.Id + ".thumbnail";
-    imagesHTML += "<div>";
+    if(image.NeedsTriggerWarning) {
+      imagesHTML += "<div class='triggercontainer warning'>";
+    } else {
+      imagesHTML += "<div>";
+    }
     imagesHTML += "<img src='" + pathOfImage +"' alt='" + image.AltText + "' loading='lazy' style='object-fit: contain;' height='100%' width='auto'/>"
     imagesHTML += "</div>";
   });
@@ -49,10 +65,16 @@ function storeDataInDOM_withInfo(){
   
   let imagesHTML = "";
   imageList.forEach(image => {
-    let pathOfImage = "./assets/gallery" + image.PathOfImage.substring(1);
-    imagesHTML += "<div>";
+    let pathOfImage = "./assets/gallery/thumbnails/" + image.Id + ".thumbnail";
+    imagesHTML += "<div class='infos'>";
+    if(image.NeedsTriggerWarning) {
+      imagesHTML += "<div style='display: grid; justify-content: center;' class='triggercontainer warning'>";
+    } else {
+      imagesHTML += "<div style='display: grid; justify-content: center;'>";
+    }
     imagesHTML += "<img src='" + pathOfImage +"' alt='" + image.AltText + "' loading='lazy' style='object-fit: contain;' height='100%' width='auto'/>"
-    imagesHTML += "<div id='infoBox'>";
+    imagesHTML += "</div>";
+    imagesHTML += "<div class='infoBox'>";
     imagesHTML += "<h4 class='title'>" + image.Title + "</h4>";
     imagesHTML += "<span class='date'>" + image.CreationDate + "</span>";
     imagesHTML += "</br>";
@@ -61,7 +83,7 @@ function storeDataInDOM_withInfo(){
     imagesHTML += "</div>";
     imagesHTML += "</div>";
   });
-  
+
   imageContainer.innerHTML = imagesHTML;
 }
 
@@ -72,11 +94,11 @@ function toggleInformation(){
   const infoButton = document.getElementById('infoButton');
 
   if(imageContainer.classList.contains("grid")){
-    infoButton.innerHTML = "ʭʭ";
+    infoButton.innerHTML = "ʭ≣";
     storeDataInDOM();
   }
   else{
-    infoButton.innerHTML = "ʭ≣";
+    infoButton.innerHTML = "ʭʭ";
     storeDataInDOM_withInfo();
   }
 }
@@ -112,6 +134,7 @@ function removeAllFilters() {
   filter = [];
   applyFilters();
   disableAllCheckboxes();
+  toggleTriggerWarning();
 }
 
 function applyFilters(){
