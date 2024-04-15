@@ -26,31 +26,34 @@
         </ul>
     </header>
     <section>
-        <div id="info-container">
+        <!--<div id="info-container">-->
             <!-- <h3>Take a look around my gallery!</h3> -->
-        </div>
+        <!--</div>-->
         <div class="gallery">
             <div>
                 <button id="show" class="filterbtn ftoggle" onclick="filterToggle()">Show Filters</button>
-                <div class="sort-container">
-                    <p>
-                        Sort Images by:
-                    </p>
-                    <div class="dropdown">
-                        <button id="dd_button" onclick="toggleDropdown()" class="dropdownbtn">Creation Date</button>
-                        <div id="dd_menu" class="dropdown-content">
-                            <a onclick="sortImagesBy('Creation Date', 'asc')">Creation Date</a>
-                            </br>
-                            <a onclick="sortImagesBy('Title', 'asc')">Title</a>
+                 <div id="info-container">
+                    <h2>Welcome to my gallery!</h2>
+                    <div class="sort-container">
+                        <p>
+                            Sort Images by:
+                        </p>
+                        <div class="dropdown">
+                            <button id="dd_button" onclick="toggleDropdown()" class="dropdownbtn">Creation Date</button>
+                            <div id="dd_menu" class="dropdown-content">
+                                <a onclick="sortImagesBy('Creation Date', 'asc')">Creation Date</a>
+                                </br>
+                                <a onclick="sortImagesBy('Title', 'asc')">Title</a>
+                            </div>
                         </div>
+                        <p id="arrow" class="asc but" onclick="toggleSortDirection()">
+                            ▲
+                        </p>
+                        <p id="infoButton" class="but" onclick="toggleInformation()">
+                            ʭ≣
+                        </p>
                     </div>
-                    <p id="arrow" class="asc but" onclick="toggleSortDirection()">
-                        ▲
-                    </p>
-                    <p id="infoButton" class="but" onclick="toggleInformation()">
-                        ʭ≣
-                    </p>
-                </div>
+                 </div>
                 <div id="image-container" class="grid">Coudn't load the images, sorry :/</div>
             </div>
             <div id="filter-container">

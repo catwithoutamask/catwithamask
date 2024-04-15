@@ -22,18 +22,19 @@ function filterToggle() {
 }
 
 function toggleTriggerWarning() {
-
-  let twbtn = document.getElementById('twbtn');
-  let twChecked = document.getElementById('tw').checked;
-
   let triggerboxes = document.getElementsByClassName('triggercontainer');
   console.log(triggerboxes);
   console.log(triggerboxes.length);
   let i = 0;
   while(i < triggerboxes.length) {
     triggerboxes[i].classList.toggle('warning');
+    triggerboxes[i].classList.remove('twdisabled');
     i++;
   };
+}
+
+function disableTriggerWarning(ele){
+  ele.classList.toggle('twdisabled');
 }
 
 function loadData(data){
@@ -48,10 +49,11 @@ function storeDataInDOM(){
   let imagesHTML = "";
   imageList.forEach(image => {
     let pathOfImage = "./assets/gallery/thumbnails/" + image.Id + ".thumbnail";
+    let toolTip = image.Title + "\n" + image.CreationDate;
     if(image.NeedsTriggerWarning) {
-      imagesHTML += "<div class='triggercontainer warning'>";
+      imagesHTML += "<div title='Disable trigger warning to view image' class='triggercontainer warning' onclick='disableTriggerWarning(this)'>";
     } else {
-      imagesHTML += "<div>";
+      imagesHTML += "<div title='" + toolTip + "'>";
     }
     imagesHTML += "<img src='" + pathOfImage +"' alt='" + image.AltText + "' loading='lazy' style='object-fit: contain;' height='100%' width='auto'/>"
     imagesHTML += "</div>";

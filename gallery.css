@@ -5,24 +5,38 @@ h3 {
 
 h2 {
   padding: 1em 0;
+  text-align: left;
+  justify-self: start;
+  padding-left: 2em;
+  color: var(--secondary);
+}
+
+#info-container {
+  display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    align-content: space-between;
 }
 
 section{
   padding: 5em 2em;
 }
 
-.triggercontainer.warning {
+.triggercontainer.warning:not(.twdisabled) {
   border: 3px solid var(--text);
   user-select: none;
   border-radius: 5px;
   position: relative;
 }
 
-.triggercontainer.warning img {
+.triggercontainer.warning:not(.twdisabled) img {
   filter: blur(10px);
   position: relative;
 }
-.triggercontainer.warning::after {
+
+.triggercontainer.warning:not(.twdisabled)::after {
   position: absolute;
   content: '';
   background: url(./assets/tw.png);
@@ -34,6 +48,11 @@ section{
   height: 50%;
   top: 25%;
   left: 25%;
+}
+
+.trigger-box {
+  display: grid;
+  justify-content: center;
 }
 
 img {
@@ -117,6 +136,7 @@ div.infoBox > h4 {
   display: flex;
   align-items: baseline;
   justify-content: flex-end;
+  justify-self: flex-end;
 }
 
 .dropdownbtn {
@@ -277,24 +297,30 @@ p.but:hover {
 }
 
 #filter-container {
-  position: -webkit-sticky;
+  position: sticky;
   color: var(--text);
-  margin: 20px;
-  padding: 20px 50px;
+  margin: 20px 0px;
+  padding: 20px 20px;
   background-color: var(--background);
   border: 1px solid var(--secondary);
   border-radius: 20px;
-  top: 0;
+  top: 25px;
   user-select: none;
+  height: fit-content;
+  text-align: center;
 }
 
 .box {
   margin: 5px 0px;
   padding: 5px 0px;
-  display: flex;
-  flex-wrap: wrap;
-  grid-gap: 20px;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-gap: 1em 00px;
   justify-content: space-between;
+}
+
+.box > div {
+  width: max-content;
 }
 
 /* Hide the browser's default checkbox */
@@ -320,6 +346,7 @@ p.but:hover {
   border: 1px solid var(--text);
   cursor: pointer;
   border-radius: 20px;
+  font-size: 9pt;
 }
 
 #filter-container label.none {
@@ -355,6 +382,7 @@ p.but:hover {
   }
 
   #filter-container {
+    position: relative;
     overflow: hidden;
     max-height: 0vh;
     transition: max-height ease-in-out 0.5s, padding cubic-bezier(0.47, 0, 0.745, 0.715) 0.5s;
@@ -366,6 +394,16 @@ p.but:hover {
     align-items: center;
     flex-direction: column;
     width: 100%;  
+    margin-bottom: 20px;
+  }
+
+  .box {
+    margin: 5px 0px;
+    padding: 5px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 1em 00px;
+    justify-content: space-between;
   }
 
   #filter-container.active {
