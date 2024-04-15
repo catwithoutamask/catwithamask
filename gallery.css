@@ -13,11 +13,11 @@ h2 {
 
 #info-container {
   display: grid;
-    align-items: center;
-    justify-items: center;
-    justify-content: space-between;
-    grid-template-columns: 1fr 1fr;
-    align-content: space-between;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
+  align-content: space-between;
 }
 
 section{
@@ -304,7 +304,7 @@ p.but:hover {
   background-color: var(--background);
   border: 1px solid var(--secondary);
   border-radius: 20px;
-  top: 25px;
+  top: 10px;
   user-select: none;
   height: fit-content;
   text-align: center;
@@ -438,5 +438,13 @@ p.but:hover {
 
   div.infoBox {
     margin-top: 2em;
+  }
+
+  #info-container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    flex-direction: column;
   }
 }
