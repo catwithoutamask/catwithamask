@@ -40,7 +40,7 @@ function disableTriggerWarning(ele){
 function loadData(data){
     imageList = data;
     allImages = data;
-    sortImagesBy("Title", "asc");
+    sortImagesBy("Creation Date", "desc");
 }
 
 function storeDataInDOM(){
@@ -51,7 +51,7 @@ function storeDataInDOM(){
     let pathOfImage = "./assets/gallery/thumbnails/" + image.Id + ".thumbnail";
     let toolTip = image.Title + "\n" + image.CreationDate;
     if(image.NeedsTriggerWarning) {
-      imagesHTML += "<div title='Disable trigger warning to view image' class='triggercontainer warning' onclick='disableTriggerWarning(this)'>";
+      imagesHTML += "<div title='" + toolTip + "\nDisable trigger warning to view image' class='triggercontainer warning' onclick='disableTriggerWarning(this)'>";
     } else {
       imagesHTML += "<div title='" + toolTip + "'>";
     }
@@ -70,7 +70,7 @@ function storeDataInDOM_withInfo(){
     let pathOfImage = "./assets/gallery/thumbnails/" + image.Id + ".thumbnail";
     imagesHTML += "<div class='infos'>";
     if(image.NeedsTriggerWarning) {
-      imagesHTML += "<div style='display: grid; justify-content: center;' class='triggercontainer warning'>";
+      imagesHTML += "<div style='display: grid; justify-content: center;' class='triggercontainer warning' onclick='disableTriggerWarning(this)'>";
     } else {
       imagesHTML += "<div style='display: grid; justify-content: center;'>";
     }
@@ -155,6 +155,17 @@ function sortImagesBy(property, direction){
   imageList.sort(compareBy(property.replace(' ', ''), direction));
   document.getElementById("dd_button").innerHTML = property;
   showData();
+
+  if(direction == "desc") {
+    arrow.classList.remove("asc");
+    arrow.classList.add("desc");
+    arrow.innerHTML = "▼";
+  } 
+  else if(direction == "asc") {
+    arrow.classList.remove("desc");
+    arrow.classList.add("asc");
+    arrow.innerHTML = "▲";
+  }
 }
 
 function compareBy(property, direction){

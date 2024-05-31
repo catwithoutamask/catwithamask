@@ -2,7 +2,19 @@
     position: relative;
     padding: 100px;
     background-color: var(--background);
-    /* background: linear-gradient(var(--tertiary-background), var(--secondary-background)); */
+
+    font-size: 15px;
+    line-height: 1.8;
+    letter-spacing: 0.15em;
+    font-weight: 600;
+    font-style: normal;
+    
+    display: grid;
+    justify-items: center;
+}
+
+.sec div {
+    width: 50%;
 }
 
 .sec h2 {
@@ -11,8 +23,25 @@
     margin-bottom: 10px;
 }
 .sec p {
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 300;
+}
+
+.sec a, .sec a :visited {
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.sec a:hover {
+    text-decoration: underline;
+    color: var(--accent);
 }
 
 @media (max-width: 992px) {
@@ -20,6 +49,9 @@
         padding: 20px;
     }
     .sec h2 {
-        font-size: 1.5em;
+        font-size: 2em;
+    }
+    .sec div {
+        width: 100%;
     }
 }

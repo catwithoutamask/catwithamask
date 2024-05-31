@@ -31,12 +31,15 @@
     background: rgb(88, 88, 88);
     cursor: grab;
   }
+  
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: var(--text)
+    color: var(--text);
+    scrollbar-color: var(--secondary) var(--primary);
+	scrollbar-width: thin;
 }
 
 body {
@@ -178,23 +181,6 @@ body.dark {
         border-radius: 30px;
         display: inline-block;
     }
-}
-
-.sec {
-    position: relative;
-    padding: 100px;
-    background-color: var(--background);
-    /* background: linear-gradient(var(--tertiary-background), var(--secondary-background)); */
-}
-
-.sec h2 {
-    font-size: 3em;
-    color: var(--primary);
-    margin-bottom: 10px;
-}
-.sec p {
-    font-size: 1em;
-    font-weight: 300;
 }
 
 @media (max-width: 992px) {

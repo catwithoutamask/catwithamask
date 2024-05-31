@@ -29,6 +29,8 @@ section{
   user-select: none;
   border-radius: 5px;
   position: relative;
+  width: fit-content;
+  justify-self: center;
 }
 
 .triggercontainer.warning:not(.twdisabled) img {
