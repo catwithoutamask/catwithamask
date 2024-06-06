@@ -7,6 +7,12 @@ fetch('../../assets/gallery/gallery-images.json')
   .then(loadData)
   .catch(error => console.log(error));
 
+fetch('../../assets/gallery/gallery-images.json', {method: "HEAD"})
+  .then(r => {
+    console.log(new Date(r.headers.get('Last-Modified')));
+    document.getElementById('titleheader').innerText += ' ' + (new Date(r.headers.get('Last-Modified'))).toDateString();
+  });
+
 let filterbtn;
 let filtercontainer;
    
@@ -18,13 +24,13 @@ document.addEventListener('DOMContentLoaded', () => {
 function filterToggle() {
   filterbtn.classList.toggle('active');
   filtercontainer.classList.toggle('active');
-  console.log("I was pressed!");
+  // console.log("I was pressed!");
 }
 
 function toggleTriggerWarning() {
   let triggerboxes = document.getElementsByClassName('triggercontainer');
-  console.log(triggerboxes);
-  console.log(triggerboxes.length);
+  // console.log(triggerboxes);
+  // console.log(triggerboxes.length);
   let i = 0;
   while(i < triggerboxes.length) {
     triggerboxes[i].classList.toggle('warning');

@@ -12,6 +12,10 @@ h2 {
   text-align: left;
   justify-self: start;
   padding-left: 2em;
+  color: var(--primary);
+}
+
+h2 > span {
   color: var(--secondary);
 }
 
@@ -160,7 +164,7 @@ div.infoBox > h4 {
 
 .dropdownbtn:hover, .dropdownbtn:focus{
   background-color: var(--text);
-  color: var(--background);
+  color: var(--secondary);
 }
 
 .filterbtn {
@@ -191,6 +195,7 @@ div.infoBox > h4 {
   position: relative;
   display: inline-block;
   margin: 10px;
+  background: none;
 }
 
 .dropdown-content {
@@ -201,21 +206,23 @@ div.infoBox > h4 {
   color: var(--background);
   min-width: 130px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 5px;
+  padding: 10px;
   z-index: 1;
   user-select: none ;
 }
 
 .dropdown-content > a {
+  background: none;
   text-decoration: none;
   cursor: pointer;
   margin: 12px;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
   font-size: 14px;
+  object-fit: fill;
 }
 
 .dropdown-content > a:hover {
-  color: var(--accent);
+  color: var(--primary);
 }
 
 .switch {
