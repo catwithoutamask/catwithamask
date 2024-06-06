@@ -74,21 +74,35 @@ function storeDataInDOM_withInfo(){
   let imagesHTML = "";
   imageList.forEach(image => {
     let pathOfImage = "./assets/gallery/thumbnails/" + image.Id + ".thumbnail";
+
     imagesHTML += "<div class='infos'>";
-    if(image.NeedsTriggerWarning) {
-      imagesHTML += "<div style='display: grid; justify-content: center;' class='triggercontainer warning' onclick='disableTriggerWarning(this)'>";
-    } else {
-      imagesHTML += "<div style='display: grid; justify-content: center;'>";
-    }
-    imagesHTML += "<img src='" + pathOfImage +"' alt='" + image.AltText + "' loading='lazy' style='object-fit: contain;' height='100%' width='auto'/>"
-    imagesHTML += "</div>";
-    imagesHTML += "<div class='infoBox'>";
-    imagesHTML += "<h4 class='title'>" + image.Title + "</h4>";
-    imagesHTML += "<span class='date'>" + image.CreationDate + "</span>";
-    imagesHTML += "</br>";
-    imagesHTML += "</br>";
-    imagesHTML += "<p>" + image.Description + "</p>";
-    imagesHTML += "</div>";
+      if(image.NeedsTriggerWarning) {
+        imagesHTML += "<div style='display: grid; justify-content: center;' class='triggercontainer warning' onclick='disableTriggerWarning(this)'>";
+      } else {
+        imagesHTML += "<div style='display: grid; justify-content: center;'>";
+      }
+      imagesHTML += "<img src='" + pathOfImage +"' alt='" + image.AltText + "' loading='lazy' style='object-fit: contain;' height='100%' width='auto'/>"
+      imagesHTML += "</div>";
+
+      imagesHTML += "<div class='infoBox'>";
+        imagesHTML += "<h4 class='title'>" + image.Title + "</h4>";
+        imagesHTML += "<span class='date'>" + image.CreationDate + "</span>";
+        imagesHTML += "</br>";
+        imagesHTML += "</br>";
+        imagesHTML += "<p>" + image.Description + "</p>";
+        imagesHTML += "</br>";
+        imagesHTML += "</br>";
+        
+        imagesHTML += "<div class='links'>";
+        if(image.YouTubeLink) {
+          imagesHTML += "<a target='_blank' href='" + image.YouTubeLink + "' class='filterbtn'>Speedart on YouTube</a>";
+        }
+        if(image.SpotifyLink) {
+          imagesHTML += "<a target='_blank' href='" + image.SpotifyLink + "' class='filterbtn'>Inspiration</a>";
+        }
+
+        imagesHTML += "</div>";
+      imagesHTML += "</div>";
     imagesHTML += "</div>";
   });
 
