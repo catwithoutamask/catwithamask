@@ -1,3 +1,7 @@
+* {
+  background-color: var(--background);
+}
+
 h3 {
   color: var(--primary);
   padding: 1em;
@@ -21,7 +25,7 @@ h2 {
 }
 
 section{
-  padding: 5em 2em;
+  padding: 6em 2em;
 }
 
 .triggercontainer.warning:not(.twdisabled) {
@@ -61,10 +65,11 @@ img {
   max-height: 300px;
   width: auto;
   vertical-align: middle;
-  display: inline-block;
+  display: inline;
+  object-fit: fill;
   
   border: 3px solid var(--text);
-  background-color: var(--background);
+  background-color: black;
   user-select: none;
 }
 
@@ -304,7 +309,7 @@ p.but:hover {
   margin: 20px 0px;
   padding: 20px 20px;
   background-color: var(--background);
-  border: 1px solid var(--secondary);
+  border: 2px solid var(--secondary);
   border-radius: 20px;
   top: 10px;
   user-select: none;

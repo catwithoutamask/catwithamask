@@ -1,3 +1,10 @@
+body {
+    background: linear-gradient(var(--primary), var(--background));
+}
+body.dark {
+    background: linear-gradient(var(--background), var(--primary));
+}
+
 .parallax {
     position: relative;
     width: 100%;

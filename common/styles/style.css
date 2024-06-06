@@ -44,12 +44,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(var(--primary), var(--background));
     min-height: 100vh;
     overflow-x: hidden;
-}
-body.dark {
-    background: linear-gradient(var(--background), var(--primary));
 }
 
 .header {
