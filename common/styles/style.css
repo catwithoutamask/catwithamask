@@ -4,48 +4,46 @@
     --primary: #5a94e5;
     --secondary: #dedcff;
     --accent: #70d074;
-  }
-  :root[data-theme="dark"] {
+}
+
+:root[data-theme="dark"] {
     --text: #f1e2e0;
     --background: #090606;
     --secondary: #e69686;
     --primary: #912611;
     --accent: #f7401a;
-  }
+}
 
-/* width */
+/* Scrollbar styles */
 ::-webkit-scrollbar {
     background: rgb(31, 31, 31);
     width: 15px;
-  }
-  
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     background: rgb(50, 50, 50); 
-    /* border-radius: 5px; */
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+}
+
+::-webkit-scrollbar-thumb:hover {
     background: rgb(88, 88, 88);
     cursor: grab;
-  }
-  
+}
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: var(--text);
     scrollbar-color: var(--secondary) var(--primary);
-	scrollbar-width: thin;
+    scrollbar-width: thin;
 }
 
 body {
     font-family: Arial, sans-serif;
     min-height: 100vh;
     overflow-x: hidden;
+    background-color: var(--background);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .header {
@@ -103,7 +101,6 @@ body {
 .header .navigation li a.active {
     background: var(--text);
     color: var(--background);
-    
 }
 
 .header .theme {
@@ -127,7 +124,7 @@ body {
     cursor: pointer;
     background: url(../../assets/light.png);
     background-size: 30px;
-    background-position: center;
+    background-position: center; 
     background-repeat: no-repeat;
     z-index: 10000;
     border: none;
@@ -138,12 +135,15 @@ body {
     .header {
         padding: 20px;
     }
+
     .header .logo {
         font-size: 1.5em;
     }
+
     .header .navigation {
         display: none;
     }
+
     .toggle {
         position: relative;
         width: 30px;
@@ -155,35 +155,30 @@ body {
         background-repeat: no-repeat;
         z-index: 10000;
     }
+
     .toggle.dark {
         background: url(../../assets/parallax/menu.png);
     }
+
     .toggle.active {
         position: fixed;
         top: 20px;
         right: 20px;
         background: url(../../assets/parallax/close2.png);
     }
+
     .toggle.active.dark {
         background: url(../../assets/parallax/close.png);
     }
-    
+
     .header .navigation li {
         margin-left: 0;
     }
+
     .header .navigation li a {
         font-size: 1.5em;
         margin: 5px 0;
         border-radius: 30px;
         display: inline-block;
-    }
-}
-
-@media (max-width: 992px) {
-    .sec {
-        padding: 20px;
-    }
-    .sec h2 {
-        font-size: 1.5em;
     }
 }
