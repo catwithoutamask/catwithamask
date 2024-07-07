@@ -21,6 +21,8 @@
             <li><a href="#" class="active">Gallery</a></li>
             <li><a href="./template.html">Characters</a></li> <!-- TODO: correct link -->
             <li><a href="./template.html">Stories</a></li> <!-- TODO: correct link -->
+            <li><a href="./blog.html">Blog</a></li> <!-- TODO: correct link -->
+            <li><a href="./template.html">Fanart</a></li> <!-- TODO: correct link -->
             <li><a href="./contact.html">Contact</a></li>
             <li><button class="theme" id="theme-switcher"></button></li>
         </ul>
@@ -30,34 +32,36 @@
             <div>
                 <button id="show" class="filterbtn ftoggle" onclick="filterToggle()">Show Filters</button>
                  <div id="info-container">
-                    <h2>Welcome to my gallery! <br> <span id="titleheader">Last  updated: </span></h2>
-                    <div class="sort-container">
-                        <p>
-                            Sort Images by:
-                        </p>
-                        <div class="dropdown">
-                            <button id="dd_button" onclick="toggleDropdown()" class="dropdownbtn">Creation Date</button>
-                            <div id="dd_menu" class="dropdown-content">
-                                <a onclick="sortImagesBy('Creation Date', 'desc')">Creation Date</a>
-                                </br>
-                                <a onclick="sortImagesBy('Title', 'asc')">Title</a>
-                            </div>
-                        </div>
-                        <p id="arrow" class="desc but" onclick="toggleSortDirection()">
-                            ▼
-                        </p>
-                        <p id="infoButton" class="but" onclick="toggleInformation()">
-                            ʭ≣
-                        </p>
-                    </div>
+                    <h2>Welcome to my gallery!</h2>
+                    <span id="titleheader">Last  updated: </span>
                  </div>
                 <div id="image-container" class="grid">Coudn't load the images, sorry :/</div>
             </div>
             <div id="filter-container">
 
                 <button class="filterbtn ftoggle" onclick="filterToggle()">Hide Filters</button>
-                <button class="filterbtn" onclick="removeAllFilters()">Remove All Filters</button>
+                <button class="filterbtn remove" onclick="removeAllFilters()">Remove All Filters</button>
                 
+                <div class="sort-container">
+                    <p>
+                        Sort Images by:
+                    </p>
+                    <div class="dropdown">
+                        <button id="dd_button" onclick="toggleDropdown()" class="dropdownbtn">Creation Date</button>
+                        <div id="dd_menu" class="dropdown-content">
+                            <a onclick="sortImagesBy('Creation Date', 'desc')">Creation Date</a>
+                            </br>
+                            <a onclick="sortImagesBy('Title', 'asc')">Title</a>
+                        </div>
+                    </div>
+                    <p id="arrow" class="desc but" onclick="toggleSortDirection()">
+                        ▼
+                    </p>
+                    <p id="infoButton" class="but" onclick="toggleInformation()">
+                        ʭ≣
+                    </p>
+                </div>
+
                 <h3>Filter images by</h3>
                 
                 <div class="trigger-box">
@@ -231,5 +235,24 @@
             </div>
         </div>
     </section>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <div class="modal-infos">
+            <img class="modal-content" id="modalImage">
+            <div class="infoBox">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h2 id="modalTitle"></h2>
+                <span class="date" id="modalDate"></span>
+                <br>
+                <br>
+                <p id="modalDescription"></p>
+                <br>
+                <br>
+                <div class="links"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+

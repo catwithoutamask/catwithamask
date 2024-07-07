@@ -9,16 +9,20 @@ fetch('../../assets/gallery/gallery-images.json')
 
 fetch('../../assets/gallery/gallery-images.json', {method: "HEAD"})
   .then(r => {
-    console.log(new Date(r.headers.get('Last-Modified')));
-    document.getElementById('titleheader').innerText += ' ' + (new Date(r.headers.get('Last-Modified'))).toDateString();
+    // console.log(new Date(r.headers.get('Last-Modified')));
+    document.getElementById('titleheader').innerText += ' ' + (new Date(r.headers.get('Last-Modified'))).toUTCString().substring(0, 22);
   });
-
 let filterbtn;
 let filtercontainer;
    
 document.addEventListener('DOMContentLoaded', () => {
   filterbtn = document.querySelector('.filterbtn.ftoggle');
   filtercontainer = document.querySelector('#filter-container');
+  document.getElementById('imageModal').addEventListener('click', function(event) {
+    if (event.target === document.getElementById('imageModal')) {
+        closeModal();
+    }
+  });
 });
 
 function filterToggle() {
@@ -57,9 +61,9 @@ function storeDataInDOM(){
     let pathOfImage = "./assets/gallery/thumbnails/" + image.Id + ".thumbnail";
     let toolTip = image.Title + "\n" + image.CreationDate;
     if(image.NeedsTriggerWarning) {
-      imagesHTML += "<div title='" + toolTip + "\nDisable trigger warning to view image' class='triggercontainer warning' onclick='disableTriggerWarning(this)'>";
+      imagesHTML += "<div title='" + toolTip + "\nDisable trigger warning to view image' class='triggercontainer warning' onclick=\"openModal('" + image.Id + "')\">";
     } else {
-      imagesHTML += "<div title='" + toolTip + "'>";
+      imagesHTML += "<div title='" + toolTip + "' onclick=\"openModal('" + image.Id + "')\">";
     }
     imagesHTML += "<img src='" + pathOfImage +"' alt='" + image.AltText + "' loading='lazy' style='object-fit: contain;' height='100%' width='auto'/>"
     imagesHTML += "</div>";
@@ -271,4 +275,21 @@ function changeMediumFilter(ele) {
     removeFilter(0);
   }
   applyFilters();
+}
+
+function openModal(id) {
+  image = imageList.find(img => img.Id === id)
+  
+  document.getElementById('modalImage').src = "./assets/gallery/thumbnails/" + id + ".thumbnail";
+  document.getElementById('modalImage').src = "./assets/gallery" + image.PathOfImage.substring(1);
+  document.getElementById('modalTitle').innerText = image.Title;
+  document.getElementById('modalDate').innerText = image.CreationDate;
+  document.getElementById('modalDescription').innerText = image.Description;
+  
+  document.getElementById('imageModal').style.display = 'flex';
+}
+
+function closeModal() {
+  document.getElementById('imageModal').style.display = 'none';
+  
 }
