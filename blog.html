@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en" data-theme="light">
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./common/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="./blog.css">
+    <script src="common/javascript/cookies.js"></script>
+    <script src="./common/javascript/theme.js"></script>
+    <script src="./common/javascript/menu.js"></script>
+</head>
+<body>
+    <header id="header" class="header">
+        <a href="./index.html#about-me" class="logo">Catwithamask</a>
+        <div id="hamburger" class="toggle" onclick="menuToggle()"></div>
+        <ul class="navigation">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./template.html">Characters</a></li> <!-- TODO: correct link -->
+            <li><a href="./template.html">Stories</a></li> <!-- TODO: correct link -->
+            <li><a class="active" href="#">Blog</a></li> <!-- TODO: correct link -->
+            <li><a href="./template.html">Fanart</a></li> <!-- TODO: correct link -->
+            <li><a href="./contact.html">Contact</a></li>
+            <li><button class="theme" id="theme-switcher" onclick="switchTheme(data-theme)"></button></li>
+        </ul>
+    </header>
+    <div class="sec">
+        <section class="blog-container">
+            <a href="#" class="blog-link">
+                <article>
+                    <!-- <img src="assets/blog/image" alt="Image description" class="blog-image"> -->
+                    <h2>A Blog post</h2>
+                    <p class="date">July 7, 2024</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </article>
+            </a>
+            <!-- Add more articles as needed -->
+        </section>
+        
+    </div>
+</body>
+</html>
