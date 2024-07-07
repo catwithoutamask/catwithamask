@@ -49,15 +49,20 @@ section a:hover{
 }
 
 .box{
-    box-shadow: 10px 10px var(--secondary);
-    border: 1px solid var(--secondary);
+    /* box-shadow: 10px 10px var(--secondary);*/
+    border: 1px solid var(--secondary); 
     margin: 1em 5em;
     padding: 1em 2em 2em 2em;
     border-radius: 1em;
+    
+    box-shadow: 0 4px 6px var(--secondary, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 .box:hover {
-    box-shadow: 0px 0px 10px 10px var(--secondary);
-    transform: rotate(1deg);
+    /* box-shadow: 0px 0px 10px 10px var(--secondary);
+    transform: rotate(1deg); */
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px var(--secondary, 0.1);
 }
 
 .social-media {
@@ -65,6 +70,7 @@ section a:hover{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 50px;
 }
 
 .logo{
