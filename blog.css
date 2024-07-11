@@ -63,7 +63,7 @@ article {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-article img.blog-image {
+img.blog-image {
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -89,6 +89,16 @@ article h2 {
 
 article p {
     color: var(--text);
+}
+
+div.image-box {
+    display: grid;
+    width: 100%;
+    padding: 2em 8em;
+}
+
+div img.blog-image {
+    align-self: center;
 }
 
 @media (max-width: 992px) {
