@@ -101,9 +101,15 @@ div img.blog-image {
     align-self: center;
 }
 
+span.caption {
+    font-style: italic;
+    font-weight: lighter;
+    color: var(--secondary);
+}
+
 @media (max-width: 992px) {
     .sec {
-        padding: 100px;
+        padding: 5em 2em;
     }
 
     .sec h2 {
@@ -126,5 +132,11 @@ div img.blog-image {
 
     article h2 {
         font-size: 1.5em;
+    }
+
+    div.image-box {
+        display: grid;
+        width: 100%;
+        padding: 0;
     }
 }
