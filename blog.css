@@ -107,6 +107,12 @@ span.caption {
     color: var(--secondary);
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+
 @media (max-width: 992px) {
     .sec {
         padding: 5em 2em;
