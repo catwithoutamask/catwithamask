@@ -457,7 +457,7 @@ img.modal-content:hover{
   position: absolute;
   top: 20px;
   right: 30px;
-  color: white;
+  color: var(--text);
   font-size: 40px;
   font-weight: bold;
   transition: color 0.3s;
@@ -539,6 +539,15 @@ img.modal-content:hover{
     margin: 0;
     border: none;
   }
+
+  #filter-container label:hover {
+    background-color: none;
+    color: var(--text);
+  }
+
+  #image-container.grid {
+    margin-top: 3em;
+  }
   
 }
 
@@ -547,6 +556,10 @@ img.modal-content:hover{
     display: flex;
     flex-direction: column;
     margin-top: 5em;
+  }
+
+  #image-container.grid {
+    margin-top: 3em;
   }
 
   div.infoBox {
@@ -559,5 +572,10 @@ img.modal-content:hover{
     justify-items: center;
     justify-content: space-between;
     flex-direction: column;
+  }
+
+  #filter-container label:hover {
+    background-color: none;
+    color: var(--text);
   }
 }
