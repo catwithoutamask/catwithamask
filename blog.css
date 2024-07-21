@@ -107,6 +107,29 @@ span.caption {
     color: var(--secondary);
 }
 
+.sec a.button{
+    /*background-color: var(--secondary);*/
+    background-color: none;
+    color: var(--text);
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    min-width: 130px;
+    user-select: none;
+    /*border: 1px solid var(--background);*/
+    border: 1px solid var(--text);
+    align-self: center;
+    margin: auto;
+
+    text-decoration: none;
+}
+.sec a.button:hover{
+    background-color: var(--text);
+    color: var(--background);
+  }
+
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
