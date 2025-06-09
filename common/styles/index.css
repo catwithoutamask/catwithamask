@@ -21,7 +21,7 @@
 
 .two-cols > img {
     border-radius: 10px;
-    max-width: 200px;
+    max-height: 200px;
 }
 
 .sec div {
@@ -66,5 +66,23 @@
     }
     .sec div {
         width: 100%;
+    }
+    .two-cols > img {
+        border-radius: 10px;
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .two-cols {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        transition: transform 0.3s, ease 0.3s;
+    }
+    .two-cols > img {
+        align-self: center;
+        border-radius: 10px;
+        max-width: 200px;
     }
 }

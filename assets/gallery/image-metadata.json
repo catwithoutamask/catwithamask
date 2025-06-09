@@ -1,2209 +1,2601 @@
 [
-  {
-    "Id": "29359abb-c6c3-49ce-b7c2-164245759d42",
-    "PathOfImage": "./images/29359abb-c6c3-49ce-b7c2-164245759d42.png",
-    "Title": "Eyes",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2021-08-15",
-    "Categories": [
-      "Original Content",
-      "Character Art",
-      "Fantasy"
-    ],
-    "Characters": [
-      "Bryan",
-      "Clisty",
-      "Hestya",
-      "Lukas"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": null,
-    "SpotifyLink": null
-  },
-  {
-    "Id": "d4f8b9cb-650a-4b2c-9e92-7d2d45dee871",
-    "PathOfImage": "./images/d4f8b9cb-650a-4b2c-9e92-7d2d45dee871.png",
-    "Title": "Star",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2020-09-18",
-    "Categories": [
-      "Fanart",
-      "Character Art",
-      "Fantasy"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": null,
-    "SpotifyLink": null
-  },
-  {
-    "Id": "985c1652-7ca9-4761-8533-bf3d61ccdba4",
-    "PathOfImage": "./images/985c1652-7ca9-4761-8533-bf3d61ccdba4.png",
-    "Title": "Technoblade",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2021-04-26",
-    "Categories": [
-      "Fanart",
-      "Character Art",
-      "Fantasy"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": null,
-    "SpotifyLink": null
-  },
-  {
-    "Id": "8eda2f1b-95d2-496c-9d3b-d696870ec1cb",
-    "PathOfImage": "./images/8eda2f1b-95d2-496c-9d3b-d696870ec1cb.jpg",
-    "Title": "Please notice me",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2020-04-16",
-    "Categories": [
-      "Fanart",
-      "Blood"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": true,
-    "Medium": "Traditional Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "7844d7dc-036a-443b-81a4-7da7b4e71154",
-    "PathOfImage": "./images/7844d7dc-036a-443b-81a4-7da7b4e71154.jpg",
-    "Title": "Big Cat Comic",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2016-03-29",
-    "Categories": [
-      "Doodle/Sketch",
-      "Experimental",
-      "Comic"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "8b55eedf-c01e-447f-b337-111045536e89",
-    "PathOfImage": "./images/8b55eedf-c01e-447f-b337-111045536e89.jpg",
-    "Title": "Mushroom Comic",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2016-02-18",
-    "Categories": [
-      "Doodle/Sketch",
-      "Experimental",
-      "Comic"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "672c8624-37f0-443f-93db-0a8047d3ed7a",
-    "PathOfImage": "./images/672c8624-37f0-443f-93db-0a8047d3ed7a.jpg",
-    "Title": "Sans Sleeping (digital)",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2017-02-18",
-    "Categories": [
-      "Fanart"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "a935c4e2-f039-4a20-9021-6cf38e474510",
-    "PathOfImage": "./images/a935c4e2-f039-4a20-9021-6cf38e474510.jpg",
-    "Title": "Flower Girl Redraw",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2018-02-01",
-    "Categories": [
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Traditional Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "fb5970c6-604b-402e-9e24-0f8f219a657a",
-    "PathOfImage": "./images/fb5970c6-604b-402e-9e24-0f8f219a657a.png",
-    "Title": "Best Lie Redraw",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2019-02-08",
-    "Categories": [
-      "Illustration",
-      "Original Content"
-    ],
-    "Characters": [
-      "Bryan",
-      "Jane"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "6d8e9b07-c7d9-43eb-8022-c34cfbce0cbf",
-    "PathOfImage": "./images/6d8e9b07-c7d9-43eb-8022-c34cfbce0cbf.jpg",
-    "Title": "ITS ME (Springtrap)",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2018-02-08",
-    "Categories": [
-      "Fanart",
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "ce331052-3f29-4118-a317-39aeb3f7cddc",
-    "PathOfImage": "./images/ce331052-3f29-4118-a317-39aeb3f7cddc.jpg",
-    "Title": "Art Raffle Prize",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2018-02-08",
-    "Categories": [
-      "Fanart",
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "40d5a79b-df46-45e4-a0ed-57d7cb9a2a26",
-    "PathOfImage": "./images/40d5a79b-df46-45e4-a0ed-57d7cb9a2a26.jpg",
-    "Title": "Puppets",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2019-02-18",
-    "Categories": [
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [
-      "Bryan",
-      "Clisty",
-      "Lukas"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "d87839ef-c994-43c7-ba8d-adfa441e6eae",
-    "PathOfImage": "./images/d87839ef-c994-43c7-ba8d-adfa441e6eae.jpg",
-    "Title": "Jane Sketch",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2019-02-18",
-    "Categories": [
-      "Original Content",
-      "Doodle/Sketch"
-    ],
-    "Characters": [
-      "Jane"
-    ],
-    "NeedsTriggerWarning": true,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "5699a728-0775-4e99-be9f-939767486d2a",
-    "PathOfImage": "./images/5699a728-0775-4e99-be9f-939767486d2a.jpg",
-    "Title": "Possesed Clisty",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2018-02-18",
-    "Categories": [
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [
-      "Clisty"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "2ae81ec7-9b98-4697-a37e-46cfa3a99e8d",
-    "PathOfImage": "./images/2ae81ec7-9b98-4697-a37e-46cfa3a99e8d.jpg",
-    "Title": "Best Lie",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2018-02-01",
-    "Categories": [
-      "Illustration",
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [
-      "Bryan",
-      "Jane"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "70781466-9958-4e1b-92bb-d8a82a46f08f",
-    "PathOfImage": "./images/70781466-9958-4e1b-92bb-d8a82a46f08f.jpg",
-    "Title": "Not a monster",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2017-02-18",
-    "Categories": [
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [
-      "Bryan",
-      "Lukas"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "7973038a-15f6-4325-8669-43f7fb005f04",
-    "PathOfImage": "./images/7973038a-15f6-4325-8669-43f7fb005f04.png",
-    "Title": "Monster at home",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2020-09-10",
-    "Categories": [
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [
-      "Bryan"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "97185994-f477-4082-93d4-a1b0f7804c5b",
-    "PathOfImage": "./images/97185994-f477-4082-93d4-a1b0f7804c5b.png",
-    "Title": "Toonme - Trend",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2020-02-27",
-    "Categories": [
-      "Original Content",
-      "Experimental"
-    ],
-    "Characters": [
-      "Cat"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "fb5b0daf-6c3a-44c7-93a7-d9414b8ed6fa",
-    "PathOfImage": "./images/fb5b0daf-6c3a-44c7-93a7-d9414b8ed6fa.png",
-    "Title": "Chains",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2020-11-24",
-    "Categories": [
-      "Original Content",
-      "Character Art",
-      "Fantasy"
-    ],
-    "Characters": [
-      "Bryan",
-      "Clisty"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "83870203-a024-4e2c-b739-3df6c023c3f4",
-    "PathOfImage": "./images/83870203-a024-4e2c-b739-3df6c023c3f4.png",
-    "Title": "Train",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2020-03-29",
-    "Categories": [
-      "Illustration",
-      "Fanart",
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "19e5909e-bf82-4624-b913-4f92e0717f31",
-    "PathOfImage": "./images/19e5909e-bf82-4624-b913-4f92e0717f31.png",
-    "Title": "Falling through the clouds",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2021-02-18",
-    "Categories": [
-      "Illustration",
-      "Landscape"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "1894e472-5611-45db-b7aa-61d8bd031f58",
-    "PathOfImage": "./images/1894e472-5611-45db-b7aa-61d8bd031f58.jpg",
-    "Title": "Dance",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2021-12-11",
-    "Categories": [
-      "Experimental",
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Traditional Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "bb563240-05b1-4f46-b7a1-7bfd8c45a0e6",
-    "PathOfImage": "./images/bb563240-05b1-4f46-b7a1-7bfd8c45a0e6.png",
-    "Title": "Sword",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2021-07-04",
-    "Categories": [
-      "Illustration",
-      "Landscape",
-      "Fantasy"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "813f49a0-40bc-4502-a3ff-a75625dd4908",
-    "PathOfImage": "./images/813f49a0-40bc-4502-a3ff-a75625dd4908.png",
-    "Title": "Final Space",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2020-10-10",
-    "Categories": [
-      "Illustration",
-      "Fanart"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "fe97137d-84ff-44f2-ad46-4e36549ed35c",
-    "PathOfImage": "./images/fe97137d-84ff-44f2-ad46-4e36549ed35c.png",
-    "Title": "Drawing Lesson 2",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2020-12-15",
-    "Categories": [
-      "Doodle/Sketch",
-      "Experimental"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "11b02a8d-7097-47bb-b8ca-c602a9cf436b",
-    "PathOfImage": "./images/11b02a8d-7097-47bb-b8ca-c602a9cf436b.png",
-    "Title": "Maid dress",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2021-07-30",
-    "Categories": [
-      "Original Content",
-      "Character Art",
-      "Comic"
-    ],
-    "Characters": [
-      "Bryan"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "7d957ff3-8a19-44fd-9438-842de4379485",
-    "PathOfImage": "./images/7d957ff3-8a19-44fd-9438-842de4379485.jpg",
-    "Title": "experiment0",
-    "AltText": "I have to separate",
-    "Description": "",
-    "CreationDate": "2021-11-14",
-    "Categories": [
-      "Illustration",
-      "Doodle/Sketch",
-      "Experimental",
-      "Character Art",
-      "Fantasy"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Traditional Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "841ffae7-9583-471b-aa33-7d50441d8799",
-    "PathOfImage": "./images/841ffae7-9583-471b-aa33-7d50441d8799.png",
-    "Title": "Done",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2022-01-22",
-    "Categories": [
-      "Illustration",
-      "Original Content",
-      "Blood"
-    ],
-    "Characters": [
-      "Bryan"
-    ],
-    "NeedsTriggerWarning": true,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "59c6e0ea-b69d-4ef7-b22c-7d7e8de77a2e",
-    "PathOfImage": "./images/59c6e0ea-b69d-4ef7-b22c-7d7e8de77a2e.png",
-    "Title": "Stars",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2022-02-09",
-    "Categories": [
-      "Illustration",
-      "Original Content"
-    ],
-    "Characters": [
-      "Bryan"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "3f6af3b2-60d0-4033-9e71-5aaa33b484c1",
-    "PathOfImage": "./images/3f6af3b2-60d0-4033-9e71-5aaa33b484c1.png",
-    "Title": "Confrontation",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2021-06-07",
-    "Categories": [
-      "Illustration",
-      "Original Content",
-      "Blood",
-      "Fantasy"
-    ],
-    "Characters": [
-      "Bryan",
-      "Clisty"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "b6adef52-b5e1-4e66-83b2-925cbce935ee",
-    "PathOfImage": "./images/b6adef52-b5e1-4e66-83b2-925cbce935ee.png",
-    "Title": "Just one more step",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2020-08-04",
-    "Categories": [
-      "Illustration",
-      "Original Content"
-    ],
-    "Characters": [
-      "Bryan"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "f7491621-a2d2-44bb-bab0-2c0e7dd42397",
-    "PathOfImage": "./images/f7491621-a2d2-44bb-bab0-2c0e7dd42397.png",
-    "Title": "Lukas",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2021-09-20",
-    "Categories": [
-      "Original Content",
-      "Character Art",
-      "Fantasy"
-    ],
-    "Characters": [
-      "Lukas"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "61dd1d28-08a5-4933-8673-628f8fc0516f",
-    "PathOfImage": "./images/61dd1d28-08a5-4933-8673-628f8fc0516f.jpg",
-    "Title": "Prey",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2021-11-22",
-    "Categories": [
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [
-      "Bee"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Traditional Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "8b987e9d-509a-402f-96a1-b21cbf4029d4",
-    "PathOfImage": "./images/8b987e9d-509a-402f-96a1-b21cbf4029d4.jpg",
-    "Title": "Vanny - FNaF",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2021-11-01",
-    "Categories": [
-      "Fanart",
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Traditional Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "1d54a921-2790-45fc-869e-aa2bfda1de0a",
-    "PathOfImage": "./images/1d54a921-2790-45fc-869e-aa2bfda1de0a.jpg",
-    "Title": "SAD",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2021-11-19",
-    "Categories": [
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Traditional Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "2a866323-1f27-4ba5-a03c-1f895b505bd3",
-    "PathOfImage": "./images/2a866323-1f27-4ba5-a03c-1f895b505bd3.png",
-    "Title": "Polaroid Ghost",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2021-11-14",
-    "Categories": [
-      "Illustration"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "8d3aa03a-457f-400b-8562-d09a099ed637",
-    "PathOfImage": "./images/8d3aa03a-457f-400b-8562-d09a099ed637.png",
-    "Title": "Last one",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2021-12-27",
-    "Categories": [
-      "Illustration",
-      "Original Content"
-    ],
-    "Characters": [
-      "Bee",
-      "Bryan"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "62fbf91b-64d4-4724-a051-01c11da07055",
-    "PathOfImage": "./images/62fbf91b-64d4-4724-a051-01c11da07055.png",
-    "Title": "Lukas doodles",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2020-07-28",
-    "Categories": [
-      "Original Content",
-      "Doodle/Sketch",
-      "Character Art",
-      "Fantasy"
-    ],
-    "Characters": [
-      "Lukas"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "1ad0fc90-6bb8-465d-8707-7396bb4db990",
-    "PathOfImage": "./images/1ad0fc90-6bb8-465d-8707-7396bb4db990.jpg",
-    "Title": "Those kids",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2021-05-04",
-    "Categories": [
-      "Fanart",
-      "Doodle/Sketch",
-      "Character Art"
-    ],
-    "Characters": [
-      "Cat"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "9cbebcf9-10ec-438b-917a-58bc74cc6f26",
-    "PathOfImage": "./images/9cbebcf9-10ec-438b-917a-58bc74cc6f26.jpg",
-    "Title": "Axe and Fire (Digital)",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2022-03-09",
-    "Categories": [
-      "Original Content",
-      "Doodle/Sketch",
-      "Character Art",
-      "Fantasy"
-    ],
-    "Characters": [
-      "Delyria"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "06082e4c-79a1-4c05-afff-c1b15f7ebaf6",
-    "PathOfImage": "./images/06082e4c-79a1-4c05-afff-c1b15f7ebaf6.jpg",
-    "Title": "Axe and Fire (Paper)",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2023-03-14",
-    "Categories": [
-      "Original Content",
-      "Character Art",
-      "Fantasy"
-    ],
-    "Characters": [
-      "Delyria"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Traditional Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "964f8dbc-529a-4a45-8717-2a097029fdc4",
-    "PathOfImage": "./images/964f8dbc-529a-4a45-8717-2a097029fdc4.png",
-    "Title": "Watching the stars 2",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2023-03-20",
-    "Categories": [
-      "Illustration",
-      "Original Content"
-    ],
-    "Characters": [
-      "Bryan",
-      "Nathan"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "fc190bb0-b709-43ef-b29f-9c53eb74d25f",
-    "PathOfImage": "./images/fc190bb0-b709-43ef-b29f-9c53eb74d25f.png",
-    "Title": "Escape",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2022-01-05",
-    "Categories": [
-      "Illustration",
-      "Original Content",
-      "Experimental",
-      "Fantasy"
-    ],
-    "Characters": [
-      "Bryan",
-      "Clisty"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "6d7db9e5-9870-413b-bd99-5c314ace7a16",
-    "PathOfImage": "./images/6d7db9e5-9870-413b-bd99-5c314ace7a16.png",
-    "Title": "Draw your squad (Those kids)",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2022-11-12",
-    "Categories": [
-      "Doodle/Sketch",
-      "Comic"
-    ],
-    "Characters": [
-      "Cat",
-      "Lukas"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "5d5de6f0-62d0-48c9-b4a0-76ef8645af12",
-    "PathOfImage": "./images/5d5de6f0-62d0-48c9-b4a0-76ef8645af12.png",
-    "Title": "Fallen from grace",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2023-08-14",
-    "Categories": [
-      "Original Content",
-      "Blood"
-    ],
-    "Characters": [
-      "Benjamin",
-      "Bryan"
-    ],
-    "NeedsTriggerWarning": true,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "9b904d60-e80f-481d-af0f-e14a6f98a20f",
-    "PathOfImage": "./images/9b904d60-e80f-481d-af0f-e14a6f98a20f.jpg",
-    "Title": "Ghostbur and Blue",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2022-04-11",
-    "Categories": [
-      "Fanart",
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Traditional Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "d740f7a4-089e-47e6-b213-cfefcb598324",
-    "PathOfImage": "./images/d740f7a4-089e-47e6-b213-cfefcb598324.png",
-    "Title": "Holding my hearth",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2022-08-06",
-    "Categories": [
-      "Illustration",
-      "Blood"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Traditional Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "df6c1a60-6cd1-42ca-bb1f-e9bacd260f7f",
-    "PathOfImage": "./images/df6c1a60-6cd1-42ca-bb1f-e9bacd260f7f.png",
-    "Title": "Aquavia",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2022-07-27",
-    "Categories": [
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [
-      "Aquavia"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Traditional Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "a93ea471-8628-416a-aba8-05b9203c45b5",
-    "PathOfImage": "./images/a93ea471-8628-416a-aba8-05b9203c45b5.png",
-    "Title": "Bryan in a Dress - Happy",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2022-05-27",
-    "Categories": [
-      "Illustration",
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [
-      "Bryan"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Traditional Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "6621fa0f-cd90-4737-aed6-682179eec2e8",
-    "PathOfImage": "./images/6621fa0f-cd90-4737-aed6-682179eec2e8.jpg",
-    "Title": "VI",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2022-01-10",
-    "Categories": [
-      "Fanart",
-      "Character Art",
-      "Fantasy"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Traditional Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "4b8014cc-cf82-43f9-9858-d8e12e98cfef",
-    "PathOfImage": "./images/4b8014cc-cf82-43f9-9858-d8e12e98cfef.jpeg",
-    "Title": "CAT",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2022-01-04",
-    "Categories": [
-      "Character Art"
-    ],
-    "Characters": [
-      "Cat"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "e35d7167-1d05-47b1-8bd8-f8812c072e50",
-    "PathOfImage": "./images/e35d7167-1d05-47b1-8bd8-f8812c072e50.png",
-    "Title": "Who or What am I?",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2019-01-11",
-    "Categories": [
-      "Illustration",
-      "Original Content",
-      "Experimental"
-    ],
-    "Characters": [
-      "Cat"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "72fa6456-a102-4674-beaf-041669d3dd40",
-    "PathOfImage": "./images/72fa6456-a102-4674-beaf-041669d3dd40.png",
-    "Title": "Dress Design",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2020-08-31",
-    "Categories": [
-      "Doodle/Sketch",
-      "Experimental"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "34ec8fd4-b933-438f-9fb8-2cd359776458",
-    "PathOfImage": "./images/34ec8fd4-b933-438f-9fb8-2cd359776458.jpeg",
-    "Title": "Piglin Farm",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2022-02-19",
-    "Categories": [
-      "Illustration",
-      "Landscape"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "b3ba776e-cf11-4dfa-9e22-504e767ffc54",
-    "PathOfImage": "./images/b3ba776e-cf11-4dfa-9e22-504e767ffc54.png",
-    "Title": "Threat",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2020-05-03",
-    "Categories": [
-      "Illustration",
-      "Fanart"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "dc560049-b423-4b7a-b901-890f1e215a97",
-    "PathOfImage": "./images/dc560049-b423-4b7a-b901-890f1e215a97.png",
-    "Title": "Female Influencer Purple Guy",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2020-08-09",
-    "Categories": [
-      "Illustration",
-      "Comic"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "3f979469-32c5-4cb9-8347-0452161f6680",
-    "PathOfImage": "./images/3f979469-32c5-4cb9-8347-0452161f6680.png",
-    "Title": "Prize for winner of art Contest",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2020-04-19",
-    "Categories": [
-      "Illustration",
-      "Fanart",
-      "Character Art",
-      "Fantasy"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "a888fbde-8a28-4169-b798-1239493151e4",
-    "PathOfImage": "./images/a888fbde-8a28-4169-b798-1239493151e4.png",
-    "Title": "FNaF Collab with QOC",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2019-09-02",
-    "Categories": [
-      "Illustration",
-      "Fanart",
-      "Blood"
-    ],
-    "Characters": [
-      "Cat"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "8083fbcb-f273-4bb9-9bb2-77da8a51c3a6",
-    "PathOfImage": "./images/8083fbcb-f273-4bb9-9bb2-77da8a51c3a6.PNG",
-    "Title": "Kiss",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2022-06-19",
-    "Categories": [
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [
-      "Bryan",
-      "Clisty"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "67fe0553-bdb7-45a8-aeff-38926d0197c1",
-    "PathOfImage": "./images/67fe0553-bdb7-45a8-aeff-38926d0197c1.PNG",
-    "Title": "Them as kids",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2022-10-18",
-    "Categories": [
-      "Original Content",
-      "Character Art",
-      "Fantasy"
-    ],
-    "Characters": [
-      "Clisty",
-      "Lukas"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "7a91029f-15e9-4ba5-ae68-8c0307dcc2e7",
-    "PathOfImage": "./images/7a91029f-15e9-4ba5-ae68-8c0307dcc2e7.PNG",
-    "Title": "Lost in a forest",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2022-10-08",
-    "Categories": [
-      "Illustration",
-      "Original Content",
-      "Fantasy"
-    ],
-    "Characters": [
-      "Clisty",
-      "Delyria",
-      "Hestya"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "f169172c-a643-4de0-9561-d57b24ceb65f",
-    "PathOfImage": "./images/f169172c-a643-4de0-9561-d57b24ceb65f.png",
-    "Title": "Revenge",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2023-03-14",
-    "Categories": [
-      "Illustration",
-      "Original Content",
-      "Blood"
-    ],
-    "Characters": [
-      "Bryan",
-      "Jane"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "e3688b4a-086d-4ae8-986c-480d3662d990",
-    "PathOfImage": "./images/e3688b4a-086d-4ae8-986c-480d3662d990.png",
-    "Title": "Practice",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2023-05-04",
-    "Categories": [
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [
-      "Bryan"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "4feefb96-5922-4f32-a8e6-7158a0fa9306",
-    "PathOfImage": "./images/4feefb96-5922-4f32-a8e6-7158a0fa9306.png",
-    "Title": "Flower Girl",
-    "AltText": "A gitl holding a yellow flower",
-    "Description": "My first drawing on the computer after a long pause. Just a friendly flower girl.",
-    "CreationDate": "2017-08-17",
-    "Categories": [
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "https://www.youtube.com/watch?v=50ruoqCyQgc",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "f75220b5-60eb-47ae-9df5-3c9b3689ca5b",
-    "PathOfImage": "./images/f75220b5-60eb-47ae-9df5-3c9b3689ca5b.png",
-    "Title": "Bonnie Doodle",
-    "AltText": "A doodle of the animatronic Bonnie from FNaF",
-    "Description": "",
-    "CreationDate": "2018-12-26",
-    "Categories": [
-      "Doodle/Sketch",
-      "Experimental"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "64d77dff-9cf8-4324-acda-88fb70fdea2c",
-    "PathOfImage": "./images/64d77dff-9cf8-4324-acda-88fb70fdea2c.png",
-    "Title": "Girl in Forest (Lineless)",
-    "AltText": "A magical girl in a forest",
-    "Description": "Originally meant to be an open collab with my instagram followers I finished the sketch to a lineless artwork.",
-    "CreationDate": "2018-12-26",
-    "Categories": [
-      "Experimental",
-      "Character Art",
-      "Fantasy"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "2ece7f05-2d3e-4bdd-8f71-7835ede92a53",
-    "PathOfImage": "./images/2ece7f05-2d3e-4bdd-8f71-7835ede92a53.png",
-    "Title": "DTIYS: Connor",
-    "AltText": "A fellow Connor",
-    "Description": "My take on a Draw This in Your Style by someone on Instagram",
-    "CreationDate": "2018-12-30",
-    "Categories": [
-      "Fanart",
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "71b691fb-0b07-4867-a34c-561bd32b5520",
-    "PathOfImage": "./images/71b691fb-0b07-4867-a34c-561bd32b5520.png",
-    "Title": "Midnight walk",
-    "AltText": "Clisty and Lukas on a midnight walk",
-    "Description": "Just a little snipped of a conversation",
-    "CreationDate": "2019-01-02",
-    "Categories": [
-      "Illustration",
-      "Original Content",
-      "Comic",
-      "Fantasy"
-    ],
-    "Characters": [
-      "Clisty",
-      "Lukas"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "733a855b-1941-4f2f-8f2f-53bba9b2bfcd",
-    "PathOfImage": "./images/733a855b-1941-4f2f-8f2f-53bba9b2bfcd.png",
-    "Title": "Bad Influence",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2019-02-24",
-    "Categories": [
-      "Illustration",
-      "Original Content"
-    ],
-    "Characters": [
-      "Bryan"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "https://www.youtube.com/watch?v=QfscxC22rtM",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "8300478a-bc81-4694-8caf-8b3227cebb7f",
-    "PathOfImage": "./images/8300478a-bc81-4694-8caf-8b3227cebb7f.png",
-    "Title": "DTIYS of Vast",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2019-01-10",
-    "Categories": [
-      "Fanart",
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "https://www.youtube.com/watch?v=xUnNs69cryY",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "1baeea8f-42f4-45f0-a925-a7b9eb06548b",
-    "PathOfImage": "./images/1baeea8f-42f4-45f0-a925-a7b9eb06548b.jpg",
-    "Title": "Art Trade with QOC",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2018-02-18",
-    "Categories": [
-      "Fanart",
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "b9483707-872f-4861-aadf-e26fa9cf2c61",
-    "PathOfImage": "./images/b9483707-872f-4861-aadf-e26fa9cf2c61.png",
-    "Title": "Arttrade with QOC 2",
-    "AltText": "A girl with magic hair",
-    "Description": "My part of an art trade with QOC on Instagram",
-    "CreationDate": "2018-12-29",
-    "Categories": [
-      "Fanart",
-      "Character Art",
-      "Fantasy"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "a131f792-3ecb-48be-948f-109e7888a981",
-    "PathOfImage": "./images/a131f792-3ecb-48be-948f-109e7888a981.png",
-    "Title": "DTIYS of QOC",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2019-09-09",
-    "Categories": [
-      "Fanart"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "https://www.youtube.com/watch?v=9v7InW6spe8",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "4e3256b0-4c54-4bb2-9955-9c6a710c70aa",
-    "PathOfImage": "./images/4e3256b0-4c54-4bb2-9955-9c6a710c70aa.jpg",
-    "Title": "Minecraft Spider",
-    "AltText": "An overlay happy spider in Minecraft",
-    "Description": "Drawing originated from a drawing prompt and was done as a time challange in one hour. The prompt:\n\"An overlay happy spider in Minecraft\"",
-    "CreationDate": "2019-09-09",
-    "Categories": [
-      "Fanart"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "https://www.youtube.com/watch?v=1QX44EJWjs8",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "b14fc078-353a-4c2b-a3a5-e672a9901ea6",
-    "PathOfImage": "./images/b14fc078-353a-4c2b-a3a5-e672a9901ea6.png",
-    "Title": "Hot Lemonade",
-    "AltText": "If life gives you lemons then make hot lemonade",
-    "Description": "Hot Lemonade is actually a thing, it's taskty (if you like lemons and sour things) and I totally recommend",
-    "CreationDate": "2019-01-17",
-    "Categories": [
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [
-      "Bryan"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "f05a051c-f4b1-4124-8039-5ef56fc08a46",
-    "PathOfImage": "./images/f05a051c-f4b1-4124-8039-5ef56fc08a46.png",
-    "Title": "DTIYS: William Afton",
-    "AltText": "The one, the only, William Afton",
-    "Description": "My take of a Draw This in Your Style by someone on Instagram",
-    "CreationDate": "2019-08-23",
-    "Categories": [
-      "Illustration",
-      "Fanart",
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "061dc200-fe17-4da7-bfb8-001adccd0f8b",
-    "PathOfImage": "./images/061dc200-fe17-4da7-bfb8-001adccd0f8b.png",
-    "Title": "Cat's reference sheet",
-    "AltText": "My persona Cat",
-    "Description": "An \"old\" reference sheet for my persona. The colors are still acurate, tho I use brighter ones now. Also this is the most acurate way I ever drew my bandana and ever will.",
-    "CreationDate": "2019-01-22",
-    "Categories": [
-      "Doodle/Sketch",
-      "Character Art"
-    ],
-    "Characters": [
-      "Cat"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "8b0367c1-7391-4487-be80-67bd6d641be8",
-    "PathOfImage": "./images/8b0367c1-7391-4487-be80-67bd6d641be8.png",
-    "Title": "Artstyle Bend Challenge",
-    "AltText": "it looks like it was made by two artists",
-    "Description": "There was this challange going around where you analyse your art and do the opposite of what defines your art. It was a very fun excersice that I really recommend",
-    "CreationDate": "2020-08-26",
-    "Categories": [
-      "Doodle/Sketch",
-      "Experimental"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "c2952613-db46-43de-a818-710455ccc27e",
-    "PathOfImage": "./images/c2952613-db46-43de-a818-710455ccc27e.png",
-    "Title": "Halloween 2020",
-    "AltText": "Clisty and Bryan in Halloween costumes",
-    "Description": "Ah yes, Part 5 of the Hallowwen saga. Unfortunately it is the last part so far.",
-    "CreationDate": "2020-11-08",
-    "Categories": [
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [
-      "Bryan",
-      "Clisty"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "f6475525-b577-4879-b2ab-779a6f448ac7",
-    "PathOfImage": "./images/f6475525-b577-4879-b2ab-779a6f448ac7.png",
-    "Title": "Strawberry Dress",
-    "AltText": "Nathan and Bryan wearing the dress duo",
-    "Description": "So there was this trend going around where people put two characters in these two dresses. And I knew what I had to do.",
-    "CreationDate": "2020-08-31",
-    "Categories": [
-      "Original Content",
-      "Character Art",
-      "Comic"
-    ],
-    "Characters": [
-      "Bryan",
-      "Nathan"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "3a2bd29b-5c87-422e-a479-6d63e18ed167",
-    "PathOfImage": "./images/3a2bd29b-5c87-422e-a479-6d63e18ed167.png",
-    "Title": "Purple Guy",
-    "AltText": "Ah yes, Purple guy",
-    "Description": "\nA friend of mine wanted me and another friend of us to draw purple guy and see what we come up with. Not my best drawing of him but I like the badge.",
-    "CreationDate": "2021-01-02",
-    "Categories": [
-      "Fanart",
-      "Character Art",
-      "Blood"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "4f06fd83-cc8f-4172-b813-7819d982342c",
-    "PathOfImage": "./images/4f06fd83-cc8f-4172-b813-7819d982342c.png",
-    "Title": "Knife (purple)",
-    "AltText": "Hands holding a knife (purple colors)",
-    "Description": "The prompt for May of #aYearOfPrompts was \"Cruel/Purple\". So I had to choose between Purple Guy (FNaF) and Bryan. I chose the latter.",
-    "CreationDate": "2021-05-05",
-    "Categories": [
-      "Illustration",
-      "Original Content"
-    ],
-    "Characters": [
-      "Bryan"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "190752f5-acbd-4b96-aed9-ad1d6a151576",
-    "PathOfImage": "./images/190752f5-acbd-4b96-aed9-ad1d6a151576.png",
-    "Title": "Knife",
-    "AltText": "Hands holding a knife",
-    "Description": "The colored version for the may prompt of #aYearOfPrompts. Just look at THESE HANDS. I am still proud of the coloring.\n",
-    "CreationDate": "2021-05-05",
-    "Categories": [
-      "Illustration",
-      "Original Content"
-    ],
-    "Characters": [
-      "Bryan"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "3f1afe38-adab-4a97-9e11-8e452784f30f",
-    "PathOfImage": "./images/3f1afe38-adab-4a97-9e11-8e452784f30f.png",
-    "Title": "Knife (with blood)",
-    "AltText": "Hands holding a knife (bloody)",
-    "Description": "Of course I had to make a bloody version of the drawing. \n",
-    "CreationDate": "2021-05-05",
-    "Categories": [
-      "Illustration",
-      "Original Content",
-      "Blood"
-    ],
-    "Characters": [
-      "Bryan"
-    ],
-    "NeedsTriggerWarning": true,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "5f7a28f3-f01f-4c2a-98a0-ad3e76095e9c",
-    "PathOfImage": "./images/5f7a28f3-f01f-4c2a-98a0-ad3e76095e9c.png",
-    "Title": "Kassy",
-    "AltText": "OwO!",
-    "Description": "One of my good friends! Also just look at these little boots owo and the hand in the front. How did I manage to make it so good!?",
-    "CreationDate": "2021-07-24",
-    "Categories": [
-      "Fanart",
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "9805c1bb-a24d-4350-82df-a420c7d18bed",
-    "PathOfImage": "./images/9805c1bb-a24d-4350-82df-a420c7d18bed.png",
-    "Title": "Lost/Earth Tones",
-    "AltText": "A ghost of a lost girl in a hotel corridor",
-    "Description": "The prompt for June in #aYearOfPrompts was \"Lost/Earth Tones\"",
-    "CreationDate": "2021-07-05",
-    "Categories": [
-      "Illustration",
-      "Original Content"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "42c2852d-39db-4017-8c72-c9bfd8bf9dd5",
-    "PathOfImage": "./images/42c2852d-39db-4017-8c72-c9bfd8bf9dd5.png",
-    "Title": "Imposter Syndrome",
-    "AltText": "Is there someone in the vents?",
-    "Description": "Oh I was not a good imposter in Amog Us but I am sure my persona would have been",
-    "CreationDate": "2020-10-24",
-    "Categories": [
-      "Illustration",
-      "Fanart",
-      "Original Content"
-    ],
-    "Characters": [
-      "Cat"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "96389bf1-3591-48cd-a9e9-d48951c9ea01",
-    "PathOfImage": "./images/96389bf1-3591-48cd-a9e9-d48951c9ea01.png",
-    "Title": "Drawing Lesson 2",
-    "AltText": "Oh god",
-    "Description": "Result of a digital drawing lesson I did for a friend",
-    "CreationDate": "2020-11-17",
-    "Categories": [
-      "Doodle/Sketch",
-      "Experimental"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "a69817d9-164e-4327-b653-0cb02adbb7ae",
-    "PathOfImage": "./images/a69817d9-164e-4327-b653-0cb02adbb7ae.png",
-    "Title": "Can't describe this feeling (Redraw)",
-    "AltText": "Clisty and Bryan enjoying a calm evening",
-    "Description": "Inspired by the song \"i can't describe this feeling.\" Sometimes it's just good to draw them happy. Redraw I did on the computer.",
-    "CreationDate": "2020-09-09",
-    "Categories": [
-      "Illustration",
-      "Original Content"
-    ],
-    "Characters": [
-      "Bryan",
-      "Clisty"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": "https://open.spotify.com/intl-de/track/2KZfzEcdiS5TBRBcgmChfI?si=18fe1d5229244a88"
-  },
-  {
-    "Id": "be6e6ee5-7ad0-4f61-8a77-b5342dd84457",
-    "PathOfImage": "./images/be6e6ee5-7ad0-4f61-8a77-b5342dd84457.png",
-    "Title": "Can't describe this feeling",
-    "AltText": "Clisty and Bryan enjoying a calm evening",
-    "Description": "Inspired by the song \"i can't describe this feeling.\" Sometimes it's just good to draw them happy. I drew this on my phone and didn't know how I wanted to design the living room. There is a redraw.",
-    "CreationDate": "2020-08-30",
-    "Categories": [],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": "https://open.spotify.com/intl-de/track/2KZfzEcdiS5TBRBcgmChfI?si=18fe1d5229244a88"
-  },
-  {
-    "Id": "a44c4c34-0622-42f3-90fc-72b44d96ff1f",
-    "PathOfImage": "./images/a44c4c34-0622-42f3-90fc-72b44d96ff1f.png",
-    "Title": "Mirror",
-    "AltText": "Jane smashing the bathroom window",
-    "Description": "Not sure if he is angry about himself or just angry. Noone knows.\n",
-    "CreationDate": "2020-08-27",
-    "Categories": [
-      "Illustration",
-      "Original Content"
-    ],
-    "Characters": [
-      "Jane"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "eb4ccd6f-df25-49bc-8985-ec4dbe6db2dc",
-    "PathOfImage": "./images/eb4ccd6f-df25-49bc-8985-ec4dbe6db2dc.png",
-    "Title": "Love is Love",
-    "AltText": "Benny and Samantha being in love",
-    "Description": "<3",
-    "CreationDate": "2020-06-05",
-    "Categories": [
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [
-      "Benny",
-      "Samantha"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "fd21a2ae-bc3f-4c51-b972-90c0709945fa",
-    "PathOfImage": "./images/fd21a2ae-bc3f-4c51-b972-90c0709945fa.png",
-    "Title": "Two Sides 2",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2023-02-09",
-    "Categories": [
-      "Original Content",
-      "Character Art",
-      "Blood"
-    ],
-    "Characters": [
-      "Cat"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "https://www.youtube.com/watch?v=K2deQY_yHJg",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "da74be0f-e553-4ea8-b541-d8eab8ac68d3",
-    "PathOfImage": "./images/da74be0f-e553-4ea8-b541-d8eab8ac68d3.png",
-    "Title": "Two Sides 1",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2023-02-09",
-    "Categories": [
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [
-      "Cat"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "https://www.youtube.com/watch?v=K2deQY_yHJg",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "abe1195e-32dd-4254-bfa9-0e2fa5c3bd88",
-    "PathOfImage": "./images/abe1195e-32dd-4254-bfa9-0e2fa5c3bd88.png",
-    "Title": "Hush",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2024-03-29",
-    "Categories": [
-      "Illustration",
-      "Original Content"
-    ],
-    "Characters": [
-      "Bryan"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "b40c162e-f264-435e-bea8-6160c48a3e85",
-    "PathOfImage": "./images/b40c162e-f264-435e-bea8-6160c48a3e85.png",
-    "Title": "Save the Bees",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2024-02-01",
-    "Categories": [
-      "Illustration"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "https://www.youtube.com/watch?v=bWIq47Lh17M",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "2658c8da-993c-49dc-b197-300c5d0c2ab7",
-    "PathOfImage": "./images/2658c8da-993c-49dc-b197-300c5d0c2ab7.png",
-    "Title": "Within",
-    "AltText": "You'll never know what hit you",
-    "Description": "Inspired by the song \"The Devil Within\" from Digital Dagers with some parts of the lyrics written on the picture. This is the first drawing of lukas I ever did.",
-    "CreationDate": "2017-10-26",
-    "Categories": [
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [
-      "Clisty",
-      "Lukas"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": "https://open.spotify.com/intl-de/track/6iwkG1eYvx0y95sDebLlW3?si=b80ebc86b60e4111"
-  },
-  {
-    "Id": "cd88a311-cafb-4f83-913b-c4001668843d",
-    "PathOfImage": "./images/cd88a311-cafb-4f83-913b-c4001668843d.png",
-    "Title": "Within (redraw)",
-    "AltText": "You would never see me cry",
-    "Description": "A redraw from the drawing from 2017. Damn that was a lot of improvement owo",
-    "CreationDate": "2020-07-14",
-    "Categories": [
-      "Original Content",
-      "Character Art",
-      "Fantasy"
-    ],
-    "Characters": [
-      "Clisty",
-      "Lukas"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": "https://open.spotify.com/intl-de/track/6iwkG1eYvx0y95sDebLlW3?si=b80ebc86b60e4111"
-  },
-  {
-    "Id": "f1bcfd02-0850-4a3a-8a38-2cc94f290392",
-    "PathOfImage": "./images/f1bcfd02-0850-4a3a-8a38-2cc94f290392.png",
-    "Title": "Random OC Challenge",
-    "AltText": "Your friendly non-binary zombie",
-    "Description": "Would you believe me if I told you I tried to lean on samdoesarts' artstyle? No? Yeah me neither. But I did try qwq Sam is a big inspiration, mybe someday I can learn a few tricks from him.",
-    "CreationDate": "2024-03-12",
-    "Categories": [
-      "Experimental",
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "367f4225-f8cd-478a-932c-15c7b8e63770",
-    "PathOfImage": "./images/367f4225-f8cd-478a-932c-15c7b8e63770.png",
-    "Title": "Nonbinary Pride",
-    "AltText": "An ordinary nonbinary person being fancy",
-    "Description": "Somebody had this awsome picture from themselfs and I asked if I could draw it and they said yes. I am really happy with the pose and the colors.\n",
-    "CreationDate": "2021-06-27",
-    "Categories": [
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "6fd191a6-c06b-4927-b501-8dc956d0be72",
-    "PathOfImage": "./images/6fd191a6-c06b-4927-b501-8dc956d0be72.png",
-    "Title": "Doctor Who Poster",
-    "AltText": "A poster featuring the Tardis from Doctor who",
-    "Description": "",
-    "CreationDate": "2024-03-29",
-    "Categories": [
-      "Fanart"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "db5dbe95-475d-48a1-b24b-413e663cbc8a",
-    "PathOfImage": "./images/db5dbe95-475d-48a1-b24b-413e663cbc8a.jpg",
-    "Title": "Betty",
-    "AltText": "Betty from Glitchtale",
-    "Description": "",
-    "CreationDate": "2018-09-08",
-    "Categories": [
-      "Fanart",
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "f02a8392-f7b1-4e7b-88b9-107a66d87caf",
-    "PathOfImage": "./images/f02a8392-f7b1-4e7b-88b9-107a66d87caf.jpg",
-    "Title": "Enderman 2",
-    "AltText": "Another enderman",
-    "Description": "",
-    "CreationDate": "2018-04-18",
-    "Categories": [
-      "Fanart"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "68b524fb-d068-448d-a949-24af556a11f7",
-    "PathOfImage": "./images/68b524fb-d068-448d-a949-24af556a11f7.JPG",
-    "Title": "Portrait Sketch",
-    "AltText": "Sketch of a woman with a red background",
-    "Description": "The sketch of a colorblind challange I did.",
-    "CreationDate": "2022-08-14",
-    "Categories": [
-      "Doodle/Sketch",
-      "Character Art"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Not set",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "d4345ce1-6e24-4eab-abbe-c1a9cc046f9c",
-    "PathOfImage": "./images/d4345ce1-6e24-4eab-abbe-c1a9cc046f9c.JPG",
-    "Title": "Portrait (Colorblind)",
-    "AltText": "a woman with a red background",
-    "Description": "This image was done with my screen set to just gray tones. I got a random color palette and tried to practis working with values instead of hues. I really like the firery result.",
-    "CreationDate": "2022-08-14",
-    "Categories": [],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Not set",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "ab1f6be8-781f-49f4-98e0-eeb01863c7cb",
-    "PathOfImage": "./images/ab1f6be8-781f-49f4-98e0-eeb01863c7cb.png",
-    "Title": "Edgelord Beans",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2020-08-01",
-    "Categories": [
-      "Fanart",
-      "Character Art"
-    ],
-    "Characters": [
-      "Bryan"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "08a10198-c5fa-405c-9a0b-b0e2e7253064",
-    "PathOfImage": "./images/08a10198-c5fa-405c-9a0b-b0e2e7253064.png",
-    "Title": "WICKED",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2022-09-26",
-    "Categories": [
-      "Experimental"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Traditional Art",
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "734862f5-8f4e-42be-9d00-931dcb3b9d57",
-    "PathOfImage": "./images/734862f5-8f4e-42be-9d00-931dcb3b9d57.png",
-    "Title": "Stay Determined",
-    "AltText": "Frisk was defeated by Sans",
-    "Description": "My entry for an art contest with the theme \"Charisk\", the ship name of Chara and Frisk from the game Undertale.",
-    "CreationDate": "2018-09-14",
-    "Categories": [
-      "Fanart",
-      "Blood",
-      "Fantasy"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "https://www.youtube.com/watch?v=9FVuWfVfbIA",
-    "SpotifyLink": "https://www.youtube.com/watch?v=MoSPPsWwz-4&t=0s"
-  },
-  {
-    "Id": "ab93163b-c4fe-4829-a364-09ddcbff720c",
-    "PathOfImage": "./images/ab93163b-c4fe-4829-a364-09ddcbff720c.png",
-    "Title": "Window",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2020-02-27",
-    "Categories": [
-      "Illustration",
-      "Original Content"
-    ],
-    "Characters": [
-      "Cat"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": "https://open.spotify.com/intl-de/track/7ivpapC70hviRENXa4TYft?si=9f5685e890a14dd7"
-  },
-  {
-    "Id": "b09002f6-f909-40bf-acf5-bf5f33203193",
-    "PathOfImage": "./images/b09002f6-f909-40bf-acf5-bf5f33203193.png",
-    "Title": "Looking for a feeling",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2022-05-25",
-    "Categories": [
-      "Illustration"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Traditional Art",
-    "YouTubeLink": "",
-    "SpotifyLink": "https://open.spotify.com/intl-de/track/09XWmIL14VoFD6jYoAraUf?si=47145935dca542b1"
-  },
-  {
-    "Id": "190c37fb-c5ff-4196-bff8-5cedee9f7c43",
-    "PathOfImage": "./images/190c37fb-c5ff-4196-bff8-5cedee9f7c43.jpg",
-    "Title": "Who is she?",
-    "AltText": "",
-    "Description": "",
-    "CreationDate": "2023-03-14",
-    "Categories": [
-      "Doodle/Sketch",
-      "Experimental",
-      "Fantasy"
-    ],
-    "Characters": [],
-    "NeedsTriggerWarning": false,
-    "Medium": "Traditional Art",
-    "YouTubeLink": "",
-    "SpotifyLink": "https://open.spotify.com/intl-de/track/1QxcWlk8PivolUaWcpAoNq?si=ec50542da5bf4113"
-  },
-  {
-    "Id": "4b07c222-0d47-418d-a249-b225102e4ebc",
-    "PathOfImage": "./images/4b07c222-0d47-418d-a249-b225102e4ebc.jpg",
-    "Title": "Laser Guns Up",
-    "AltText": "",
-    "Description": "\t",
-    "CreationDate": "2018-02-08",
-    "Categories": [
-      "Illustration",
-      "Original Content",
-      "Character Art"
-    ],
-    "Characters": [
-      "Aquavia"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "",
-    "SpotifyLink": "https://open.spotify.com/intl-de/track/5apDDMhGUE0TlXCGBhMaxU?si=785ad5079e044a07"
-  },
-  {
-    "Id": "fe6366f0-cde8-4b15-ab71-b4f7962f6d73",
-    "PathOfImage": "./images/fe6366f0-cde8-4b15-ab71-b4f7962f6d73.png",
-    "Title": "Tangled",
-    "AltText": "Bryan entabgled in Lukas hads",
-    "Description": "",
-    "CreationDate": "2024-02-18",
-    "Categories": [
-      "Illustration",
-      "Character Art"
-    ],
-    "Characters": [
-      "Bryan",
-      "Lukas"
-    ],
-    "NeedsTriggerWarning": false,
-    "Medium": "Digital Art",
-    "YouTubeLink": "https://youtu.be/bWIq47Lh17M?t=198",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "b140469b-51c9-496d-bdad-61f06489f1ac",
-    "PathOfImage": "./images/b140469b-51c9-496d-bdad-61f06489f1ac.png",
-    "Title": "His Soldiers",
-    "AltText": "Two dystopian soldiers standing in a subway",
-    "Description": "Some glimpses on what I think Lukas soldiers would look like.",
-    "CreationDate": "2024-04-27",
-    "Categories": [],
-    "Characters": [],
-    "Medium": "Digital Art",
-    "NeedsTriggerWarning": false,
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "c7af9f86-589a-4eec-a33f-70c6e342b49b",
-    "PathOfImage": "./images/c7af9f86-589a-4eec-a33f-70c6e342b49b.png",
-    "Title": "Good Riddance",
-    "AltText": "",
-    "Description": "The next moment after \"Revenge\"",
-    "CreationDate": "2024-06-30",
-    "Categories": [],
-    "Characters": [],
-    "Medium": "Digital Art",
-    "NeedsTriggerWarning": false,
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "5d8ace19-1018-41fe-8dd8-d65c39c22905",
-    "PathOfImage": "./images/5d8ace19-1018-41fe-8dd8-d65c39c22905.png",
-    "Title": "End",
-    "AltText": "",
-    "Description": "One of the very few instances where I drew Lukas in his original form.",
-    "CreationDate": "2024-07-06",
-    "Categories": [],
-    "Characters": [],
-    "Medium": "Digital Art",
-    "NeedsTriggerWarning": false,
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "87d9ef76-3300-48ca-8422-1686ed27da2a",
-    "PathOfImage": "./images/87d9ef76-3300-48ca-8422-1686ed27da2a.png",
-    "Title": "Beautiful things",
-    "AltText": "",
-    "Description": "There was this trend on Instagram going on where it was about the question \"What would you character look like if all the bad things never happened to them?\". This is my answer. It was very therapeutic to draw this.",
-    "CreationDate": "2024-07-29",
-    "Categories": [],
-    "Characters": [],
-    "Medium": "Digital Art",
-    "NeedsTriggerWarning": false,
-    "YouTubeLink": "",
-    "SpotifyLink": "https://open.spotify.com/intl-de/track/6tNQ70jh4OwmPGpYy6R2o9?si=bb7e5ac6bbcc4221"
-  },
-  {
-    "Id": "0f634937-a3ae-4869-a52d-5708bc6a4576",
-    "PathOfImage": "./images/0f634937-a3ae-4869-a52d-5708bc6a4576.png",
-    "Title": "Collab with Ellie",
-    "AltText": "",
-    "Description": "Just a fun little collab with one of my friends.",
-    "CreationDate": "2025-01-20",
-    "Categories": [],
-    "Characters": [],
-    "Medium": "Digital Art",
-    "NeedsTriggerWarning": false,
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "e6f47d1f-a2b9-430d-b312-29b105811dbc",
-    "PathOfImage": "./images/e6f47d1f-a2b9-430d-b312-29b105811dbc.png",
-    "Title": "Attacked",
-    "AltText": "",
-    "Description": "In 2015/16 I had a huge Minecraft phase and an obligatory obsession with Herobrine. So I had this epic idea of a drawing that I never finished (believe me it wasn't good). Anyways, in 2024 (8 years later) I wanted to try it again. I didn't look at my original, just based on my memories and the idea I had in mind. A year later I finished it :)",
-    "CreationDate": "2025-02-03",
-    "Categories": [],
-    "Characters": [],
-    "Medium": "Digital Art",
-    "NeedsTriggerWarning": false,
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "18a0b067-bdac-4d27-a968-401efdc275bf",
-    "PathOfImage": "./images/18a0b067-bdac-4d27-a968-401efdc275bf.png",
-    "Title": "Yandere",
-    "AltText": "",
-    "Description": "Just an attempt of trying to draw more in a anime style... ",
-    "CreationDate": "2025-03-10",
-    "Categories": [],
-    "Characters": [],
-    "Medium": "Digital Art",
-    "NeedsTriggerWarning": false,
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  },
-  {
-    "Id": "4d00b687-a6f6-4da8-aa1e-49da0d0958d3",
-    "PathOfImage": "./images/4d00b687-a6f6-4da8-aa1e-49da0d0958d3.png",
-    "Title": "Bahamut",
-    "AltText": "A soldier worshiping a dragon",
-    "Description": "For our little D&D session I drew this one moment where my character decided to make a prayer for Bahamut.",
-    "CreationDate": "2025-04-11",
-    "Categories": [],
-    "Characters": [],
-    "Medium": "Digital Art",
-    "NeedsTriggerWarning": false,
-    "YouTubeLink": "",
-    "SpotifyLink": ""
-  }
+    {
+        "Id": "29359abb-c6c3-49ce-b7c2-164245759d42",
+        "PathOfImage": "./images/29359abb-c6c3-49ce-b7c2-164245759d42.png",
+        "Title": "Eyes",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2021-08-15",
+        "Categories": [
+            "Original Content",
+            "Character Art",
+            "Fantasy"
+        ],
+        "Characters": [
+            "Bryan",
+            "Clisty",
+            "Hestya",
+            "Lukas"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": null,
+        "SpotifyLink": null
+    },
+    {
+        "Id": "d4f8b9cb-650a-4b2c-9e92-7d2d45dee871",
+        "PathOfImage": "./images/d4f8b9cb-650a-4b2c-9e92-7d2d45dee871.png",
+        "Title": "Star",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-09-18",
+        "Categories": [
+            "Fanart",
+            "Character Art",
+            "Fantasy"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": null,
+        "SpotifyLink": null
+    },
+    {
+        "Id": "985c1652-7ca9-4761-8533-bf3d61ccdba4",
+        "PathOfImage": "./images/985c1652-7ca9-4761-8533-bf3d61ccdba4.png",
+        "Title": "Technoblade",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2021-04-26",
+        "Categories": [
+            "Fanart",
+            "Character Art",
+            "Fantasy"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": null,
+        "SpotifyLink": null
+    },
+    {
+        "Id": "8eda2f1b-95d2-496c-9d3b-d696870ec1cb",
+        "PathOfImage": "./images/8eda2f1b-95d2-496c-9d3b-d696870ec1cb.jpg",
+        "Title": "Please notice me",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-04-16",
+        "Categories": [
+            "Fanart",
+            "Blood"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": true,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "7844d7dc-036a-443b-81a4-7da7b4e71154",
+        "PathOfImage": "./images/7844d7dc-036a-443b-81a4-7da7b4e71154.jpg",
+        "Title": "Big Cat Comic",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2016-03-29",
+        "Categories": [
+            "Doodle/Sketch",
+            "Experimental",
+            "Comic"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "8b55eedf-c01e-447f-b337-111045536e89",
+        "PathOfImage": "./images/8b55eedf-c01e-447f-b337-111045536e89.jpg",
+        "Title": "Mushroom Comic",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2016-02-18",
+        "Categories": [
+            "Doodle/Sketch",
+            "Experimental",
+            "Comic"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "672c8624-37f0-443f-93db-0a8047d3ed7a",
+        "PathOfImage": "./images/672c8624-37f0-443f-93db-0a8047d3ed7a.jpg",
+        "Title": "Sans Sleeping (digital)",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2017-02-18",
+        "Categories": [
+            "Fanart"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "a935c4e2-f039-4a20-9021-6cf38e474510",
+        "PathOfImage": "./images/a935c4e2-f039-4a20-9021-6cf38e474510.jpg",
+        "Title": "Flower Girl Redraw",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2018-02-01",
+        "Categories": [
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "fb5970c6-604b-402e-9e24-0f8f219a657a",
+        "PathOfImage": "./images/fb5970c6-604b-402e-9e24-0f8f219a657a.png",
+        "Title": "Best Lie Redraw",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2019-02-08",
+        "Categories": [
+            "Illustration",
+            "Original Content"
+        ],
+        "Characters": [
+            "Bryan",
+            "Jane"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "6d8e9b07-c7d9-43eb-8022-c34cfbce0cbf",
+        "PathOfImage": "./images/6d8e9b07-c7d9-43eb-8022-c34cfbce0cbf.jpg",
+        "Title": "ITS ME (Springtrap)",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2018-02-08",
+        "Categories": [
+            "Fanart",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "ce331052-3f29-4118-a317-39aeb3f7cddc",
+        "PathOfImage": "./images/ce331052-3f29-4118-a317-39aeb3f7cddc.jpg",
+        "Title": "Art Raffle Prize",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2018-02-08",
+        "Categories": [
+            "Fanart",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "40d5a79b-df46-45e4-a0ed-57d7cb9a2a26",
+        "PathOfImage": "./images/40d5a79b-df46-45e4-a0ed-57d7cb9a2a26.jpg",
+        "Title": "Puppets",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2019-02-18",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Bryan",
+            "Clisty",
+            "Lukas"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "d87839ef-c994-43c7-ba8d-adfa441e6eae",
+        "PathOfImage": "./images/d87839ef-c994-43c7-ba8d-adfa441e6eae.jpg",
+        "Title": "Jane Sketch",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2019-02-18",
+        "Categories": [
+            "Original Content",
+            "Doodle/Sketch"
+        ],
+        "Characters": [
+            "Jane"
+        ],
+        "NeedsTriggerWarning": true,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "5699a728-0775-4e99-be9f-939767486d2a",
+        "PathOfImage": "./images/5699a728-0775-4e99-be9f-939767486d2a.jpg",
+        "Title": "Possesed Clisty",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2018-02-18",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Clisty"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "2ae81ec7-9b98-4697-a37e-46cfa3a99e8d",
+        "PathOfImage": "./images/2ae81ec7-9b98-4697-a37e-46cfa3a99e8d.jpg",
+        "Title": "Best Lie",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2018-02-01",
+        "Categories": [
+            "Illustration",
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Bryan",
+            "Jane"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "70781466-9958-4e1b-92bb-d8a82a46f08f",
+        "PathOfImage": "./images/70781466-9958-4e1b-92bb-d8a82a46f08f.jpg",
+        "Title": "Not a monster",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2017-02-18",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Bryan",
+            "Lukas"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "7973038a-15f6-4325-8669-43f7fb005f04",
+        "PathOfImage": "./images/7973038a-15f6-4325-8669-43f7fb005f04.png",
+        "Title": "Monster at home",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-09-10",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "97185994-f477-4082-93d4-a1b0f7804c5b",
+        "PathOfImage": "./images/97185994-f477-4082-93d4-a1b0f7804c5b.png",
+        "Title": "Toonme - Trend",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-02-27",
+        "Categories": [
+            "Original Content",
+            "Experimental"
+        ],
+        "Characters": [
+            "Cat"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "fb5b0daf-6c3a-44c7-93a7-d9414b8ed6fa",
+        "PathOfImage": "./images/fb5b0daf-6c3a-44c7-93a7-d9414b8ed6fa.png",
+        "Title": "Chains",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-11-24",
+        "Categories": [
+            "Original Content",
+            "Character Art",
+            "Fantasy"
+        ],
+        "Characters": [
+            "Bryan",
+            "Clisty"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "83870203-a024-4e2c-b739-3df6c023c3f4",
+        "PathOfImage": "./images/83870203-a024-4e2c-b739-3df6c023c3f4.png",
+        "Title": "Train",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-03-29",
+        "Categories": [
+            "Illustration",
+            "Fanart",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "19e5909e-bf82-4624-b913-4f92e0717f31",
+        "PathOfImage": "./images/19e5909e-bf82-4624-b913-4f92e0717f31.png",
+        "Title": "Falling through the clouds",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2021-02-18",
+        "Categories": [
+            "Illustration",
+            "Landscape"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "1894e472-5611-45db-b7aa-61d8bd031f58",
+        "PathOfImage": "./images/1894e472-5611-45db-b7aa-61d8bd031f58.jpg",
+        "Title": "Dance",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2021-12-11",
+        "Categories": [
+            "Experimental",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "bb563240-05b1-4f46-b7a1-7bfd8c45a0e6",
+        "PathOfImage": "./images/bb563240-05b1-4f46-b7a1-7bfd8c45a0e6.png",
+        "Title": "Sword",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2021-07-04",
+        "Categories": [
+            "Illustration",
+            "Landscape",
+            "Fantasy"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "813f49a0-40bc-4502-a3ff-a75625dd4908",
+        "PathOfImage": "./images/813f49a0-40bc-4502-a3ff-a75625dd4908.png",
+        "Title": "Final Space",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-10-10",
+        "Categories": [
+            "Illustration",
+            "Fanart"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "fe97137d-84ff-44f2-ad46-4e36549ed35c",
+        "PathOfImage": "./images/fe97137d-84ff-44f2-ad46-4e36549ed35c.png",
+        "Title": "Drawing Lesson 2",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-12-15",
+        "Categories": [
+            "Doodle/Sketch",
+            "Experimental"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "11b02a8d-7097-47bb-b8ca-c602a9cf436b",
+        "PathOfImage": "./images/11b02a8d-7097-47bb-b8ca-c602a9cf436b.png",
+        "Title": "Maid dress",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2021-07-30",
+        "Categories": [
+            "Original Content",
+            "Character Art",
+            "Comic"
+        ],
+        "Characters": [
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "7d957ff3-8a19-44fd-9438-842de4379485",
+        "PathOfImage": "./images/7d957ff3-8a19-44fd-9438-842de4379485.jpg",
+        "Title": "experiment0",
+        "AltText": "I have to separate",
+        "Description": "",
+        "CreationDate": "2021-11-14",
+        "Categories": [
+            "Illustration",
+            "Doodle/Sketch",
+            "Experimental",
+            "Character Art",
+            "Fantasy"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "841ffae7-9583-471b-aa33-7d50441d8799",
+        "PathOfImage": "./images/841ffae7-9583-471b-aa33-7d50441d8799.png",
+        "Title": "Done",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2022-01-22",
+        "Categories": [
+            "Illustration",
+            "Original Content",
+            "Blood"
+        ],
+        "Characters": [
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": true,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "59c6e0ea-b69d-4ef7-b22c-7d7e8de77a2e",
+        "PathOfImage": "./images/59c6e0ea-b69d-4ef7-b22c-7d7e8de77a2e.png",
+        "Title": "Stars",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2022-02-09",
+        "Categories": [
+            "Illustration",
+            "Original Content"
+        ],
+        "Characters": [
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "3f6af3b2-60d0-4033-9e71-5aaa33b484c1",
+        "PathOfImage": "./images/3f6af3b2-60d0-4033-9e71-5aaa33b484c1.png",
+        "Title": "Confrontation",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2021-06-07",
+        "Categories": [
+            "Illustration",
+            "Original Content",
+            "Blood",
+            "Fantasy"
+        ],
+        "Characters": [
+            "Bryan",
+            "Clisty"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "b6adef52-b5e1-4e66-83b2-925cbce935ee",
+        "PathOfImage": "./images/b6adef52-b5e1-4e66-83b2-925cbce935ee.png",
+        "Title": "Just one more step",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-08-04",
+        "Categories": [
+            "Illustration",
+            "Original Content"
+        ],
+        "Characters": [
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "f7491621-a2d2-44bb-bab0-2c0e7dd42397",
+        "PathOfImage": "./images/f7491621-a2d2-44bb-bab0-2c0e7dd42397.png",
+        "Title": "Lukas",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2021-09-20",
+        "Categories": [
+            "Original Content",
+            "Character Art",
+            "Fantasy"
+        ],
+        "Characters": [
+            "Lukas"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "61dd1d28-08a5-4933-8673-628f8fc0516f",
+        "PathOfImage": "./images/61dd1d28-08a5-4933-8673-628f8fc0516f.jpg",
+        "Title": "Prey",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2021-11-22",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Bee"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "8b987e9d-509a-402f-96a1-b21cbf4029d4",
+        "PathOfImage": "./images/8b987e9d-509a-402f-96a1-b21cbf4029d4.jpg",
+        "Title": "Vanny - FNaF",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2021-11-01",
+        "Categories": [
+            "Fanart",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "1d54a921-2790-45fc-869e-aa2bfda1de0a",
+        "PathOfImage": "./images/1d54a921-2790-45fc-869e-aa2bfda1de0a.jpg",
+        "Title": "SAD",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2021-11-19",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "2a866323-1f27-4ba5-a03c-1f895b505bd3",
+        "PathOfImage": "./images/2a866323-1f27-4ba5-a03c-1f895b505bd3.png",
+        "Title": "Polaroid Ghost",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2021-11-14",
+        "Categories": [
+            "Illustration"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "8d3aa03a-457f-400b-8562-d09a099ed637",
+        "PathOfImage": "./images/8d3aa03a-457f-400b-8562-d09a099ed637.png",
+        "Title": "Last one",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2021-12-27",
+        "Categories": [
+            "Illustration",
+            "Original Content"
+        ],
+        "Characters": [
+            "Bee",
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "62fbf91b-64d4-4724-a051-01c11da07055",
+        "PathOfImage": "./images/62fbf91b-64d4-4724-a051-01c11da07055.png",
+        "Title": "Lukas doodles",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-07-28",
+        "Categories": [
+            "Original Content",
+            "Doodle/Sketch",
+            "Character Art",
+            "Fantasy"
+        ],
+        "Characters": [
+            "Lukas"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "1ad0fc90-6bb8-465d-8707-7396bb4db990",
+        "PathOfImage": "./images/1ad0fc90-6bb8-465d-8707-7396bb4db990.jpg",
+        "Title": "Those kids",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2021-05-04",
+        "Categories": [
+            "Fanart",
+            "Doodle/Sketch",
+            "Character Art"
+        ],
+        "Characters": [
+            "Cat"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "9cbebcf9-10ec-438b-917a-58bc74cc6f26",
+        "PathOfImage": "./images/9cbebcf9-10ec-438b-917a-58bc74cc6f26.jpg",
+        "Title": "Axe and Fire (Digital)",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2022-03-09",
+        "Categories": [
+            "Original Content",
+            "Doodle/Sketch",
+            "Character Art",
+            "Fantasy"
+        ],
+        "Characters": [
+            "Delyria"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "06082e4c-79a1-4c05-afff-c1b15f7ebaf6",
+        "PathOfImage": "./images/06082e4c-79a1-4c05-afff-c1b15f7ebaf6.jpg",
+        "Title": "Axe and Fire (Paper)",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2023-03-14",
+        "Categories": [
+            "Original Content",
+            "Character Art",
+            "Fantasy"
+        ],
+        "Characters": [
+            "Delyria"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "964f8dbc-529a-4a45-8717-2a097029fdc4",
+        "PathOfImage": "./images/964f8dbc-529a-4a45-8717-2a097029fdc4.png",
+        "Title": "Watching the stars 2",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2023-03-20",
+        "Categories": [
+            "Illustration",
+            "Original Content"
+        ],
+        "Characters": [
+            "Bryan",
+            "Nathan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "fc190bb0-b709-43ef-b29f-9c53eb74d25f",
+        "PathOfImage": "./images/fc190bb0-b709-43ef-b29f-9c53eb74d25f.png",
+        "Title": "Escape",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2022-01-05",
+        "Categories": [
+            "Illustration",
+            "Original Content",
+            "Experimental",
+            "Fantasy"
+        ],
+        "Characters": [
+            "Bryan",
+            "Clisty"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "6d7db9e5-9870-413b-bd99-5c314ace7a16",
+        "PathOfImage": "./images/6d7db9e5-9870-413b-bd99-5c314ace7a16.png",
+        "Title": "Draw your squad (Those kids)",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2022-11-12",
+        "Categories": [
+            "Doodle/Sketch",
+            "Comic"
+        ],
+        "Characters": [
+            "Cat",
+            "Lukas"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "5d5de6f0-62d0-48c9-b4a0-76ef8645af12",
+        "PathOfImage": "./images/5d5de6f0-62d0-48c9-b4a0-76ef8645af12.png",
+        "Title": "Fallen from grace",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2023-08-14",
+        "Categories": [
+            "Original Content",
+            "Blood"
+        ],
+        "Characters": [
+            "Benjamin",
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": true,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "9b904d60-e80f-481d-af0f-e14a6f98a20f",
+        "PathOfImage": "./images/9b904d60-e80f-481d-af0f-e14a6f98a20f.jpg",
+        "Title": "Ghostbur and Blue",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2022-04-11",
+        "Categories": [
+            "Fanart",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "d740f7a4-089e-47e6-b213-cfefcb598324",
+        "PathOfImage": "./images/d740f7a4-089e-47e6-b213-cfefcb598324.png",
+        "Title": "Holding my hearth",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2022-08-06",
+        "Categories": [
+            "Illustration",
+            "Blood"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "df6c1a60-6cd1-42ca-bb1f-e9bacd260f7f",
+        "PathOfImage": "./images/df6c1a60-6cd1-42ca-bb1f-e9bacd260f7f.png",
+        "Title": "Aquavia",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2022-07-27",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Aquavia"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "a93ea471-8628-416a-aba8-05b9203c45b5",
+        "PathOfImage": "./images/a93ea471-8628-416a-aba8-05b9203c45b5.png",
+        "Title": "Bryan in a Dress - Happy",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2022-05-27",
+        "Categories": [
+            "Illustration",
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "6621fa0f-cd90-4737-aed6-682179eec2e8",
+        "PathOfImage": "./images/6621fa0f-cd90-4737-aed6-682179eec2e8.jpg",
+        "Title": "VI",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2022-01-10",
+        "Categories": [
+            "Fanart",
+            "Character Art",
+            "Fantasy"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "4b8014cc-cf82-43f9-9858-d8e12e98cfef",
+        "PathOfImage": "./images/4b8014cc-cf82-43f9-9858-d8e12e98cfef.jpeg",
+        "Title": "CAT",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2022-01-04",
+        "Categories": [
+            "Character Art"
+        ],
+        "Characters": [
+            "Cat"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "e35d7167-1d05-47b1-8bd8-f8812c072e50",
+        "PathOfImage": "./images/e35d7167-1d05-47b1-8bd8-f8812c072e50.png",
+        "Title": "Who or What am I?",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2019-01-11",
+        "Categories": [
+            "Illustration",
+            "Original Content",
+            "Experimental"
+        ],
+        "Characters": [
+            "Cat"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "72fa6456-a102-4674-beaf-041669d3dd40",
+        "PathOfImage": "./images/72fa6456-a102-4674-beaf-041669d3dd40.png",
+        "Title": "Dress Design",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-08-31",
+        "Categories": [
+            "Doodle/Sketch",
+            "Experimental"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "34ec8fd4-b933-438f-9fb8-2cd359776458",
+        "PathOfImage": "./images/34ec8fd4-b933-438f-9fb8-2cd359776458.jpeg",
+        "Title": "Piglin Farm",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2022-02-19",
+        "Categories": [
+            "Illustration",
+            "Landscape"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "b3ba776e-cf11-4dfa-9e22-504e767ffc54",
+        "PathOfImage": "./images/b3ba776e-cf11-4dfa-9e22-504e767ffc54.png",
+        "Title": "Threat",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-05-03",
+        "Categories": [
+            "Illustration",
+            "Fanart"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "dc560049-b423-4b7a-b901-890f1e215a97",
+        "PathOfImage": "./images/dc560049-b423-4b7a-b901-890f1e215a97.png",
+        "Title": "Female Influencer Purple Guy",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-08-09",
+        "Categories": [
+            "Illustration",
+            "Comic"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "3f979469-32c5-4cb9-8347-0452161f6680",
+        "PathOfImage": "./images/3f979469-32c5-4cb9-8347-0452161f6680.png",
+        "Title": "Prize for winner of art Contest",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-04-19",
+        "Categories": [
+            "Illustration",
+            "Fanart",
+            "Character Art",
+            "Fantasy"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "a888fbde-8a28-4169-b798-1239493151e4",
+        "PathOfImage": "./images/a888fbde-8a28-4169-b798-1239493151e4.png",
+        "Title": "FNaF Collab with QOC",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2019-09-02",
+        "Categories": [
+            "Illustration",
+            "Fanart",
+            "Blood"
+        ],
+        "Characters": [
+            "Cat"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "8083fbcb-f273-4bb9-9bb2-77da8a51c3a6",
+        "PathOfImage": "./images/8083fbcb-f273-4bb9-9bb2-77da8a51c3a6.PNG",
+        "Title": "Kiss",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2022-06-19",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Bryan",
+            "Clisty"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "67fe0553-bdb7-45a8-aeff-38926d0197c1",
+        "PathOfImage": "./images/67fe0553-bdb7-45a8-aeff-38926d0197c1.PNG",
+        "Title": "Them as kids",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2022-10-18",
+        "Categories": [
+            "Original Content",
+            "Character Art",
+            "Fantasy"
+        ],
+        "Characters": [
+            "Clisty",
+            "Lukas"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "7a91029f-15e9-4ba5-ae68-8c0307dcc2e7",
+        "PathOfImage": "./images/7a91029f-15e9-4ba5-ae68-8c0307dcc2e7.PNG",
+        "Title": "Lost in a forest",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2022-10-08",
+        "Categories": [
+            "Illustration",
+            "Original Content",
+            "Fantasy"
+        ],
+        "Characters": [
+            "Clisty",
+            "Delyria",
+            "Hestya"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "f169172c-a643-4de0-9561-d57b24ceb65f",
+        "PathOfImage": "./images/f169172c-a643-4de0-9561-d57b24ceb65f.png",
+        "Title": "Revenge",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2023-03-14",
+        "Categories": [
+            "Illustration",
+            "Original Content",
+            "Blood"
+        ],
+        "Characters": [
+            "Bryan",
+            "Jane"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "e3688b4a-086d-4ae8-986c-480d3662d990",
+        "PathOfImage": "./images/e3688b4a-086d-4ae8-986c-480d3662d990.png",
+        "Title": "Practice",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2023-05-04",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "4feefb96-5922-4f32-a8e6-7158a0fa9306",
+        "PathOfImage": "./images/4feefb96-5922-4f32-a8e6-7158a0fa9306.png",
+        "Title": "Flower Girl",
+        "AltText": "A gitl holding a yellow flower",
+        "Description": "My first drawing on the computer after a long pause. Just a friendly flower girl.",
+        "CreationDate": "2017-08-17",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "https://www.youtube.com/watch?v=50ruoqCyQgc",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "f75220b5-60eb-47ae-9df5-3c9b3689ca5b",
+        "PathOfImage": "./images/f75220b5-60eb-47ae-9df5-3c9b3689ca5b.png",
+        "Title": "Bonnie Doodle",
+        "AltText": "A doodle of the animatronic Bonnie from FNaF",
+        "Description": "",
+        "CreationDate": "2018-12-26",
+        "Categories": [
+            "Doodle/Sketch",
+            "Experimental"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "64d77dff-9cf8-4324-acda-88fb70fdea2c",
+        "PathOfImage": "./images/64d77dff-9cf8-4324-acda-88fb70fdea2c.png",
+        "Title": "Girl in Forest (Lineless)",
+        "AltText": "A magical girl in a forest",
+        "Description": "Originally meant to be an open collab with my instagram followers I finished the sketch to a lineless artwork.",
+        "CreationDate": "2018-12-26",
+        "Categories": [
+            "Experimental",
+            "Character Art",
+            "Fantasy"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "2ece7f05-2d3e-4bdd-8f71-7835ede92a53",
+        "PathOfImage": "./images/2ece7f05-2d3e-4bdd-8f71-7835ede92a53.png",
+        "Title": "DTIYS: Connor",
+        "AltText": "A fellow Connor",
+        "Description": "My take on a Draw This in Your Style by someone on Instagram",
+        "CreationDate": "2018-12-30",
+        "Categories": [
+            "Fanart",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "71b691fb-0b07-4867-a34c-561bd32b5520",
+        "PathOfImage": "./images/71b691fb-0b07-4867-a34c-561bd32b5520.png",
+        "Title": "Midnight walk",
+        "AltText": "Clisty and Lukas on a midnight walk",
+        "Description": "Just a little snipped of a conversation",
+        "CreationDate": "2019-01-02",
+        "Categories": [
+            "Illustration",
+            "Original Content",
+            "Comic",
+            "Fantasy"
+        ],
+        "Characters": [
+            "Clisty",
+            "Lukas"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "733a855b-1941-4f2f-8f2f-53bba9b2bfcd",
+        "PathOfImage": "./images/733a855b-1941-4f2f-8f2f-53bba9b2bfcd.png",
+        "Title": "Bad Influence",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2019-02-24",
+        "Categories": [
+            "Illustration",
+            "Original Content"
+        ],
+        "Characters": [
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "https://www.youtube.com/watch?v=QfscxC22rtM",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "8300478a-bc81-4694-8caf-8b3227cebb7f",
+        "PathOfImage": "./images/8300478a-bc81-4694-8caf-8b3227cebb7f.png",
+        "Title": "DTIYS of Vast",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2019-01-10",
+        "Categories": [
+            "Fanart",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "https://www.youtube.com/watch?v=xUnNs69cryY",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "1baeea8f-42f4-45f0-a925-a7b9eb06548b",
+        "PathOfImage": "./images/1baeea8f-42f4-45f0-a925-a7b9eb06548b.jpg",
+        "Title": "Art Trade with QOC",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2018-02-18",
+        "Categories": [
+            "Fanart",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "b9483707-872f-4861-aadf-e26fa9cf2c61",
+        "PathOfImage": "./images/b9483707-872f-4861-aadf-e26fa9cf2c61.png",
+        "Title": "Arttrade with QOC 2",
+        "AltText": "A girl with magic hair",
+        "Description": "My part of an art trade with QOC on Instagram",
+        "CreationDate": "2018-12-29",
+        "Categories": [
+            "Fanart",
+            "Character Art",
+            "Fantasy"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "a131f792-3ecb-48be-948f-109e7888a981",
+        "PathOfImage": "./images/a131f792-3ecb-48be-948f-109e7888a981.png",
+        "Title": "DTIYS of QOC",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2019-09-09",
+        "Categories": [
+            "Fanart"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "https://www.youtube.com/watch?v=9v7InW6spe8",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "4e3256b0-4c54-4bb2-9955-9c6a710c70aa",
+        "PathOfImage": "./images/4e3256b0-4c54-4bb2-9955-9c6a710c70aa.jpg",
+        "Title": "Minecraft Spider",
+        "AltText": "An overlay happy spider in Minecraft",
+        "Description": "Drawing originated from a drawing prompt and was done as a time challange in one hour. The prompt:\n\"An overlay happy spider in Minecraft\"",
+        "CreationDate": "2019-09-09",
+        "Categories": [
+            "Fanart"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "https://www.youtube.com/watch?v=1QX44EJWjs8",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "b14fc078-353a-4c2b-a3a5-e672a9901ea6",
+        "PathOfImage": "./images/b14fc078-353a-4c2b-a3a5-e672a9901ea6.png",
+        "Title": "Hot Lemonade",
+        "AltText": "If life gives you lemons then make hot lemonade",
+        "Description": "Hot Lemonade is actually a thing, it's taskty (if you like lemons and sour things) and I totally recommend",
+        "CreationDate": "2019-01-17",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "f05a051c-f4b1-4124-8039-5ef56fc08a46",
+        "PathOfImage": "./images/f05a051c-f4b1-4124-8039-5ef56fc08a46.png",
+        "Title": "DTIYS: William Afton",
+        "AltText": "The one, the only, William Afton",
+        "Description": "My take of a Draw This in Your Style by someone on Instagram",
+        "CreationDate": "2019-08-23",
+        "Categories": [
+            "Illustration",
+            "Fanart",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "061dc200-fe17-4da7-bfb8-001adccd0f8b",
+        "PathOfImage": "./images/061dc200-fe17-4da7-bfb8-001adccd0f8b.png",
+        "Title": "Cat's reference sheet",
+        "AltText": "My persona Cat",
+        "Description": "An \"old\" reference sheet for my persona. The colors are still acurate, tho I use brighter ones now. Also this is the most acurate way I ever drew my bandana and ever will.",
+        "CreationDate": "2019-01-22",
+        "Categories": [
+            "Doodle/Sketch",
+            "Character Art"
+        ],
+        "Characters": [
+            "Cat"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "8b0367c1-7391-4487-be80-67bd6d641be8",
+        "PathOfImage": "./images/8b0367c1-7391-4487-be80-67bd6d641be8.png",
+        "Title": "Artstyle Bend Challenge",
+        "AltText": "it looks like it was made by two artists",
+        "Description": "There was this challange going around where you analyse your art and do the opposite of what defines your art. It was a very fun excersice that I really recommend",
+        "CreationDate": "2020-08-26",
+        "Categories": [
+            "Doodle/Sketch",
+            "Experimental"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "c2952613-db46-43de-a818-710455ccc27e",
+        "PathOfImage": "./images/c2952613-db46-43de-a818-710455ccc27e.png",
+        "Title": "Halloween 2020",
+        "AltText": "Clisty and Bryan in Halloween costumes",
+        "Description": "Ah yes, Part 5 of the Hallowwen saga. Unfortunately it is the last part so far.",
+        "CreationDate": "2020-11-08",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Bryan",
+            "Clisty"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "f6475525-b577-4879-b2ab-779a6f448ac7",
+        "PathOfImage": "./images/f6475525-b577-4879-b2ab-779a6f448ac7.png",
+        "Title": "Strawberry Dress",
+        "AltText": "Nathan and Bryan wearing the dress duo",
+        "Description": "So there was this trend going around where people put two characters in these two dresses. And I knew what I had to do.",
+        "CreationDate": "2020-08-31",
+        "Categories": [
+            "Original Content",
+            "Character Art",
+            "Comic"
+        ],
+        "Characters": [
+            "Bryan",
+            "Nathan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "3a2bd29b-5c87-422e-a479-6d63e18ed167",
+        "PathOfImage": "./images/3a2bd29b-5c87-422e-a479-6d63e18ed167.png",
+        "Title": "Purple Guy",
+        "AltText": "Ah yes, Purple guy",
+        "Description": "\nA friend of mine wanted me and another friend of us to draw purple guy and see what we come up with. Not my best drawing of him but I like the badge.",
+        "CreationDate": "2021-01-02",
+        "Categories": [
+            "Fanart",
+            "Character Art",
+            "Blood"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "4f06fd83-cc8f-4172-b813-7819d982342c",
+        "PathOfImage": "./images/4f06fd83-cc8f-4172-b813-7819d982342c.png",
+        "Title": "Knife (purple)",
+        "AltText": "Hands holding a knife (purple colors)",
+        "Description": "The prompt for May of #aYearOfPrompts was \"Cruel/Purple\". So I had to choose between Purple Guy (FNaF) and Bryan. I chose the latter.",
+        "CreationDate": "2021-05-05",
+        "Categories": [
+            "Illustration",
+            "Original Content"
+        ],
+        "Characters": [
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "190752f5-acbd-4b96-aed9-ad1d6a151576",
+        "PathOfImage": "./images/190752f5-acbd-4b96-aed9-ad1d6a151576.png",
+        "Title": "Knife",
+        "AltText": "Hands holding a knife",
+        "Description": "The colored version for the may prompt of #aYearOfPrompts. Just look at THESE HANDS. I am still proud of the coloring.\n",
+        "CreationDate": "2021-05-05",
+        "Categories": [
+            "Illustration",
+            "Original Content"
+        ],
+        "Characters": [
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "3f1afe38-adab-4a97-9e11-8e452784f30f",
+        "PathOfImage": "./images/3f1afe38-adab-4a97-9e11-8e452784f30f.png",
+        "Title": "Knife (with blood)",
+        "AltText": "Hands holding a knife (bloody)",
+        "Description": "Of course I had to make a bloody version of the drawing. \n",
+        "CreationDate": "2021-05-05",
+        "Categories": [
+            "Illustration",
+            "Original Content",
+            "Blood"
+        ],
+        "Characters": [
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": true,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "5f7a28f3-f01f-4c2a-98a0-ad3e76095e9c",
+        "PathOfImage": "./images/5f7a28f3-f01f-4c2a-98a0-ad3e76095e9c.png",
+        "Title": "Kassy",
+        "AltText": "OwO!",
+        "Description": "One of my good friends! Also just look at these little boots owo and the hand in the front. How did I manage to make it so good!?",
+        "CreationDate": "2021-07-24",
+        "Categories": [
+            "Fanart",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "9805c1bb-a24d-4350-82df-a420c7d18bed",
+        "PathOfImage": "./images/9805c1bb-a24d-4350-82df-a420c7d18bed.png",
+        "Title": "Lost/Earth Tones",
+        "AltText": "A ghost of a lost girl in a hotel corridor",
+        "Description": "The prompt for June in #aYearOfPrompts was \"Lost/Earth Tones\"",
+        "CreationDate": "2021-07-05",
+        "Categories": [
+            "Illustration",
+            "Original Content"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "42c2852d-39db-4017-8c72-c9bfd8bf9dd5",
+        "PathOfImage": "./images/42c2852d-39db-4017-8c72-c9bfd8bf9dd5.png",
+        "Title": "Imposter Syndrome",
+        "AltText": "Is there someone in the vents?",
+        "Description": "Oh I was not a good imposter in Amog Us but I am sure my persona would have been",
+        "CreationDate": "2020-10-24",
+        "Categories": [
+            "Illustration",
+            "Fanart",
+            "Original Content"
+        ],
+        "Characters": [
+            "Cat"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "96389bf1-3591-48cd-a9e9-d48951c9ea01",
+        "PathOfImage": "./images/96389bf1-3591-48cd-a9e9-d48951c9ea01.png",
+        "Title": "Drawing Lesson 2",
+        "AltText": "Oh god",
+        "Description": "Result of a digital drawing lesson I did for a friend",
+        "CreationDate": "2020-11-17",
+        "Categories": [
+            "Doodle/Sketch",
+            "Experimental"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "a69817d9-164e-4327-b653-0cb02adbb7ae",
+        "PathOfImage": "./images/a69817d9-164e-4327-b653-0cb02adbb7ae.png",
+        "Title": "Can't describe this feeling (Redraw)",
+        "AltText": "Clisty and Bryan enjoying a calm evening",
+        "Description": "Inspired by the song \"i can't describe this feeling.\" Sometimes it's just good to draw them happy. Redraw I did on the computer.",
+        "CreationDate": "2020-09-09",
+        "Categories": [
+            "Illustration",
+            "Original Content"
+        ],
+        "Characters": [
+            "Bryan",
+            "Clisty"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": "https://open.spotify.com/intl-de/track/2KZfzEcdiS5TBRBcgmChfI?si=18fe1d5229244a88"
+    },
+    {
+        "Id": "be6e6ee5-7ad0-4f61-8a77-b5342dd84457",
+        "PathOfImage": "./images/be6e6ee5-7ad0-4f61-8a77-b5342dd84457.png",
+        "Title": "Can't describe this feeling",
+        "AltText": "Clisty and Bryan enjoying a calm evening",
+        "Description": "Inspired by the song \"i can't describe this feeling.\" Sometimes it's just good to draw them happy. I drew this on my phone and didn't know how I wanted to design the living room. There is a redraw.",
+        "CreationDate": "2020-08-30",
+        "Categories": [],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": "https://open.spotify.com/intl-de/track/2KZfzEcdiS5TBRBcgmChfI?si=18fe1d5229244a88"
+    },
+    {
+        "Id": "a44c4c34-0622-42f3-90fc-72b44d96ff1f",
+        "PathOfImage": "./images/a44c4c34-0622-42f3-90fc-72b44d96ff1f.png",
+        "Title": "Mirror",
+        "AltText": "Jane smashing the bathroom window",
+        "Description": "Not sure if he is angry about himself or just angry. Noone knows.\n",
+        "CreationDate": "2020-08-27",
+        "Categories": [
+            "Illustration",
+            "Original Content"
+        ],
+        "Characters": [
+            "Jane"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "eb4ccd6f-df25-49bc-8985-ec4dbe6db2dc",
+        "PathOfImage": "./images/eb4ccd6f-df25-49bc-8985-ec4dbe6db2dc.png",
+        "Title": "Love is Love",
+        "AltText": "Benny and Samantha being in love",
+        "Description": "<3",
+        "CreationDate": "2020-06-05",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Benny",
+            "Samantha"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "fd21a2ae-bc3f-4c51-b972-90c0709945fa",
+        "PathOfImage": "./images/fd21a2ae-bc3f-4c51-b972-90c0709945fa.png",
+        "Title": "Two Sides 2",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2023-02-09",
+        "Categories": [
+            "Original Content",
+            "Character Art",
+            "Blood"
+        ],
+        "Characters": [
+            "Cat"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "https://www.youtube.com/watch?v=K2deQY_yHJg",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "da74be0f-e553-4ea8-b541-d8eab8ac68d3",
+        "PathOfImage": "./images/da74be0f-e553-4ea8-b541-d8eab8ac68d3.png",
+        "Title": "Two Sides 1",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2023-02-09",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Cat"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "https://www.youtube.com/watch?v=K2deQY_yHJg",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "abe1195e-32dd-4254-bfa9-0e2fa5c3bd88",
+        "PathOfImage": "./images/abe1195e-32dd-4254-bfa9-0e2fa5c3bd88.png",
+        "Title": "Hush",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2024-03-29",
+        "Categories": [
+            "Illustration",
+            "Original Content"
+        ],
+        "Characters": [
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "b40c162e-f264-435e-bea8-6160c48a3e85",
+        "PathOfImage": "./images/b40c162e-f264-435e-bea8-6160c48a3e85.png",
+        "Title": "Save the Bees",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2024-02-01",
+        "Categories": [
+            "Illustration"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "https://www.youtube.com/watch?v=bWIq47Lh17M",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "2658c8da-993c-49dc-b197-300c5d0c2ab7",
+        "PathOfImage": "./images/2658c8da-993c-49dc-b197-300c5d0c2ab7.png",
+        "Title": "Within",
+        "AltText": "You'll never know what hit you",
+        "Description": "Inspired by the song \"The Devil Within\" from Digital Dagers with some parts of the lyrics written on the picture. This is the first drawing of lukas I ever did.",
+        "CreationDate": "2017-10-26",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Clisty",
+            "Lukas"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": "https://open.spotify.com/intl-de/track/6iwkG1eYvx0y95sDebLlW3?si=b80ebc86b60e4111"
+    },
+    {
+        "Id": "cd88a311-cafb-4f83-913b-c4001668843d",
+        "PathOfImage": "./images/cd88a311-cafb-4f83-913b-c4001668843d.png",
+        "Title": "Within (redraw)",
+        "AltText": "You would never see me cry",
+        "Description": "A redraw from the drawing from 2017. Damn that was a lot of improvement owo",
+        "CreationDate": "2020-07-14",
+        "Categories": [
+            "Original Content",
+            "Character Art",
+            "Fantasy"
+        ],
+        "Characters": [
+            "Clisty",
+            "Lukas"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": "https://open.spotify.com/intl-de/track/6iwkG1eYvx0y95sDebLlW3?si=b80ebc86b60e4111"
+    },
+    {
+        "Id": "f1bcfd02-0850-4a3a-8a38-2cc94f290392",
+        "PathOfImage": "./images/f1bcfd02-0850-4a3a-8a38-2cc94f290392.png",
+        "Title": "Random OC Challenge",
+        "AltText": "Your friendly non-binary zombie",
+        "Description": "Would you believe me if I told you I tried to lean on samdoesarts' artstyle? No? Yeah me neither. But I did try qwq Sam is a big inspiration, mybe someday I can learn a few tricks from him.",
+        "CreationDate": "2024-03-12",
+        "Categories": [
+            "Experimental",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "367f4225-f8cd-478a-932c-15c7b8e63770",
+        "PathOfImage": "./images/367f4225-f8cd-478a-932c-15c7b8e63770.png",
+        "Title": "Nonbinary Pride",
+        "AltText": "An ordinary nonbinary person being fancy",
+        "Description": "Somebody had this awsome picture from themselfs and I asked if I could draw it and they said yes. I am really happy with the pose and the colors.\n",
+        "CreationDate": "2021-06-27",
+        "Categories": [
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "6fd191a6-c06b-4927-b501-8dc956d0be72",
+        "PathOfImage": "./images/6fd191a6-c06b-4927-b501-8dc956d0be72.png",
+        "Title": "Doctor Who Poster",
+        "AltText": "A poster featuring the Tardis from Doctor who",
+        "Description": "",
+        "CreationDate": "2024-03-29",
+        "Categories": [
+            "Fanart"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "db5dbe95-475d-48a1-b24b-413e663cbc8a",
+        "PathOfImage": "./images/db5dbe95-475d-48a1-b24b-413e663cbc8a.jpg",
+        "Title": "Betty",
+        "AltText": "Betty from Glitchtale",
+        "Description": "",
+        "CreationDate": "2018-09-08",
+        "Categories": [
+            "Fanart",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "f02a8392-f7b1-4e7b-88b9-107a66d87caf",
+        "PathOfImage": "./images/f02a8392-f7b1-4e7b-88b9-107a66d87caf.jpg",
+        "Title": "Enderman 2",
+        "AltText": "Another enderman",
+        "Description": "",
+        "CreationDate": "2018-04-18",
+        "Categories": [
+            "Fanart"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "68b524fb-d068-448d-a949-24af556a11f7",
+        "PathOfImage": "./images/68b524fb-d068-448d-a949-24af556a11f7.JPG",
+        "Title": "Portrait Sketch",
+        "AltText": "Sketch of a woman with a red background",
+        "Description": "The sketch of a colorblind challange I did.",
+        "CreationDate": "2022-08-14",
+        "Categories": [
+            "Doodle/Sketch",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Not set",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "d4345ce1-6e24-4eab-abbe-c1a9cc046f9c",
+        "PathOfImage": "./images/d4345ce1-6e24-4eab-abbe-c1a9cc046f9c.JPG",
+        "Title": "Portrait (Colorblind)",
+        "AltText": "a woman with a red background",
+        "Description": "This image was done with my screen set to just gray tones. I got a random color palette and tried to practis working with values instead of hues. I really like the firery result.",
+        "CreationDate": "2022-08-14",
+        "Categories": [],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Not set",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "ab1f6be8-781f-49f4-98e0-eeb01863c7cb",
+        "PathOfImage": "./images/ab1f6be8-781f-49f4-98e0-eeb01863c7cb.png",
+        "Title": "Edgelord Beans",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-08-01",
+        "Categories": [
+            "Fanart",
+            "Character Art"
+        ],
+        "Characters": [
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "08a10198-c5fa-405c-9a0b-b0e2e7253064",
+        "PathOfImage": "./images/08a10198-c5fa-405c-9a0b-b0e2e7253064.png",
+        "Title": "WICKED",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2022-09-26",
+        "Categories": [
+            "Experimental"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "734862f5-8f4e-42be-9d00-931dcb3b9d57",
+        "PathOfImage": "./images/734862f5-8f4e-42be-9d00-931dcb3b9d57.png",
+        "Title": "Stay Determined",
+        "AltText": "Frisk was defeated by Sans",
+        "Description": "My entry for an art contest with the theme \"Charisk\", the ship name of Chara and Frisk from the game Undertale.",
+        "CreationDate": "2018-09-14",
+        "Categories": [
+            "Fanart",
+            "Blood",
+            "Fantasy"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "https://www.youtube.com/watch?v=9FVuWfVfbIA",
+        "SpotifyLink": "https://www.youtube.com/watch?v=MoSPPsWwz-4&t=0s"
+    },
+    {
+        "Id": "ab93163b-c4fe-4829-a364-09ddcbff720c",
+        "PathOfImage": "./images/ab93163b-c4fe-4829-a364-09ddcbff720c.png",
+        "Title": "Window",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-02-27",
+        "Categories": [
+            "Illustration",
+            "Original Content"
+        ],
+        "Characters": [
+            "Cat"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": "https://open.spotify.com/intl-de/track/7ivpapC70hviRENXa4TYft?si=9f5685e890a14dd7"
+    },
+    {
+        "Id": "b09002f6-f909-40bf-acf5-bf5f33203193",
+        "PathOfImage": "./images/b09002f6-f909-40bf-acf5-bf5f33203193.png",
+        "Title": "Looking for a feeling",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2022-05-25",
+        "Categories": [
+            "Illustration"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": "https://open.spotify.com/intl-de/track/09XWmIL14VoFD6jYoAraUf?si=47145935dca542b1"
+    },
+    {
+        "Id": "190c37fb-c5ff-4196-bff8-5cedee9f7c43",
+        "PathOfImage": "./images/190c37fb-c5ff-4196-bff8-5cedee9f7c43.jpg",
+        "Title": "Who is she?",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2023-03-14",
+        "Categories": [
+            "Doodle/Sketch",
+            "Experimental",
+            "Fantasy"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": "https://open.spotify.com/intl-de/track/1QxcWlk8PivolUaWcpAoNq?si=ec50542da5bf4113"
+    },
+    {
+        "Id": "4b07c222-0d47-418d-a249-b225102e4ebc",
+        "PathOfImage": "./images/4b07c222-0d47-418d-a249-b225102e4ebc.jpg",
+        "Title": "Laser Guns Up",
+        "AltText": "",
+        "Description": "\t",
+        "CreationDate": "2018-02-08",
+        "Categories": [
+            "Illustration",
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Aquavia"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": "https://open.spotify.com/intl-de/track/5apDDMhGUE0TlXCGBhMaxU?si=785ad5079e044a07"
+    },
+    {
+        "Id": "b140469b-51c9-496d-bdad-61f06489f1ac",
+        "PathOfImage": "./images/b140469b-51c9-496d-bdad-61f06489f1ac.png",
+        "Title": "His Soldiers",
+        "AltText": "Two dystopian soldiers standing in a subway",
+        "Description": "Some glimpses on what I think Lukas soldiers would look like.",
+        "CreationDate": "2024-04-27",
+        "Categories": [
+            "Illustration",
+            "Original Content"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "c7af9f86-589a-4eec-a33f-70c6e342b49b",
+        "PathOfImage": "./images/c7af9f86-589a-4eec-a33f-70c6e342b49b.png",
+        "Title": "Good Riddance",
+        "AltText": "",
+        "Description": "The next moment after \"Revenge\"",
+        "CreationDate": "2024-06-30",
+        "Categories": [
+            "Illustration",
+            "Original Content",
+            "Blood"
+        ],
+        "Characters": [
+            "Bryan",
+            "Jane"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "5d8ace19-1018-41fe-8dd8-d65c39c22905",
+        "PathOfImage": "./images/5d8ace19-1018-41fe-8dd8-d65c39c22905.png",
+        "Title": "End",
+        "AltText": "",
+        "Description": "One of the very few instances where I drew Lukas in his original form.",
+        "CreationDate": "2024-07-06",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Lukas"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "87d9ef76-3300-48ca-8422-1686ed27da2a",
+        "PathOfImage": "./images/87d9ef76-3300-48ca-8422-1686ed27da2a.png",
+        "Title": "Beautiful things",
+        "AltText": "",
+        "Description": "There was this trend on Instagram going on where it was about the question \"What would you character look like if all the bad things never happened to them?\". This is my answer. It was very therapeutic to draw this.",
+        "CreationDate": "2024-07-29",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": "https://open.spotify.com/intl-de/track/6tNQ70jh4OwmPGpYy6R2o9?si=bb7e5ac6bbcc4221"
+    },
+    {
+        "Id": "4d00b687-a6f6-4da8-aa1e-49da0d0958d3",
+        "PathOfImage": "./images/4d00b687-a6f6-4da8-aa1e-49da0d0958d3.png",
+        "Title": "Bahamut",
+        "AltText": "A soldier worshiping a dragon",
+        "Description": "For our little D&D session I drew this one moment where my character decided to make a prayer for Bahamut.",
+        "CreationDate": "2025-04-11",
+        "Categories": [
+            "Illustration",
+            "Fanart"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "18a0b067-bdac-4d27-a968-401efdc275bf",
+        "PathOfImage": "./images/18a0b067-bdac-4d27-a968-401efdc275bf.png",
+        "Title": "Yandere",
+        "AltText": "A yandere standing under a door frame",
+        "Description": "Just an attempt of trying to draw more in a anime style... ",
+        "CreationDate": "2025-03-10",
+        "Categories": [
+            "Fanart",
+            "Character Art",
+            "Blood"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "e6f47d1f-a2b9-430d-b312-29b105811dbc",
+        "PathOfImage": "./images/e6f47d1f-a2b9-430d-b312-29b105811dbc.png",
+        "Title": "Attacked",
+        "AltText": "A minecraft scene in a cave where the player is hiding from Herobrine and his pawns",
+        "Description": "In 2015/16 I had a huge Minecraft phase and an obligatory obsession with Herobrine. So I had this epic idea of a drawing that I never finished (believe me it wasn't good). Anyways, in 2024 (8 years later) I wanted to try it again. I didn't look at my original, just based on my memories and the idea I had in mind. A year later I finished it :)",
+        "CreationDate": "2025-02-03",
+        "Categories": [
+            "Illustration",
+            "Fanart"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "fe6366f0-cde8-4b15-ab71-b4f7962f6d73",
+        "PathOfImage": "./images/fe6366f0-cde8-4b15-ab71-b4f7962f6d73.png",
+        "Title": "Tangled",
+        "AltText": "Bryan entabgled in Lukas hands",
+        "Description": "",
+        "CreationDate": "2024-02-18",
+        "Categories": [
+            "Illustration",
+            "Character Art"
+        ],
+        "Characters": [
+            "Bryan",
+            "Lukas"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "https://youtu.be/bWIq47Lh17M?t=198",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "64933f0c-65de-4578-a24e-8c57e7e11c79",
+        "PathOfImage": "./images/64933f0c-65de-4578-a24e-8c57e7e11c79.png",
+        "Title": "Backpack",
+        "AltText": "A senior hiker wirh her dog",
+        "Description": "This drawing was made for inktober 2024",
+        "CreationDate": "2024-01-14",
+        "Categories": [
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "64a5b4f7-927f-4141-873c-bc3a66a38248",
+        "PathOfImage": "./images/64a5b4f7-927f-4141-873c-bc3a66a38248.png",
+        "Title": "Main cast for Kev",
+        "AltText": "",
+        "Description": "The main cast from the story a frind of mine writes",
+        "CreationDate": "2024-10-16",
+        "Categories": [
+            "Fanart",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "86b7acde-d5ae-483e-a2a2-54994a5a50cb",
+        "PathOfImage": "./images/86b7acde-d5ae-483e-a2a2-54994a5a50cb.png",
+        "Title": "Selfportrait",
+        "AltText": "",
+        "Description": "Just a cute selfportrait in a more soft style.",
+        "CreationDate": "2022-11-29",
+        "Categories": [
+            "Experimental",
+            "Character Art"
+        ],
+        "Characters": [
+            "Cat"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "5bba5732-62f8-4b86-9759-1bc412decba4",
+        "PathOfImage": "./images/5bba5732-62f8-4b86-9759-1bc412decba4.jpg",
+        "Title": "Another Colorblind Challange",
+        "AltText": "Samantha standing in the library",
+        "Description": "",
+        "CreationDate": "2023-05-07",
+        "Categories": [
+            "Experimental",
+            "Character Art"
+        ],
+        "Characters": [
+            "Samantha"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "32944052-5669-47a6-bb78-79bdd765d3b4",
+        "PathOfImage": "./images/32944052-5669-47a6-bb78-79bdd765d3b4.png",
+        "Title": "Axelotls",
+        "AltText": "<3",
+        "Description": "",
+        "CreationDate": "2023-06-30",
+        "Categories": [],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "2053db81-c0f3-4d5c-8ea4-d33df309b34e",
+        "PathOfImage": "./images/2053db81-c0f3-4d5c-8ea4-d33df309b34e.jpg",
+        "Title": "I will be back",
+        "AltText": "",
+        "Description": "\"You can't kill something that is already dead. I promise I will be back. And it will be all thanks to you, Sisty~\"",
+        "CreationDate": "2022-08-19",
+        "Categories": [
+            "Illustration",
+            "Original Content",
+            "Fantasy"
+        ],
+        "Characters": [
+            "Lukas"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": "https://open.spotify.com/intl-de/track/3XF5xLJHOQQRbWya6hBp7d?si=f021372839a74f94"
+    },
+    {
+        "Id": "66ec6428-70bf-45b5-ba3f-569c61ec4a2b",
+        "PathOfImage": "./images/66ec6428-70bf-45b5-ba3f-569c61ec4a2b.jpg",
+        "Title": "You should see me in a crown",
+        "AltText": "",
+        "Description": "Inspired by the song from Billie Eilish",
+        "CreationDate": "2022-04-04",
+        "Categories": [
+            "Original Content",
+            "Character Art",
+            "Fantasy"
+        ],
+        "Characters": [
+            "Lukas"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": "https://open.spotify.com/intl-de/track/3XF5xLJHOQQRbWya6hBp7d?si=f021372839a74f94"
+    },
+    {
+        "Id": "bf30e16b-b58e-483a-ac05-80aa3e9c3bee",
+        "PathOfImage": "./images/bf30e16b-b58e-483a-ac05-80aa3e9c3bee.png",
+        "Title": "Monster",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2023-09-16",
+        "Categories": [
+            "Character Art",
+            "Blood"
+        ],
+        "Characters": [
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "31f2f39f-9635-461d-be4c-9f8809f99716",
+        "PathOfImage": "./images/31f2f39f-9635-461d-be4c-9f8809f99716.jpg",
+        "Title": "Walk with puffle",
+        "AltText": "",
+        "Description": "One of my oldest childhood drawings. I was obsessed with Club Penguin back then.",
+        "CreationDate": "2013-02-18",
+        "Categories": [],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "9990eb59-23ad-49e1-8e02-1876ac2b7450",
+        "PathOfImage": "./images/9990eb59-23ad-49e1-8e02-1876ac2b7450.png",
+        "Title": "His true form",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2023-11-29",
+        "Categories": [
+            "Experimental",
+            "Character Art"
+        ],
+        "Characters": [
+            "Lukas"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "db81ab18-4135-4bb0-9439-bcc2568c056f",
+        "PathOfImage": "./images/db81ab18-4135-4bb0-9439-bcc2568c056f.png",
+        "Title": "City practice",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2024-09-14",
+        "Categories": [
+            "Illustration",
+            "Landscape",
+            "Experimental"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "0e46e43a-9d94-4d44-9fe4-69c913b993d3",
+        "PathOfImage": "./images/0e46e43a-9d94-4d44-9fe4-69c913b993d3.jpg",
+        "Title": "After the end",
+        "AltText": "",
+        "Description": "Following the Drawing of Lukas being pierced by a spear. It was a hard battle but he survived.",
+        "CreationDate": "2025-01-01",
+        "Categories": [
+            "Doodle/Sketch",
+            "Character Art",
+            "Blood"
+        ],
+        "Characters": [
+            "Lukas"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "e011360d-d4bc-4b26-949f-a7337213cd74",
+        "PathOfImage": "./images/e011360d-d4bc-4b26-949f-a7337213cd74.png",
+        "Title": "What could have been",
+        "AltText": "",
+        "Description": "Idk why but this came to my mind while I was listening to some music on a train ride. Especially the song 'What could have been' from the series arcane gave me the idea. There were also other songs but I don't remember.",
+        "CreationDate": "2025-01-29",
+        "Categories": [
+            "Original Content",
+            "Character Art"
+        ],
+        "Characters": [
+            "Bryan",
+            "Clisty"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": "https://open.spotify.com/intl-de/track/6YB9jhzVEzw8CKeXD7Vx8j?si=32c8f88f728942bb"
+    },
+    {
+        "Id": "d72b5fc1-e483-4ea3-bf18-6a7da35ba5ca",
+        "PathOfImage": "./images/d72b5fc1-e483-4ea3-bf18-6a7da35ba5ca.jpg",
+        "Title": "Kajiiht",
+        "AltText": "",
+        "Description": "Another one of my oldest childhood drawings. Idk when I drew it but it must have been 2013 as well. Also fun fact: That Kajhiits name is also 'Clisty'. That's actually the origin of the name.",
+        "CreationDate": "2013-02-18",
+        "Categories": [
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "0533e6c7-e927-43cb-b082-f4a5b8c15982",
+        "PathOfImage": "./images/0533e6c7-e927-43cb-b082-f4a5b8c15982.jpg",
+        "Title": "Sidekick Crush",
+        "AltText": "",
+        "Description": "I think Aquvia's side kick has more fellings than a side kick should have",
+        "CreationDate": "2019-01-14",
+        "Categories": [
+            "Doodle/Sketch"
+        ],
+        "Characters": [
+            "Aquavia"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "b58984b7-1114-43e0-a734-9f24c522be91",
+        "PathOfImage": "./images/b58984b7-1114-43e0-a734-9f24c522be91.jpg",
+        "Title": "Christmas Couple",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2018-09-29",
+        "Categories": [
+            "Character Art"
+        ],
+        "Characters": [
+            "Benny",
+            "Samantha"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "a8c8c149-1b01-4670-98b5-767598ab7246",
+        "PathOfImage": "./images/a8c8c149-1b01-4670-98b5-767598ab7246.jpg",
+        "Title": "Late night smoke",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2018-09-29",
+        "Categories": [
+            "Illustration",
+            "Original Content"
+        ],
+        "Characters": [
+            "Bryan"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Digital Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "390f7620-3bf0-4cd2-b90a-0470a95effc2",
+        "PathOfImage": "./images/390f7620-3bf0-4cd2-b90a-0470a95effc2.jpg",
+        "Title": "Do not pass",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2019-01-13",
+        "Categories": [
+            "Character Art"
+        ],
+        "Characters": [
+            "Samantha"
+        ],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "8338a475-bd33-40ca-aabd-02c7fe00493d",
+        "PathOfImage": "./images/8338a475-bd33-40ca-aabd-02c7fe00493d.jpg",
+        "Title": "Bethy",
+        "AltText": "",
+        "Description": "Fanart for Glitchtale",
+        "CreationDate": "2019-02-06",
+        "Categories": [
+            "Fanart",
+            "Character Art"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "5cfb4c55-4e92-47f9-a44b-d20bdf44ba59",
+        "PathOfImage": "./images/5cfb4c55-4e92-47f9-a44b-d20bdf44ba59.jpg",
+        "Title": "Voices in the wind",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-05-17",
+        "Categories": [
+            "Illustration",
+            "Landscape"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    },
+    {
+        "Id": "d422bc66-6973-4978-8e24-e995a8c02b7f",
+        "PathOfImage": "./images/d422bc66-6973-4978-8e24-e995a8c02b7f.jpg",
+        "Title": "Duck",
+        "AltText": "",
+        "Description": "",
+        "CreationDate": "2020-04-22",
+        "Categories": [
+            "Illustration",
+            "Landscape"
+        ],
+        "Characters": [],
+        "NeedsTriggerWarning": false,
+        "Medium": "Traditional Art",
+        "YouTubeLink": "",
+        "SpotifyLink": ""
+    }
 ]

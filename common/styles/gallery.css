@@ -46,7 +46,7 @@ section{
 .triggercontainer.warning:not(.twdisabled)::after {
   position: absolute;
   content: '';
-  background: url(../../assets/tw.png);
+  background: url(../../assets/icons/tw.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -424,14 +424,17 @@ p.but:hover {
 
 .modal-infos {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
+  align-self: center;
+  grid-template-columns: 1fr 2fr;
+  gap: 1em;
   padding: 20px;
   align-items: center;
-  max-width: 100%;
+  min-width: 10%;
+  width: auto;
   height: auto;
   border-radius: 10px;
   margin: 20px 0;
+  background-color: var(--background);
   border: 1px solid var(--secondary);
 }
 
@@ -533,10 +536,12 @@ img.modal-content:hover{
     display: flex;
     align-items: center;
     flex-direction: column;
+    max-height: 600px;
+    overflow-y: auto;
   }
 
   img.modal-content {
-    max-height: 20%;
+    max-height: 400px;
     max-width: 100%;
     margin: 0;
     border: none;
