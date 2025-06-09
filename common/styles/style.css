@@ -46,6 +46,10 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
     position: absolute;
     top: 0;
@@ -130,6 +134,43 @@ body {
     z-index: 10000;
     border: none;
     margin: 0;
+}
+
+button.totop {
+    height: 2em;
+    width: 8em;
+    border-radius: 20px;
+    background-color: var(--secondary);
+    border: none;
+    position: fixed;
+    box-shadow: 2px 2px 4px var(--text);
+    color: white;
+    font-size: 12pt;
+    bottom: 1em;
+    transition: transform 0.3s, box-shadow 0.3s;
+    z-index: 10003;
+}
+
+button.totop:hover {
+    transform: translateY(-2px);
+    background-color: var(--primary);
+    box-shadow: 2px 2px 6px var(--text);
+}
+
+button.none {
+    display: none;
+}
+
+button.totop > a.totop {
+    text-decoration: none;
+    color: white;
+    background-color: none;
+}
+
+button.totop > a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: none;
 }
 
 @media (max-width: 992px) {

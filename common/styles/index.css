@@ -42,13 +42,7 @@
     font-weight: 300;
 }
 
-.sec a, .sec a :visited {
-    text-decoration: none;
-    color: var(--primary);
-    font-weight: bold;
-}
-
-a:visited {
+.sec a, .sec a:visited {
     text-decoration: none;
     color: var(--primary);
     font-weight: bold;
