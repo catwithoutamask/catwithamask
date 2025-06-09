@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html lang="en" data-theme="light">
+<head>
+    <title>Blog</title>
+    <!-- TODO: add favicon -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../../common/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../../common/styles/blog.css"> 
+    <script src="../../common/javascript/cookies.js"></script>
+    <script src="../../common/javascript/theme.js"></script>
+    <script src="../../common/javascript/menu.js"></script>
+    <script src="../../common/javascript/totop.js"></script>
+</head>
+<body>
+    <header id="header" class="header">
+        <a href="../index.html#about-me" class="logo">Catwithamask</a>
+        <div id="hamburger" class="toggle" onclick="menuToggle()"></div>
+        <ul class="navigation">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../gallery.html">Gallery</a></li>
+            <li><a href="../template.html">Characters</a></li> <!-- TODO: correct link -->
+            <li><a href="../template.html">Stories</a></li> <!-- TODO: correct link -->
+            <li><a class="active" href="../blog.html">Blog</a></li> 
+            <li><a href="../fanarts.html">Fanart</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+            <li><button class="theme" id="theme-switcher" onclick="switchTheme(data-theme)"></button></li>
+        </ul>
+    </header>
+    <div class="sec">
+        <button class="totop none" id="totop"><a class="totop" href="#header">▲ To the Top</a></button>
+        <div>
+            <!-- TODO: Fill in content -->
+            <a class="button" href="../blog.html">◀ Back</a>
+            <br>
+            <br>
+            <h2>Title goes here</h2>
+            <h3 class="date">Month xx, 20xx</h3>
+            <br>
+            <br>
+            <p>
+                This is a paragraph.
+            </p>
+            <br>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores debitis, harum aut facilis aperiam excepturi magnam minima laboriosam obcaecati tempora, ducimus ab eius corrupti animi at corporis possimus, accusantium enim.
+            </p>
+            <div class="image-box">
+                <img src="../../assets/Hammertim3.gif" alt="Lorem" class="blog-image">
+                <span class="caption">Image Caption</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

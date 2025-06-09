@@ -1,4 +1,0 @@
-  let text = document.lastModified; 
-  const date = new Date(document.lastModified);
-  console.log(text);
-  console.log(date);
