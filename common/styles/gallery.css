@@ -46,7 +46,7 @@ section{
 .triggercontainer.warning:not(.twdisabled)::after {
   position: absolute;
   content: '';
-  background: url(../../assets/tw.png);
+  background: url(../../assets/icons/tw.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
