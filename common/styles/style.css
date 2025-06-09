@@ -51,7 +51,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 80px;
+    padding: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,6 +64,7 @@ body {
     font-weight: 700;
     font-size: 2em;
     font-style: italic;
+    color: var(--text);
 }
 
 .header .navigation {

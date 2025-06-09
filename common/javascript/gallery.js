@@ -2,12 +2,12 @@ let imageList;
 let allImages;
 let filter = []
 
-fetch('../../assets/gallery/gallery-images.json')
+fetch('../../assets/gallery/image-metadata.json')
   .then(response => response.json())
   .then(loadData)
   .catch(error => console.log(error));
 
-fetch('../../assets/gallery/gallery-images.json', {method: "HEAD"})
+fetch('../../assets/gallery/image-metadata.json', {method: "HEAD"})
   .then(r => {
     // console.log(new Date(r.headers.get('Last-Modified')));
     document.getElementById('titleheader').innerText += ' ' + (new Date(r.headers.get('Last-Modified'))).toUTCString().substring(0, 22);
@@ -58,7 +58,7 @@ function storeDataInDOM(){
   
   let imagesHTML = "";
   imageList.forEach(image => {
-    let pathOfImage = "./assets/gallery/thumbnails/" + image.Id + ".thumbnail";
+    let pathOfImage = "../assets/gallery/thumbnails/" + image.Id + ".thumbnail";
     let toolTip = image.Title + "\n" + image.CreationDate;
     if(image.NeedsTriggerWarning) {
       imagesHTML += "<div title='" + toolTip + "\nDisable trigger warning to view image' class='triggercontainer warning' onclick=\"openModal('" + image.Id + "')\">";
@@ -77,7 +77,7 @@ function storeDataInDOM_withInfo(){
   
   let imagesHTML = "";
   imageList.forEach(image => {
-    let pathOfImage = "./assets/gallery/thumbnails/" + image.Id + ".thumbnail";
+    let pathOfImage = "../assets/gallery/thumbnails/" + image.Id + ".thumbnail";
 
     imagesHTML += "<div class='infos'>";
       if(image.NeedsTriggerWarning) {
@@ -280,8 +280,8 @@ function changeMediumFilter(ele) {
 function openModal(id) {
   image = imageList.find(img => img.Id === id)
   
-  document.getElementById('modalImage').src = "./assets/gallery/thumbnails/" + id + ".thumbnail";
-  document.getElementById('modalImage').src = "./assets/gallery" + image.PathOfImage.substring(1);
+  document.getElementById('modalImage').src = "../assets/gallery/thumbnails/" + id + ".thumbnail";
+  document.getElementById('modalImage').src = "../assets/gallery/" + image.PathOfImage.substring(1);
   document.getElementById('modalTitle').innerText = image.Title;
   document.getElementById('modalDate').innerText = image.CreationDate;
   document.getElementById('modalDescription').innerText = image.Description;

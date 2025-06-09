@@ -39,16 +39,15 @@ function switchThemeParallax() {
     const red2 =  document.getElementById('red-2');
     
     if(lightTheme) {
-        sun_moon.setAttribute('src', "assets/parallax/sun.png");
-        layer3.setAttribute('src', "assets/parallax/layer-3.png");
-        layer4.setAttribute('src', "assets/parallax/layer-4.png");
+        sun_moon.setAttribute('src', "../assets/parallax/sun.png");
+        layer3.setAttribute('src', "../assets/parallax/layer-3.png");
+        layer4.setAttribute('src', "../assets/parallax/layer-4.png");
         red1.classList.remove('active');
         red2.classList.remove('active');
         stars.classList.remove('active');
     }else {
-        sun_moon.setAttribute('src', "assets/parallax/moon.png");
-        layer3.setAttribute('src', "assets/parallax/layer-3-dark.png");
-        layer4.setAttribute('src', "assets/parallax/layer-4-dark.png");
+        sun_moon.setAttribute('src', "../assets/parallax/moon.png");
+        layer4.setAttribute('src', "../assets/parallax/layer-4-dark.png");
         red1.classList.add('active');
         red2.classList.add('active');
         stars.classList.add('active');
