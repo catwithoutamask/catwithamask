@@ -5,13 +5,13 @@
     <!-- TODO: add favicon -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="./common/styles/style.css">
-    <link rel="stylesheet" type="text/css" href="./common/styles/parallax.css">
-    <link rel="stylesheet" type="text/css" href="./index.css">
-    <script src="./common/javascript/cookies.js"></script>
-    <script src="./common/javascript/theme.js"></script>
-    <script src="./common/javascript/menu.js"></script>
-    <script src="./common/javascript/parallax.js"></script>
+    <link rel="stylesheet" type="text/css" href="../common/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../common/styles/parallax.css">
+    <link rel="stylesheet" type="text/css" href="../common/styles/index.css">
+    <script src="../common/javascript/cookies.js"></script>
+    <script src="../common/javascript/theme.js"></script>
+    <script src="../common/javascript/menu.js"></script>
+    <script src="../common/javascript/parallax.js"></script>
 </head>
 <body>
     <header id="header" class="header">
@@ -22,38 +22,43 @@
             <li><a href="./gallery.html">Gallery</a></li>
             <li><a href="./template.html">Characters</a></li> <!-- TODO: correct link -->
             <li><a href="./template.html">Stories</a></li> <!-- TODO: correct link -->
-            <li><a href="./blog.html">Blog</a></li> <!-- TODO: correct link -->
-            <li><a href="./template.html">Fanart</a></li> <!-- TODO: correct link -->
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./fanarts.html">Fanart</a></li> <!-- TODO: correct link -->
             <li><a href="./contact.html">Contact</a></li>
             <li><button class="theme parallax-switcher" id="theme-switcher" onclick="switchTheme(data-theme)"></button></li>
         </ul>
     </header>
     <section class="parallax">
-        <img src="assets/parallax/lines.png" id="lines" class="lines"/>
-        <img src="assets/parallax/stars.png" id="stars" class="stars"/>
-        <img src="assets/parallax/layer-1.png" id="layer-1" class="layer-1"/>
-        <img src="assets/parallax/layer-2.png" id="layer-2" class="layer-2"/>
-        <img src="assets/parallax/layer-3.png" id="layer-3" class="layer-3"/> <!--Toggle this-->
+        <img src="../assets/parallax/lines.png" id="lines" class="lines"/>
+        <img src="../assets/parallax/stars.png" id="stars" class="stars"/>
+        <img src="../assets/parallax/layer-1.png" id="layer-1" class="layer-1"/>
+        <img src="../assets/parallax/layer-2.png" id="layer-2" class="layer-2"/>
+        <img src="../assets/parallax/layer-3.png" id="layer-3" class="layer-3"/> <!--Toggle this-->
         
-        <img src="assets/parallax/red-2.jpg" id="red-2" class="red-2"/>
+        <img src="../assets/parallax/red-2.jpg" id="red-2" class="red-2"/>
         
-        <img src="assets/parallax/layer-4.png" id="layer-4" class="layer-4"/> <!--Toggle this-->
-        <img src="assets/parallax/red-1.png" id="red-1" class="red-1"/>
+        <img src="../assets/parallax/layer-4.png" id="layer-4" class="layer-4"/> <!--Toggle this-->
+        <img src="../assets/parallax/red-1.png" id="red-1" class="red-1"/>
 
-        <img src="assets/parallax/sun.png" id="sun" class="sun"/> <!--Toggle this-->
+        <img src="../assets/parallax/sun.png" id="sun" class="sun"/> <!--Toggle this-->
     </section>
     <div id="about-me" class="sec">
         <div>
             <!-- TODO: Fill in content -->
             <h2>About me</h2>
-            <p>
-                Hi, my name is Cat (short for Catwithamask) <br>
-                I am a hobby artist & writer and love to create stories!<br>
-            </p>
-            <br>
-            <p>
-                Most of my stories have fantasy aspacts to them. I mostly draw my characters but you can also finds lots of other arts here! I use both traditional artsupplies as well as digital art. But be warned, I also draw a lot of dark themes. 
-            </p>
+            <div class="two-cols">
+                <img src="../assets/Illustration.jpg" class="its-me"/>
+                <div>
+                    <p>
+                        Hi, my name is Cat (<i>short for Catwithamask</i>) <br>
+                        I am a hobby artist & writer and love to create stories!<br>
+                    </p>
+                    <br>
+                    <p>
+                        Most of my stories have fantasy aspacts to them. I mostly draw my characters but you can also finds lots of other arts here! I use both traditional artsupplies as well as digital art. But be warned, I also draw a lot of dark themes. 
+                    </p>
+                </div>
+            </div>
             <br>
             <p>
                 Stick around and take a look at my art in the <a href="./gallery.html">Gallery</a> :D
@@ -62,7 +67,7 @@
         <div>
             <br>
             <br>
-            <h3>About this site</h3>
+            <h2>About this site</h2>
             <p>
                 This site is a fun little project for me to experiment and learn more about webdesign as well as to express myself in a way no social media can provide.
             </p>
@@ -79,9 +84,6 @@
                     </li>
                     <li>
                         Stories
-                    </li>
-                    <li>
-                        Fanart
                     </li>
                 </ul>
             </p>

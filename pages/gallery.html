@@ -5,12 +5,12 @@
     <!-- TODO: add favicon -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="./common/styles/style.css">
-    <link rel="stylesheet" type="text/css" href="./gallery.css"> 
-    <script src="common/javascript/cookies.js"></script>
-    <script src="./common/javascript/theme.js"></script>
-    <script src="./common/javascript/menu.js"></script>
-    <script src="./common/javascript/gallery.js"></script>
+    <link rel="stylesheet" type="text/css" href="../common/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../common/styles/gallery.css"> 
+    <script src="../common/javascript/cookies.js"></script>
+    <script src="../common/javascript/theme.js"></script>
+    <script src="../common/javascript/menu.js"></script>
+    <script src="../common/javascript/gallery.js"></script>
 </head>
 <body>
     <header id="header" class="header">
@@ -21,8 +21,8 @@
             <li><a href="#" class="active">Gallery</a></li>
             <li><a href="./template.html">Characters</a></li> <!-- TODO: correct link -->
             <li><a href="./template.html">Stories</a></li> <!-- TODO: correct link -->
-            <li><a href="./blog.html">Blog</a></li> <!-- TODO: correct link -->
-            <li><a href="./template.html">Fanart</a></li> <!-- TODO: correct link -->
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./fanarts.html">Fanart</a></li> <!-- TODO: correct link -->
             <li><a href="./contact.html">Contact</a></li>
             <li><button class="theme" id="theme-switcher"></button></li>
         </ul>
@@ -32,7 +32,7 @@
             <div>
                 <button id="show" class="filterbtn ftoggle" onclick="filterToggle()">Show Filters</button>
                  <div id="info-container">
-                    <h2>Welcome to my gallery!</h2>
+                    <h2></h2>
                     <span id="titleheader">Last  updated: </span>
                  </div>
                 <div id="image-container" class="grid">Coudn't load the images, sorry :/</div>
@@ -170,6 +170,11 @@
                     <div>
                         <input type="checkbox" onclick="changeCharacterFilter(this)" id="15" value="Bryan"/>
                         <label for="15">Bryan</label> <br>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" onclick="changeCharacterFilter(this)" id="28" value="Cat"/>
+                        <label for="28">Cat</label> <br>
                     </div>
 
                     <div>

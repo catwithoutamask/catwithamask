@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html lang="en" data-theme="light">
+<head>
+    <title>Fanarts</title>
+    <!-- TODO: add favicon -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../common/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../common/styles/fanarts.css">
+    <script src="../common/javascript/cookies.js"></script>
+    <script src="../common/javascript/theme.js"></script>
+    <script src="../common/javascript/menu.js"></script>
+    <script src="../common/javascript/fanarts.js"></script>
+</head>
+<body>
+    <header id="header" class="header">
+        <a href="./index.html#about-me" class="logo">Catwithamask</a>
+        <div id="hamburger" class="toggle" onclick="menuToggle()"></div>
+        <ul class="navigation"> <!-- TODO: set the right button to active -->
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./template.html">Characters</a></li> <!-- TODO: correct link -->
+            <li><a href="./template.html">Stories</a></li> <!-- TODO: correct link -->
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="#" class="active">Fanart</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><button class="theme" id="theme-switcher" onclick="switchTheme(data-theme)"></button></li>
+        </ul>
+    </header>
+    <section class="sec">
+        <div id="info-container">
+            <h1>Art made by people who enjoy my content :3</h1>
+        </div>
+        <div id="image-container" class="grid gallery">Coudn't load the images, sorry :/</div>
+        <p class="disclamer">
+            Art is posted here with consent from the artists. If you are one of the artist and have changed your mind: please <a href="./contact.html">contact me</a> to let me know! As soon as I can I will remove it and inform you.
+        </p>
+    </section>
+</body>
+</html>
