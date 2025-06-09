@@ -1,0 +1,76 @@
+.sec {
+    position: relative;
+    padding: 100px;
+    background-color: var(--background);
+
+    font-size: 15px;
+    line-height: 1.8;
+    letter-spacing: 0.15em;
+    font-weight: 600;
+    font-style: normal;
+    
+    display: grid;
+    justify-items: center;
+}
+
+.two-cols {
+    display: flex;
+    gap: 5em;
+    justify-items: start;
+}
+
+.two-cols > img {
+    border-radius: 10px;
+    max-width: 200px;
+}
+
+.sec div {
+    width: 80%;
+}
+
+.sec div div {
+    width: 100%;
+}
+
+.sec h2 {
+    font-size: 3em;
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+.sec p {
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.sec a, .sec a :visited {
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.sec a:hover {
+    text-decoration: underline;
+    color: var(--accent);
+}
+
+.sec ul {
+    padding-left: 15px;
+}
+
+@media (max-width: 992px) {
+    .sec {
+        padding: 20px;
+    }
+    .sec h2 {
+        font-size: 2em;
+    }
+    .sec div {
+        width: 100%;
+    }
+}

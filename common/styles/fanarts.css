@@ -1,0 +1,81 @@
+section{
+  padding: 6em 2em;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  font-size: 2em;
+  color: var(--text);
+}
+
+.sec a, .sec a:visited {
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.sec a:hover {
+    text-decoration: underline;
+    color: var(--accent);
+}
+
+.disclamer{
+  text-align: center;
+  margin-top: 10em;
+  opacity: 50%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-item {
+  padding: 1.5rem;
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  box-shadow: 0 6px 12px var(--secondary, 0.15);
+  transition: box-shadow 0.3s, transform 0.3s;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.gallery-item:hover {
+  box-shadow: 0 10px 20px var(--primary, 0.2); 
+  transform: translateY(-5px);
+}
+
+.gallery-item img {
+  align-self: center;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border: 8px solid var(--frame-color);
+  box-shadow: inset 0 0 0 3px var(--background, 0.2);
+  margin-bottom: 0.5rem;
+  transition: transform 0.3s;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-item p {
+  color: var(--text);
+  opacity: 50%;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+a.artist {
+    color: var(--text);
+}
