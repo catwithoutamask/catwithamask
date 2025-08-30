@@ -14,28 +14,13 @@
     --accent: #f7401a;
 }
 
-/* Scrollbar styles */
-::-webkit-scrollbar {
-    background: rgb(31, 31, 31);
-    width: 15px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: rgb(50, 50, 50); 
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: rgb(88, 88, 88);
-    cursor: grab;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: var(--text);
-    scrollbar-color: var(--secondary) var(--primary);
-    scrollbar-width: thin;
+    scrollbar-color: var(--primary) var(--background);
+    scrollbar-width: auto;
 }
 
 body {
