@@ -14,7 +14,7 @@
 }
 
 .sec h2 {
-    font-size: 3em;
+    font-size: 2em;
     color: var(--primary);
     margin-bottom: 10px;
 }
@@ -80,11 +80,6 @@ article .date {
 article:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 15px var(--secondary, 0.1);
-}
-
-article h2 {
-    margin-bottom: 1rem;
-    color: var(--primary);
 }
 
 article p {
