@@ -285,6 +285,15 @@ function openModal(id) {
   document.getElementById('modalTitle').innerText = image.Title;
   document.getElementById('modalDate').innerText = image.CreationDate;
   document.getElementById('modalDescription').innerText = image.Description;
+
+  let imagesHTML = "";
+  if(image.YouTubeLink) {
+    imagesHTML += "<a target='_blank' href='" + image.YouTubeLink + "' class='filterbtn'>Speedart on YouTube</a>";
+  }
+  if(image.SpotifyLink) {
+    imagesHTML += "<a target='_blank' href='" + image.SpotifyLink + "' class='filterbtn'>Inspiration</a>";
+  }
+  document.getElementById('links').innerHTML = imagesHTML
   
   document.getElementById('imageModal').style.display = 'flex';
 }
