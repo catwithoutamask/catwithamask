@@ -17,7 +17,7 @@ async function loadCharacterOverview() {
                 <div class="character-grid">
                     ${grouped[groupName].map(c => `
                         <div class="character-card" onclick="window.location.href='./character_sheet.html#${c.id}'">
-                            <img src="${c.thumbnail}" alt="${c.name}">
+                            <img src="${c.thumbnail}">
                             <div class="card-body">
                                 <h4>${c.name}</h4>
                             </div>

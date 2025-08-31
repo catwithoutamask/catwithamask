@@ -1,12 +1,32 @@
+.sec{
+  padding: 10em 2em;
+}
+
+.sec h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sec p {
+    font-size: 1.1em;
+    font-weight: 300;
+    text-align: center;
+}
+
 .character-group {
-    margin-bottom: 3em;
+    scroll-margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 
 .character-group h3 {
     font-size: 2em;
-    color: var(--primary);
+    color: var(--secondary);
     margin-bottom: 1em;
-    text-align: left;
+    margin-top: 2em;
+    text-align: center;
 }
 
 .character-grid {
