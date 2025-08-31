@@ -34,13 +34,11 @@ section{
   user-select: none;
   border-radius: 5px;
   position: relative;
-  width: fit-content;
   justify-self: center;
 }
 
 .triggercontainer.warning:not(.twdisabled) img {
-  filter: blur(10px);
-  position: relative;
+  filter: blur(5px);
 }
 
 .triggercontainer.warning:not(.twdisabled)::after {
@@ -62,20 +60,6 @@ section{
   justify-content: center;
 }
 
-img {
-  max-height: 300px;
-  width: auto;
-  vertical-align: middle;
-  display: inline;
-  object-fit: fill;
-  
-  background-color: black;
-  user-select: none;
-  
-  box-shadow: 0 2px 6px var(--text);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
 img:hover, .triggercontainer.warning:hover{
   transform: translateY(-5px);
   box-shadow: 0 8px 15px var(--primary, 0.1);
@@ -88,13 +72,10 @@ img:hover, .triggercontainer.warning:hover{
 }
 
 #image-container.grid > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
+  margin-bottom: .5em;
 }
 
-#image-container > div {
+#image-container:not(.grid) > div {
   display: grid;
   grid-template-columns: 1fr 2fr;
   justify-content: center;
@@ -104,19 +85,20 @@ img:hover, .triggercontainer.warning:hover{
 
 #image-container > div > img {
   width: 100%;
-  height: 100%;
-  border-radius: 5px;
+  height: auto;
+  object-fit: contain;
 }
 
 #image-container.grid{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  column-count: auto;
+  column-width: 250px;
+  column-gap: 0.5em;
+  column-fill: balance;
 }
 
-#image-container{
+#image-container:not(.grid){
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

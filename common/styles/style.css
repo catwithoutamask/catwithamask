@@ -2,16 +2,18 @@
     --text: #050315;
     --background: #fbfbfe;
     --primary: #5a94e5;
-    --secondary: #adabd3;
+    --secondary: #c7d2f1;
     --accent: #70d074;
+    --soft_shadow: rgba(0,0,0,0.2)
 }
 
 :root[data-theme="dark"] {
     --text: #f1e2e0;
     --background: #090606;
-    --secondary: #e69686;
     --primary: #912611;
+    --secondary: #e69686;
     --accent: #f7401a;
+    --soft_shadow: rgba(255,255,255,0.2)
 }
 
 * {
@@ -20,7 +22,7 @@
     box-sizing: border-box;
     color: var(--text);
     scrollbar-color: var(--primary) var(--background);
-    scrollbar-width: auto;
+    scrollbar-width: thin;
 }
 
 body {
