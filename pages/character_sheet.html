@@ -10,6 +10,9 @@
     <script src="../common/javascript/cookies.js"></script>
     <script src="../common/javascript/theme.js"></script>
     <script src="../common/javascript/menu.js"></script>
+    <script src="../common/javascript/character_sheet/loadCharacter.js"></script>
+    <script src="../common/javascript/character_sheet/loadOriginalArt.js"></script>
+    <script src="../common/javascript/character_sheet/loadFanArt.js"></script>
 </head>
 <body>
     <header id="header" class="header">
@@ -28,79 +31,46 @@
     </header>
     <section class="character-sheet">
         <!-- Character Info -->
-        <h2>Elara Nightshade</h2>
+        <h2 id="fullname"><!--Filled on load--></h2>
         <div class="character-header">
             <div class="character-details">
-                <p><strong>Age:</strong> 29</p>
-                <p><strong>Height:</strong> 170 cm</p>
+                <p id="age"><!--Filled on load--></p>
+                <p id="height"><!--Filled on load--></p>
                 <h3>Appearance</h3>
-                <p>
-                    <b>Witch:</b> Like all the other witches he has pale as snow skin. His eyes are a warm yellow and he has pastel blue hair. His eyes became less bright once he started to learn and use red magic, and his hair began slowly to turn black
-                    <br><br>
-                    <b>Random kid/ghost:</b> The kid has normal skin color, dark blue eyes and black thin hair which was about shoulder length. The clothes were made just out of thin cloth, ripped off on the sleeves and feet and also a bit dirty. He was also barefoot. When Lukas got the body to himself the eyes became purple and he got sharp fangs.
-                    <br><br>
-                    <b>Demon:</b> He is just a black thing as he is void of light. His eyes and mouth are completely inhuman.
-                    <br><br>
-                    <b>In Part 3:</b> his body was once Clisty's so it has the same body but he used a transformation spell (yet again) so that is looks more like he wants it.
-                    He has long black hair, that he braids the way he used to do. He wears a white blouse, plack pants and boots. Wen he walks as a "king" he wears a crown and a dark cape, that is ripped at the bottom.
-                    His eyes are magenta and he has his fangs again.
+                <p id="appearance">
+                    No Information available yet.
                 </p>
             </div>
-            <div class="character-image"></div>
+            <div class="character-image" id="character-image"><!--Filled on load--></div>
         </div>
 
         <!-- Color Palette -->
         <div class="color-palette">
             <h3>Color Palette</h3>
-            <div class="palette">
-                <div class="color-swatch" style="background-color: #6A5ACD;">#6A5ACD</div>
-                <div class="color-swatch" style="background-color: #2F4F4F;">#2F4F4F</div>
-                <div class="color-swatch" style="background-color: #8B0000;">#8B0000</div>
-                <div class="color-swatch" style="background-color: #D8BFD8;">#D8BFD8</div>
-                <div class="color-swatch" style="background-color: #000000;">#000000</div>
+            <div class="palette" id="palette">
             </div>
         </div>
 
         <!-- Descriptions -->
         <div class="character-descriptions">
             <h3>Personality</h3>
-            <p>
-                Lukas was always very impulsive and easily lost his temper but Clisty always new how to calm him down. Lukas was very protective over his sister even if he was kinda jealous of her powers. He often thought that her power was stronger than his and that their parents loved her more (which wasn't true). Deep down in his personality he is really manipulative and loves to manipulate others. He has a high interest in red magic. When he made himself into a demon his goal became to enslave humanity, because he needed that assurance of control and power. Also because he got a hatred towards humans because of the cultists. He strives for power and control and hates it when he feels powerless.
+            <p id="personality">
+                No Information available yet.
             </p>
 
             <h3>Backstory</h3>
-            <p>
-                Born in 1121 as a witch and Clisty's younger brother (2 years) Lukas grew up with a happy family. His parents were some kind of Landlords so they were a bit wealthy and could grow up in a more luxury life. Their parents were also mages and thus capable of magic. Even if Lukas was the younger sibling, he should get the land they owned if their father died. Both Lukas and Clisty got training in fighting and magic by their parents (father did the combat training and mother the magic training). First only Lukas got combat training but when the cultists started hunting down for mages and witches Clisty also began to be trained in combat. Lukas was never really good in combat and Clisty learned pretty quickly. 1137 the cultists attacked their family, killing their parents and capturing Clisty. The cultists knew that they couldn't just kill Lukas once so they impaled him with a sword that pinned him to the ground. Leaving Lukas in an endless death situation.
-                <br><br>
-                It took Lukas a while to free himself from the sword and he was of course really exhausted from reviving himself. The wound was more or less healed because he came to life with the sword still in his body and had to ripp it out. Healing himself was not possible in this moment so he had to improvise. Lukas' only goal now was to save his sister and get rid of the cultists.
-                <br><br>
-                But he knew that he wouldn't be capeble to do so in the state he was in. Also he knew that he was bad in fighting and for him the ability to heal wouldn't help much with that. So he decided to look up in the magic lexikon. Of course he stumbled upon red magic and it peaked his interest. He prepared himself to save Clisty. Lukas used red magic to heal himself, to make himself stronger and to conquer the base of the cultists. That was just one base from many so he didn't get rid of the whole organisation. But he successfully saved his sister.
-                <br><br>
-                Lukas found out that he felt way stronger when using red magic and he enjoyed feeling powerful. So he secretly trained more. But one day, Clisty caught him training and trapped Lukas in the pentagram he was standing. She took him to talk but failed. He tried to convince Clisty that the humans have wronged them and if humans already fear them, witches should show them what they are really capable of. But Clisty refused to think that way. She believed in the good of humanity and that their purpose was to protect the humans from evil, Lukas for example. When he saw the sword in her hand he knew what was going to happen, so he prepared a spell in his head. Before he died Lukas looked his sister in the eyes with a smile on his face, telling her that she just made a horrible mistake. With his last strength he turned his soul into a demon. His being for now being trapped in the inbetween, detached from his body.
-                <br><br>
-                It took Lukas a while to figure out how to benefit from his new powers. His main focus was on the power of manipulation. With that he was able to stay in the inbetween. After a while of exploring and experimenting he found out that sometimes there were weak spots in the inbetween. Also that sometimes he could reach out to the living. Lukas did what most demons did and tried to find a host. This turned out more dufficult than he expected it due to a few reasons:
-                <br><br>
-                - He unlike most demons had not the strength of a spirit but of a soul (which is way more)
-                - A lot of his hosts either died or they managed to get rid of him which made his stay little
-                <br><br>
-                But as time went on and he experimented more and more. His best shots were mages as it helped him to manifest his own magic. Rarely he actually tried to possess the person, as this often either didn't work or he was spotted. So he kept an eye open for people who are easielly manipulatable. 
-                <br><br>
-                There were a few candidates but his best shot so far was a little scared boy, Bryan. Lukas found him crying in the inbetween and to take a closer look at the kid, he slowed down time. The kid already seemed scared so Lukas decided
+            <p id="backstory">
+                No Information available yet.
+                
+                
             </p>
         </div>
 
         <!-- Relationships -->
         <div class="relationships">
             <h3>Relationships</h3>
-            <div class="relationship-gallery">
-                <div class="relationship-card">
-                    <div class="relationship-image" style="background-image: url('path-to-character-image1.jpg');"></div>
-                    <div class="relationship-details">
-                        <h4>Character Name 1</h3>
-                        <p><strong>Relation:</strong> Friend</p>
-                        <p><strong>Backstory:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor augue non orci facilisis.</p>
-                    </div>
-                </div>
+            <div class="relationship-gallery" id="relationships">
+                
 
                 <div class="relationship-card">
                     <div class="relationship-image" style="background-image: url('path-to-character-image2.jpg');"></div>
@@ -125,21 +95,16 @@
 
         <!-- Original Artwork -->
         <div class="art-section">
-            <h3>Original Artwork</h3>
-            <div class="art-gallery">
-                <div class="art-placeholder">Art 1</div>
-                <div class="art-placeholder">Art 2</div>
-                <div class="art-placeholder">Art 3</div>
+            <h3 id="art-section"></h3>
+            <div class="art-gallery" id="art-gallery">
+                <h4>No Art made yet.</h4>
             </div>
         </div>
 
         <!-- Fanart -->
         <div class="art-section">
-            <h3>Fanart</h3>
-            <div class="art-gallery">
-                <div class="art-placeholder">Fanart 1</div>
-                <div class="art-placeholder">Fanart 2</div>
-                <div class="art-placeholder">Fanart 3</div>
+            <h3 id="fanart-title"></h3>
+            <div class="art-gallery" id="fanart-gallery">
             </div>
         </div>
 
