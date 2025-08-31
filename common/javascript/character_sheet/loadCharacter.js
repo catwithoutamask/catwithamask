@@ -45,9 +45,13 @@ async function renderCharacter(character) {
     document.getElementById('height').innerHTML = "<strong>Height:</strong> " + character.height;
     document.getElementById('character-image').innerHTML = "<img src=\"../../assets/characters/" + characterId + "/character_image.png\"/>";
 
-    document.getElementById('appearance').innerHTML = character.appearance;
-    document.getElementById('personality').innerHTML = character.personality;
-    document.getElementById('backstory').innerHTML = character.backstory;
+    let sheetAppearance = document.getElementById('appearance');
+    let sheetPersonality = document.getElementById('personality');
+    let sheetBackstory = document.getElementById('backstory');
+
+    character.appearance ? sheetAppearance.innerHTML = character.appearance : sheetAppearance.innerHTML = "No Information available yet.";
+    character.personality ? sheetPersonality.innerHTML = character.personality : sheetPersonality.innerHTML = "No Information available yet.";
+    character.backstory ? sheetBackstory.innerHTML = character.backstory : sheetBackstory.innerHTML = "No Information available yet.";
 
     let palette = document.getElementById('palette');
     let paletteHTML = "";
@@ -62,7 +66,7 @@ async function renderCharacter(character) {
     console.log(character.relationships)
     character.relationships.forEach(rel => {
       relHTML += "<div class=\"relationship-card\">";
-      relHTML += "<div class=\"relationship-image\" style=\"background-image: url(\'" + rel.image_url + "\'); background-size: 100px 100px; background-repeat: no-repeat;\"></div>";
+      relHTML += "<div class=\"relationship-image\" style=\"background-image: url(\'" + rel.image_url + "\'); background-repeat: no-repeat;\"></div>";
       relHTML += "<div class=\"relationship-details\">";
       relHTML += "<h4> <a href=\"#" + rel.id + "\">" + rel.name + "</a></h4>";
       relHTML += "<p><strong>Relation:</strong> " + rel.relation + "</p>";
