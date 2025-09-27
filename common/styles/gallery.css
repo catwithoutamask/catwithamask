@@ -72,7 +72,11 @@ img:hover, .triggercontainer.warning:hover{
 }
 
 #image-container.grid > div {
-  margin-bottom: .5em;
+  flex: 1;
+}
+
+#image-container.grid > div > div {
+  margin-bottom: 1em;
 }
 
 #image-container:not(.grid) > div {
@@ -83,20 +87,17 @@ img:hover, .triggercontainer.warning:hover{
   margin: 10px;
 }
 
-#image-container > div > img {
+#image-container > div > div > img {
+  display: block;
   width: 100%;
-  height: auto;
   object-fit: contain;
 }
 
 #image-container.grid{
-  max-width: 1200px;
-  margin: 0 auto;
-  column-count: auto;
-  column-width: 250px;
-  column-gap: 0.5em;
-  column-fill: balance;
-}
+  display: flex;
+  justify-content: space-around;
+  gap: 1em;
+} 
 
 #image-container:not(.grid){
   display: flex;
@@ -541,12 +542,6 @@ img.modal-content:hover{
 }
 
 @media (max-width: 768px) {
-  #image-container > div {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5em;
-  }
-
   #image-container.grid {
     margin-top: 3em;
   }
