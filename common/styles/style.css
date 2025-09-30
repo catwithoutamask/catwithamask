@@ -100,7 +100,7 @@ html {
     width: 50px;
     height: 50px;
     cursor: pointer;
-    background: url(../../assets/icons/dark2.png);
+    background: url(../../assets/icons/moon.svg);
     background-size: 30px;
     background-position: center; 
     background-repeat: no-repeat;
@@ -114,7 +114,7 @@ html {
     width: 50px;
     height: 50px;
     cursor: pointer;
-    background: url(../../assets/icons/light.png);
+    background: url(../../assets/icons/sun.svg);
     background-size: 30px;
     background-position: center; 
     background-repeat: no-repeat;
@@ -178,7 +178,7 @@ button.totop > a:hover {
         width: 30px;
         height: 30px;
         cursor: pointer;
-        background: url(../../assets/icons/menu2.png);
+        background: url(../../assets/icons/menu_light.svg);
         background-size: 30px;
         background-position: center;
         background-repeat: no-repeat;
@@ -186,18 +186,18 @@ button.totop > a:hover {
     }
 
     .toggle.dark {
-        background: url(../../assets/icons/menu.png);
+        background: url(../../assets/icons/menu_dark.svg);
     }
 
     .toggle.active {
         position: fixed;
         top: 20px;
         right: 20px;
-        background: url(../../assets/parallax/close2.png);
+        background: url(../../assets/icons/close_light.svg);
     }
 
     .toggle.active.dark {
-        background: url(../../assets/parallax/close.png);
+        background: url(../../assets/icons/close_dark.svg);
     }
 
     .header .navigation li {
