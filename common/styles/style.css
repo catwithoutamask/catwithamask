@@ -2,16 +2,18 @@
     --text: #050315;
     --background: #fbfbfe;
     --primary: #5a94e5;
-    --secondary: #adabd3;
+    --secondary: #c7d2f1;
     --accent: #70d074;
+    --soft_shadow: rgba(0,0,0,0.2)
 }
 
 :root[data-theme="dark"] {
     --text: #f1e2e0;
     --background: #090606;
-    --secondary: #e69686;
     --primary: #912611;
+    --secondary: #e69686;
     --accent: #f7401a;
+    --soft_shadow: rgba(255,255,255,0.2)
 }
 
 * {
@@ -20,7 +22,7 @@
     box-sizing: border-box;
     color: var(--text);
     scrollbar-color: var(--primary) var(--background);
-    scrollbar-width: auto;
+    scrollbar-width: thin;
 }
 
 body {
@@ -98,7 +100,7 @@ html {
     width: 50px;
     height: 50px;
     cursor: pointer;
-    background: url(../../assets/icons/dark2.png);
+    background: url(../../assets/icons/moon.svg);
     background-size: 30px;
     background-position: center; 
     background-repeat: no-repeat;
@@ -112,7 +114,7 @@ html {
     width: 50px;
     height: 50px;
     cursor: pointer;
-    background: url(../../assets/icons/light.png);
+    background: url(../../assets/icons/sun.svg);
     background-size: 30px;
     background-position: center; 
     background-repeat: no-repeat;
@@ -176,7 +178,7 @@ button.totop > a:hover {
         width: 30px;
         height: 30px;
         cursor: pointer;
-        background: url(../../assets/icons/menu2.png);
+        background: url(../../assets/icons/menu_light.svg);
         background-size: 30px;
         background-position: center;
         background-repeat: no-repeat;
@@ -184,18 +186,18 @@ button.totop > a:hover {
     }
 
     .toggle.dark {
-        background: url(../../assets/icons/menu.png);
+        background-image: url(../../assets/icons/menu_dark.svg);
     }
 
     .toggle.active {
         position: fixed;
         top: 20px;
         right: 20px;
-        background: url(../../assets/parallax/close2.png);
+        background-image: url(../../assets/icons/close_light.svg);
     }
 
     .toggle.active.dark {
-        background: url(../../assets/parallax/close.png);
+        background-image: url(../../assets/icons/close_dark.svg);
     }
 
     .header .navigation li {

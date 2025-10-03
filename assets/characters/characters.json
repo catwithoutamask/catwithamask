@@ -1,0 +1,11 @@
+{
+  "characters": [
+    {
+      "id": "Cat",
+      "name": "Cat",
+      "thumbnail": "../assets/characters/Cat/character_image.png",
+      "group": "Persona"
+    }
+
+  ]
+}

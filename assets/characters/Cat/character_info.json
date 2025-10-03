@@ -1,0 +1,28 @@
+{
+  "character": {
+    "name": "Cat (short for Catwithamask)",
+    "age": "23",
+    "height": "5' 6''",
+    "appearance": 
+      "",
+    "personality": 
+      "",
+    "backstory": 
+      "",
+    "color_palette": [
+      ["Mask", "#e6e5e3"],
+      ["Goo", "#c06fdb"],
+      ["Stones", "#9886c4"],
+      ["Hair", "#b19d79"],
+      ["Hairstreak", "#5b9d8c"],
+      ["Skin", "#e1c5af"],
+      ["Eyes", "#5c969d"],
+      ["Bandana", "#593b80"],
+      ["Shirt", "#b69de9"],
+      ["Pants", "#8899a4"],
+      ["Socks", "#eac2e1"]
+    ],
+    "relationships": [
+    ]
+  }
+}
