@@ -5,67 +5,6 @@
       "name": "Cat",
       "thumbnail": "../assets/characters/Cat/character_image.png",
       "group": "Persona"
-    },
-
-    {
-      "id": "Lukas",
-      "name": "Lukas Farhal",
-      "thumbnail": "../assets/characters/Lukas/character_image.png",
-      "group": "A demon's promise"
-    },
-    {
-      "id": "Clisty",
-      "name": "Clisty Farhal",
-      "thumbnail": "../assets/characters/Clisty/character_image.png",
-      "group": "A demon's promise"
-    },
-    {
-      "id": "Delyria",
-      "name": "Delyria Hyhra",
-      "thumbnail": "../assets/characters/Delyria/character_image.png",
-      "group": "A demon's promise"
-    },
-    {
-      "id": "Hestya",
-      "name": "Hestya Blakwei",
-      "thumbnail": "../assets/characters/Hestya/character_image.png",
-      "group": "A demon's promise"
-    },
-    {
-      "id": "Bryan",
-      "name": "Bryan Collier",
-      "thumbnail": "../assets/characters/Bryan/character_image.png",
-      "group": "A demon's promise"
-    },
-    {
-      "id": "Lillieth",
-      "name": "Lillieth Collier",
-      "thumbnail": "../assets/characters/Lillieth/character_image.png",
-      "group": "A demon's promise"
-    },
-    {
-      "id": "Jane",
-      "name": "Jane Collier",
-      "thumbnail": "../assets/characters/Jane/character_image.png",
-      "group": "A demon's promise"
-    },
-    {
-      "id": "Nathan",
-      "name": "Nathan Walt",
-      "thumbnail": "../assets/characters/Nathan/character_image.png",
-      "group": "A demon's promise"
-    },
-    {
-      "id": "Dennis",
-      "name": "Dennis Rothschild",
-      "thumbnail": "",
-      "group": "A demon's promise"
-    },
-    {
-      "id": "Dennis",
-      "name": "Dennis Rothschild",
-      "thumbnail": "",
-      "group": "A demon's promise"
     }
 
   ]
