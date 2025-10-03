@@ -186,18 +186,18 @@ button.totop > a:hover {
     }
 
     .toggle.dark {
-        background: url(../../assets/icons/menu_dark.svg);
+        background-image: url(../../assets/icons/menu_dark.svg);
     }
 
     .toggle.active {
         position: fixed;
         top: 20px;
         right: 20px;
-        background: url(../../assets/icons/close_light.svg);
+        background-image: url(../../assets/icons/close_light.svg);
     }
 
     .toggle.active.dark {
-        background: url(../../assets/icons/close_dark.svg);
+        background-image: url(../../assets/icons/close_dark.svg);
     }
 
     .header .navigation li {
