@@ -277,18 +277,16 @@ function compareBy(property, direction){
   }
 }
 
-function toggleDropdown(){
-  document.getElementById("dd_menu").classList.toggle("show");
-}
+ // Dropdown toggle
+document.getElementById("dd_button").addEventListener('click', function() {
+  this.parentElement.classList.toggle('open');
+});
 
-window.onclick = function(event) {
-  if(!event.target.matches('.dropdownbtn')) {
-    let dropdowns = document.getElementById("dd_menu");
-    if(dropdowns.classList.contains('show')){
-      dropdowns.classList.remove('show');
-    }
-  }
-}
+// Close dropdown on outside click
+document.addEventListener('click', function(e) {
+  const dropdown = document.getElementById('dropdown');
+  if (!dropdown.contains(e.target)) dropdown.classList.remove('open');
+});
 
 function toggleSortDirection() {
   let property = document.getElementById("dd_button").innerHTML;

@@ -7,12 +7,12 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../../common/styles/style.css">
     <link rel="stylesheet" type="text/css" href="../../common/styles/blog.css"> 
-    <script src="../../common/javascript/cookies.js"></script>
-    <script src="../../common/javascript/theme.js"></script>
-    <script src="../../common/javascript/menu.js"></script>
-    <script src="../../common/javascript/totop.js"></script>
+    <script src="../../common/javascript/utils/cookies.js"></script>
+    <script src="../../common/javascript/utils/theme.js"></script>
+    <script src="../../common/javascript/utils/menu.js"></script>
+    <script src="../../common/javascript/utils/totop.js"></script>
 </head>
-<body>
+<body id="top">
     <header id="header" class="header">
         <a href="../../index.html#about-me" class="logo">Catwithamask</a>
         <div id="hamburger" class="toggle" onclick="menuToggle()"></div>
@@ -27,11 +27,10 @@
             <li><button class="theme" id="theme-switcher" onclick="switchTheme(data-theme)"></button></li>
         </ul>
     </header>
-    <div class="sec">
-        <button class="totop none" id="totop"><a class="totop" href="#header">▲ To the Top</a></button>
+    <section class="section blog">
+        <a class="button primary totop none" id="totop" href="#top">▲ To the Top</a>
         <div>
-            <!-- TODO: Fill in content -->
-             <a class="button" href="../blog.html">◀ Back</a>
+            <a class="button primary" href="../blog.html">◀ Back</a>
             <br>
             <br>
             <h2>The Halloween Saga</h2>
@@ -53,12 +52,10 @@
             <p>
                 So of course I did it, and the first result was some sort of candy. And because I was not planning on making an actual Halloween costume that year, I thought it would be funny to dress my characters up for Halloween. And with Clisty and Bryan being my only two characters back then, they became my "test subjects". So Clisty was the "lucky" one who got the candy as a costume and Bryan just got a standard skeleton costume cuz I was like "that's cool enough for him".
             </p>
-            <br>
             <div class="image-box">
                 <img src="../../assets/blog/HalloweenSaga/Halloween_2017.jpg" alt="Halloween 2017" class="blog-image">
                 <span class="caption">Halloween 2017</span>
             </div>
-            <br>
             <p>
                 And just like this a little tradition was born :D
             </p>
@@ -70,36 +67,29 @@
             <p>
                 So with Bryan being the one getting the dress, I decided to give Clisty my own Halloween costume for that year (I had made a makeshift costume for <i></i><a href="https://duckduckgo.com/?t=ffab&q=Error+sans&iax=images&ia=images" target="_blank" rel="nofollow noreferrer">Error!Sans</a></i>).
             </p>
-            <br>
             <div class="image-box">
                 <img src="../../assets/blog/HalloweenSaga/Halloween_2018.jpg" alt="Halloween 2018" class="blog-image">
                 <span class="caption">Halloween 2018</span>
             </div>
-            <br>
             <p>
                 In 2019 I didn't really notice the trend going around again, but still I wanted to continue the Halloween Saga. So I came up with fitting costumes. Clisty, being an actual witch, got to dress up as a classic Halloween witch. And Bryan, he got a cat onesie, "because he is a cat" (him being a cat originated from a time I drew them as cats). That year, I went all out and made a comic where it lead to Clisty actually turning Bryan into a cat. I won't include the comic here, but you can <a href="https://www.instagram.com/p/B4RDMr7i--T/?igsh=MTZzODRpeDZxcWVzcQ==" target="_blank" rel="nofollow noreferrer">check it out on Instagram</a>.  
             </p>
-            <br>
             <div class="image-box">
                 <img src="../../assets/blog/HalloweenSaga/Halloween_2019.jpg" alt="Halloween 2019" class="blog-image">
                 <span class="caption">Halloween 2019</span>
             </div>
-            <br>
             <div class="image-box">
-                <h3>Bonus drawing with Bryan actually being a cat:</h3>
+                <h4>Bonus drawing with Bryan actually being a cat:</h4>
                 <img src="../../assets/blog/HalloweenSaga/Halloween_2019_Bonus.jpg" alt="Bonus for Halloween 2019" class="blog-image">
                 <span class="caption">Halloween 2019</span>
             </div>
-            <br>
             <p>
                 Lastly in 2020 they got a bit more fitting costumes. I wanted to give a homage to my first inspiration for Bryan as well as having them complementary costumes. So obviously Bryan got to dress as purple guy from FNAF and fitting to that Clisty got to dress as one of the ghosts. Those who know a bit more about my stories will understand why she got to dress as one of the ghosts.
             </p>
-            <br>
             <div class="image-box">
                 <img src="../../assets/blog/HalloweenSaga/Halloween_2020.png" alt="Halloween 2020" class="blog-image">
                 <span class="caption">Halloween 2020</span>
             </div>
-            <br>
             <p>
                 Unfortunately that was the end of the Halloween Saga (for now). On the fifth year (2021) I did start a drawing but was not happy how it was turning out, so it will just never see the light of day :)
                 <br>
@@ -114,6 +104,10 @@
                 I might get back to it. We will have to see.
             </p>
         </div>
-    </div>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>© 2025 Catwithamask. All rights reserved.</p>
+    </footer>
 </body>
 </html>

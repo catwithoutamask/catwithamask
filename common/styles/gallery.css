@@ -1,19 +1,16 @@
-
 h3 {
-  color: var(--primary);
-  padding: 1em;
+  padding-bottom: var(--space-10);
 }
 
-h2 {
-  padding: 1em 0;
-  text-align: left;
-  justify-self: start;
-  padding-left: 2em;
-  color: var(--primary);
+.section {
+  min-width: 100%;
+  padding: 6em 2em;
+  display: grid;
+  justify-items: center;
 }
 
 span {
-  color: var(--text);
+  color: var(--color-text);
   opacity: 50%;
 }
 
@@ -25,12 +22,8 @@ span {
   font-weight: bold;
 }
 
-section{
-  padding: 6em 2em;
-}
-
 .triggercontainer.warning:not(.twdisabled) {
-  border: 3px solid var(--text);
+  border: 3px solid var(--color-text);
   user-select: none;
   border-radius: 5px;
   position: relative;
@@ -62,13 +55,13 @@ section{
 
 img:hover, .triggercontainer.warning:hover{
   transform: translateY(-5px);
-  box-shadow: 0 8px 15px var(--primary, 0.1);
+  box-shadow: 0 8px 15px var(--color-accent, 0.1);
 }
 
 .gallery {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  gap: 1em;
+  gap: var(--space-14);
 }
 
 #image-container.grid > div {
@@ -140,88 +133,94 @@ div.links > a {
 .sort-container {
   padding: 1em;
   display: flex;
-  align-items: baseline;
-  justify-content: flex-end;
-  justify-self: flex-end;
+  align-items: end;
+  justify-content: space-evenly;
+  justify-self: center;
 }
 
 .dropdownbtn {
-  background-color: var(--secondary);
-  color: var(--text);
+  background-color: var(--color-accent-light);
+  color: var(--color-text);
   padding: 5px 10px;
   font-size: 16px;
   border: none;
   cursor: pointer;
   border-radius: 20px;
-  min-width: 130px;
+  min-width: 140px;
   user-select: none;
 }
 
 .dropdownbtn:hover, .dropdownbtn:focus{
-  background-color: var(--text);
-  color: var(--secondary);
+  background-color: var(--color-text);
+  color: var(--color-accent-light);
 }
 
 .filterbtn {
-  background-color: var(--secondary);
-  color: var(--text);
-  padding: 5px 10px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-  border-radius: 20px;
-  min-width: 130px;
-  user-select: none;
-  border: 1px solid var(--background);
   align-self: center;
   margin: auto;
 }
 
-.filterbtn.remove {
-  background-color: var(--primary);
-}
-
-.filterbtn.toggle {
-  display: none;
-}
-
-.filterbtn:hover{
-  background-color: var(--text);
-  color: var(--background);
-}
-
+/* Dropdown Container */
 .dropdown {
   position: relative;
   display: inline-block;
-  margin: 10px;
-  background: none;
 }
 
-.dropdown-content {
-  border-radius: 5px;
+/* Toggle Button (inherits from your .button.primary) */
+.dropdown-toggle {
+  cursor: pointer;
+  background: var(--color-accent);
+  color: #fff;
+  border: none;
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.dropdown-toggle:hover {
+  background: var(--color-accent-light);
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
   display: none;
   position: absolute;
-  background-color: var(--secondary);
-  color: var(--background);
-  min-width: 130px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 10px;
-  z-index: 1;
-  user-select: none ;
+  top: 110%;
+  left: 0;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  min-width: 140px;
+  padding: var(--space-2) 0;
+  z-index: 100;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  transform: translateY(-5px);
+  opacity: 0;
 }
 
-.dropdown-content > a {
-  background: none;
+/* Open State */
+.dropdown.open .dropdown-menu {
+  display: block;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Menu Items */
+.dropdown-menu a {
+  display: block;
+  padding: var(--space-2) var(--space-4);
+  color: var(--color-text);
   text-decoration: none;
-  cursor: pointer;
-  font-size: 14px;
-  object-fit: fill;
+  font-size: 0.95rem;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
-.dropdown-content > a:hover {
-  color: var(--primary);
+.dropdown-menu a:hover {
+  background: var(--color-accent);
+  color: #fff;
 }
-
 .switch {
   position: relative;
   display: inline-block;
@@ -271,11 +270,11 @@ div.links > a {
 }
 
 input:checked + .slider {
-  background-color: var(--primary);
+  background-color: var(--color-accent);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px var(--primary);
+  box-shadow: 0 0 1px var(--color-accent);
 }
 
 input:checked + .slider:before {
@@ -304,16 +303,16 @@ p.but {
 }
 
 p.but:hover {
-  color: var(--secondary);
+  color: var(--color-accent-light);
 }
 
 #filter-container {
-  color: var(--text);
+  color: var(--color-text);
   margin: 20px 0px;
   padding: 20px 20px;
-  background-color: var(--background);
-  border-left: 2px solid var(--secondary);
-  top: 10px;
+  background-color: var(--color-bg);
+  border-left: 2px solid var(--color-accent-light);
+  top: var(--space-12);
   user-select: none;
   height: fit-content;
   text-align: center;
@@ -348,42 +347,30 @@ p.but:hover {
 }
 
 #filter-container input:checked + label {
-  background-color: var(--text);
-  color: var(--background);
+  background-color: var(--color-text);
+  color: var(--color-bg);
 }
 
 #filter-container label {
   background-color: none;
-  color: var(--text);
+  color: var(--color-text);
   padding: 5px 10px;
   margin: 10px;
   font-size: 14px;
-  border: 1px solid var(--text);
+  border: 1px solid var(--color-text);
   cursor: pointer;
   border-radius: 20px;
   font-size: 9pt;
 }
 
-#filter-container label.none {
-  background-color: none;
-  color: var(--text);
-  padding: 0;
-  margin: 0;
-  font-size: 14px;
-  border: none;
-  cursor: pointer;
-  border-radius: 0;
-}
-
-
 #filter-container label:hover {
-  background-color: var(--text);
-  color: var(--background);
+  background-color: var(--color-text);
+  color: var(--color-bg);
 }
 
 #filter-container label.none:hover {
-  background-color: var(--background);
-  color: var(--text);
+  background-color: var(--color-bg);
+  color: var(--color-text);
 }
 
 .filterbtn.ftoggle {
@@ -417,8 +404,8 @@ p.but:hover {
   height: auto;
   border-radius: 10px;
   margin: 20px 0;
-  background-color: var(--background);
-  border: 1px solid var(--secondary);
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-accent-light);
 }
 
 img.modal-content {
@@ -428,7 +415,7 @@ img.modal-content {
   display: inline;
   object-fit: fill;
   
-  border: 3px solid var(--text);
+  border: 3px solid var(--color-text);
   background-color: black;
   user-select: none;
   
@@ -445,7 +432,7 @@ img.modal-content:hover{
   position: absolute;
   top: 20px;
   right: 30px;
-  color: var(--text);
+  color: var(--color-text);
   font-size: 40px;
   font-weight: bold;
   transition: color 0.3s;
@@ -454,7 +441,7 @@ img.modal-content:hover{
 }
 
 .close:hover {
-  color: var(--primary);
+  color: var(--color-accent);
 }
 
 @media (max-width: 1024px) {
@@ -491,7 +478,7 @@ img.modal-content:hover{
   #filter-container.active {
     max-height: 100rem;
     padding: 20px 50px;
-    border: 1px solid var(--secondary);
+    border: 1px solid var(--color-accent-light);
   }
   
   #filter-container.active .box {
@@ -532,7 +519,7 @@ img.modal-content:hover{
 
   #filter-container label:hover {
     background-color: none;
-    color: var(--text);
+    color: var(--color-text);
   }
 
   #image-container.grid {
@@ -560,6 +547,6 @@ img.modal-content:hover{
 
   #filter-container label:hover {
     background-color: none;
-    color: var(--text);
+    color: var(--color-text);
   }
 }

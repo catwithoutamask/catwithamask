@@ -22,8 +22,8 @@ function storeDataInDOM(){
   imageList.forEach(image => {
     let pathOfImage = "../assets/fanarts/thumbnails/" + image.Id + ".png";
     let toolTip = image.Title + "\n" + image.CreationDate;
-    imagesHTML += "<div class='gallery-item' title='" + toolTip + "'>";
-    imagesHTML += "<img src='" + pathOfImage +"' alt='" + image.AltText + "' loading='lazy' style='object-fit: contain;' height='100%' width='auto'/>"
+    imagesHTML += "<div class='card gallery-item' title='" + toolTip + "'>";
+    imagesHTML += "<img src='" + pathOfImage +"' alt='" + image.AltText + "' loading='lazy'/>"
     imagesHTML += "<h4 class='title'><a class='artist' href='" + image.SpotifyLink + "'>" + image.Title + "</a></h4>";
     imagesHTML += "<p class='date'>" + image.CreationDate + "</p>";
     imagesHTML += "</div>";

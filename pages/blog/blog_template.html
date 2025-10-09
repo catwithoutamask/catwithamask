@@ -1,18 +1,18 @@
 <!DOCTYPE html> 
 <html lang="en" data-theme="light">
 <head>
-    <title>Blog - <!-- TODO: blog title here --></title>
+    <title>Blog - <!-- title --></title>
     <link rel="icon" href="../../assets/icons/favicon/favicon_64x64.svg" sizes="64x64">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../../common/styles/style.css">
     <link rel="stylesheet" type="text/css" href="../../common/styles/blog.css"> 
-    <script src="../../common/javascript/cookies.js"></script>
-    <script src="../../common/javascript/theme.js"></script>
-    <script src="../../common/javascript/menu.js"></script>
-    <script src="../../common/javascript/totop.js"></script>
+    <script src="../../common/javascript/utils/cookies.js"></script>
+    <script src="../../common/javascript/utils/theme.js"></script>
+    <script src="../../common/javascript/utils/menu.js"></script>
+    <script src="../../common/javascript/utils/totop.js"></script>
 </head>
-<body>
+<body id="top">
     <header id="header" class="header">
         <a href="../../index.html#about-me" class="logo">Catwithamask</a>
         <div id="hamburger" class="toggle" onclick="menuToggle()"></div>
@@ -27,17 +27,17 @@
             <li><button class="theme" id="theme-switcher" onclick="switchTheme(data-theme)"></button></li>
         </ul>
     </header>
-    <div class="sec">
-        <button class="totop none" id="totop"><a class="totop" href="#header">▲ To the Top</a></button>
+    <section class="section blog">
+        <a class="button primary totop none" id="totop" href="#top">▲ To the Top</a>
         <div>
-            <!-- TODO: Fill in content -->
-            <a class="button" href="../blog.html">◀ Back</a>
+            <a class="button primary" href="../blog.html">◀ Back</a>
             <br>
             <br>
             <h2>Title goes here</h2>
             <h3 class="date">Month xx, 20xx</h3>
             <br>
             <br>
+            <!-- TODO: Fill in content -->
             <p>
                 This is a paragraph.
             </p>
@@ -50,6 +50,10 @@
                 <span class="caption">Image Caption</span>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>© 2025 Catwithamask. All rights reserved.</p>
+    </footer>
 </body>
 </html>

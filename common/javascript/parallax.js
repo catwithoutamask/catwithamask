@@ -25,5 +25,9 @@ window.addEventListener('scroll', function(){
     layer2.style.bottom = (value * (-0.25)) + 'px';
     layer3.style.bottom = (value * (-0.15)) + 'px';
 
-    header.style.top = value * 0.5 + 'px';
+    if(value == 0) {
+        header.classList.remove('scrolled');
+    } else {
+        header.classList.add('scrolled');
+    }
 });

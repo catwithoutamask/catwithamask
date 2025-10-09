@@ -43,7 +43,7 @@ async function renderCharacter(character) {
     document.getElementById('fullname').innerHTML = character.name;
     document.getElementById('age').innerHTML = "<strong>Age:</strong> " + character.age;
     document.getElementById('height').innerHTML = "<strong>Height:</strong> " + character.height;
-    document.getElementById('character-image').innerHTML = "<img src=\"../../assets/characters/" + characterId + "/character_image.png\"/>";
+    document.getElementById('character-image').innerHTML = "<img src=\"../../assets/characters/" + characterId + "/character_image.png\" style=\"box-shadow: var(--shadow-lg); justify-self: center; max-width: 70%; border-radius: var(--radius-lg); margin-bottom: var(--space-4); justify-self: center; display: flex; align-self: center; pointer-events: none; user-select: none;\"/>";
 
     let sheetAppearance = document.getElementById('appearance');
     let sheetPersonality = document.getElementById('personality');

@@ -12,14 +12,14 @@ async function loadCharacterOverview() {
 
         const container = document.getElementById("overviewContainer");
         container.innerHTML = Object.keys(grouped).map(groupName => `
-            <div class="character-group">
-                <h3>${groupName}</h3>
-                <div class="character-grid">
+            <div class="section">
+                <h3 class="text-center" style="margin-top: var(--space-10);">${groupName}</h3>
+                <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-6);">
                     ${grouped[groupName].map(c => `
-                        <div class="character-card" onclick="window.location.href='./character_sheet.html#${c.id}'">
+                        <div class="card" style="max-width: 300px;" onclick="window.location.href='./character_sheet.html#${c.id}'">
                             <img src="${c.thumbnail}">
                             <div class="card-body">
-                                <h4>${c.name}</h4>
+                                <h4 class="text-center">${c.name}</h4>
                             </div>
                         </div>
                     `).join("")}
