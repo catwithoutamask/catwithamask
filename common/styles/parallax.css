@@ -92,6 +92,10 @@ and: responsive parallax mobile friendly
   animation: jump .5s linear alternate infinite;
 }
 
+a.jump:hover > b {
+  color: var(--color-accent);
+}
+
 @media (max-width: 992px) {
     .parallax img.sun {
         transform: translateY(30px);

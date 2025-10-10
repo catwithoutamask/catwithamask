@@ -370,5 +370,5 @@ function openModal(id) {
 
 function closeModal() {
   document.getElementById('imageModal').style.display = 'none';
-  
+  document.getElementById('modalImage').src = "";
 }

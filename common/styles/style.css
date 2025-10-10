@@ -165,7 +165,7 @@ a:hover {
 }
 
 .button.totop {
-  border: none;
+  background-color: var(--color-bg);
   position: fixed;
   box-shadow: var(--shadow-md);
   bottom: var(--space-10);
