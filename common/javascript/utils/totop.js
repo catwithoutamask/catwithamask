@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    let button = document.getElementById('totop')
+    let button = document.getElementById('totop');
     document.addEventListener('scroll', function () { toggle_totop(button) });
 });
 

@@ -61,6 +61,18 @@ span.caption {
   color: var(--color-accent-light);
 }
 
+#bar {
+  height: var(--space-1);
+  width: 100%;
+}
+
+#progress-bar {
+  z-index: 10004;
+  position: fixed;
+  height: var(--space-1);
+  width: 0%;
+  background-color: var(--color-accent);
+}
 
 @media (max-width: 992px) {
     .section.blog {
