@@ -185,7 +185,8 @@ a:hover {
   padding: var(--space-6);
   display: grid;
   align-content: space-between;
-
+  max-width: 400px;
+  justify-self: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .card:hover {
@@ -205,8 +206,6 @@ a:hover {
   max-width: 1200px;
   margin: 0 auto;
 }
-
-
 
 /* ===========================
    Utilities

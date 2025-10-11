@@ -11,7 +11,7 @@ async function loadCharacter(characterId) {
         }
 
         const characterData = await response.json();
-        console.log("Loaded character:", characterData);
+        //console.log("Loaded character:", characterData);
 
         renderCharacter(characterData.character);
         renderArt();
@@ -43,7 +43,7 @@ async function renderCharacter(character) {
     document.getElementById('fullname').innerHTML = character.name;
     document.getElementById('age').innerHTML = "<strong>Age:</strong> " + character.age;
     document.getElementById('height').innerHTML = "<strong>Height:</strong> " + character.height;
-    document.getElementById('character-image').innerHTML = "<img src=\"../../assets/characters/" + characterId + "/character_image.png\" style=\"box-shadow: var(--shadow-lg); justify-self: center; max-width: 70%; border-radius: var(--radius-lg); margin-bottom: var(--space-4); justify-self: center; display: flex; align-self: center; pointer-events: none; user-select: none;\"/>";
+    document.getElementById('character-image').innerHTML = "<img src=\"../../assets/characters/" + characterId + "/character_image.png\" style=\"max-width: 300px; box-shadow: var(--shadow-lg); justify-self: center; border-radius: var(--radius-lg); margin-bottom: var(--space-4); justify-self: center; display: flex; align-self: center; pointer-events: none; user-select: none;\"/>";
 
     let sheetAppearance = document.getElementById('appearance');
     let sheetPersonality = document.getElementById('personality');
@@ -55,24 +55,28 @@ async function renderCharacter(character) {
 
     let palette = document.getElementById('palette');
     let paletteHTML = "";
-    console.log(character.color_palette)
     character.color_palette.forEach(swatch => {
       paletteHTML += "<div class=\"color-swatch\" style=\"background-color: " + swatch[1] + ";\">" + swatch[0] + " " + swatch[1] + "</div>";
     });
     palette.innerHTML = paletteHTML;
     
-    let relationships = document.getElementById('relationships');
-    let relHTML = "";
-    console.log(character.relationships)
-    character.relationships.forEach(rel => {
-      relHTML += "<div class=\"relationship-card\">";
-      relHTML += "<div class=\"relationship-image\" style=\"background-image: url(\'" + rel.image_url + "\'); background-repeat: no-repeat;\"></div>";
-      relHTML += "<div class=\"relationship-details\">";
-      relHTML += "<h4> <a href=\"#" + rel.id + "\">" + rel.name + "</a></h4>";
-      relHTML += "<p><strong>Relation:</strong> " + rel.relation + "</p>";
-      relHTML += "<p><strong>Backstory:</strong> " + rel.backstory + "</p>";
-      relHTML += "</div>";
-      relHTML += "</div>";
-    });
-    relationships.innerHTML = relHTML;
+    document.getElementById('rel-section').innerHTML = "Relationships";
+    if (character.relationships.length > 0) {
+        let relationships = document.getElementById('relationships');
+        let relHTML = "";
+        character.relationships.forEach(rel => {
+            relHTML += "<div class=\"card\">";
+            relHTML += "<div class=\"relationship-image\" style=\"background-image: url(\'" + rel.image_url + "\'); background-repeat: no-repeat;\"></div>";
+            relHTML += "<div class=\"relationship-details\">";
+            relHTML += "<h4> <a href=\"#" + rel.id + "\">" + rel.name + "</a></h4>";
+            relHTML += "<p><strong>Relation:</strong> " + rel.relation + "</p>";
+            relHTML += "<p><strong>Backstory:</strong> " + rel.backstory + "</p>";
+            relHTML += "</div>";
+            relHTML += "</div>";
+        });
+        relationships.innerHTML = relHTML;
+    } else {
+        relationships.innerHTML = "";
+        document.getElementById('rel-section').innerHTML = "";
+    }
 }
