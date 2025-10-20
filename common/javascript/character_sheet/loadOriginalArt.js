@@ -25,7 +25,7 @@ function storeDataInDOM(){
   if (imageList.length > 0) {
     let imagesHTML = "";
       imageList.forEach(image => {
-        let pathOfImage = "../assets/gallery/thumbnails/" + image.Id + ".thumbnail";
+        let pathOfImage = "../assets/gallery/thumbs/" + image.Id + ".png";
         let toolTip = image.Title + "\n" + image.CreationDate;
         imagesHTML += "<div title='" + toolTip + "'>";
         imagesHTML += "<img src='" + pathOfImage +"' alt='" + image.AltText + "' loading='lazy' style='object-fit: contain;' height='100%' width='auto'/>"
