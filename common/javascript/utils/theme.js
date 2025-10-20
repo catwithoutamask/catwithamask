@@ -43,7 +43,6 @@ function switchThemeParallax() {
     
     if(lightTheme) {
         sun_moon.setAttribute('src', "../assets/parallax/sun.png");
-        layer3.setAttribute('src', "../assets/parallax/layer-3.png");
         layer4.setAttribute('src', "../assets/parallax/layer-4.png");
         displayImage.setAttribute('src', "../assets/gallery/images/da74be0f-e553-4ea8-b541-d8eab8ac68d3.png");
         red1.classList.remove('active');
