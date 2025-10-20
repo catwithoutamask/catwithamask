@@ -5,7 +5,24 @@
       "name": "Cat",
       "thumbnail": "../assets/characters/Cat/character_image.png",
       "group": "Persona"
+    },
+    {
+      "id": "Lukas",
+      "name": "Lukas Farhal",
+      "thumbnail": "../assets/characters/Lukas/character_image.png",
+      "group": "A Demon's Promise"
+    },
+    {
+      "id": "Clisty",
+      "name": "Clisty Farhal",
+      "thumbnail": "../assets/characters/Clisty/character_image.png",
+      "group": "A Demon's Promise"
+    },
+    {
+      "id": "Bryan",
+      "name": "Bryan Collier",
+      "thumbnail": "../assets/characters/Bryan/character_image.png",
+      "group": "A Demon's Promise"
     }
-
   ]
 }

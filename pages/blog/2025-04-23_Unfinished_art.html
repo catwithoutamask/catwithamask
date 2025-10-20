@@ -1,23 +1,24 @@
 <!DOCTYPE html> 
 <html lang="en" data-theme="light">
 <head>
-    <title>Blog - The beauty of unfinished art</title>
+    <title>Blog - Beauty of unfinished art</title>
     <link rel="icon" href="../../assets/icons/favicon/favicon_64x64.svg" sizes="64x64">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../../common/styles/style.css">
     <link rel="stylesheet" type="text/css" href="../../common/styles/blog.css"> 
-    <script src="../../common/javascript/cookies.js"></script>
-    <script src="../../common/javascript/theme.js"></script>
-    <script src="../../common/javascript/menu.js"></script>
-    <script src="../../common/javascript/totop.js"></script>
+    <script src="../../common/javascript/utils/cookies.js"></script>
+    <script src="../../common/javascript/utils/theme.js"></script>
+    <script src="../../common/javascript/utils/menu.js"></script>
+    <script src="../../common/javascript/utils/totop.js"></script>
+    <script src="../../common/javascript/utils/progressbar.js"></script>
 </head>
-<body>
+<body id="top">
     <header id="header" class="header">
         <a href="../../index.html#about-me" class="logo">Catwithamask</a>
         <div id="hamburger" class="toggle" onclick="menuToggle()"></div>
         <ul class="navigation">
-            <li><a href="../index.html">Home</a></li>
+            <li><a href="../../index.html">Home</a></li>
             <li><a href="../gallery.html">Gallery</a></li>
             <li><a href="../characters.html">Characters</a></li>
             <li><a href="../template.html">Stories</a></li> <!-- TODO: correct link -->
@@ -27,14 +28,16 @@
             <li><button class="theme" id="theme-switcher" onclick="switchTheme(data-theme)"></button></li>
         </ul>
     </header>
-    <div class="sec">
-        <button class="totop none" id="totop"><a class="totop" href="#header">▲ To the Top</a></button>
+    <div id="bar">
+        <div id="progress-bar"></div>
+    </div>
+    <section class="section blog">
+        <a class="button outline totop none" id="totop" href="#top">▲ To the Top</a>
         <div>
-            <!-- TODO: Fill in content -->
-            <a class="button" href="../blog.html">◀ Back</a>
+            <a class="button outline" href="../blog.html">◀ Back</a>
             <br>
             <br>
-            <h2>The beauty of unfinished art</h2>
+            <h2>Beauty of unfinished art</h2>
             <h3 class="date">April 23, 2025</h3>
             <br>
             <br>
@@ -87,6 +90,10 @@
                 I wanted to continue this blog post but I kinda forgot what I wanted to say more... well I guess this post will remain unfinished...
             </p>
         </div>
-    </div>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>© 2025 Catwithamask. All rights reserved.</p>
+    </footer>
 </body>
 </html>

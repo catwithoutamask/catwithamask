@@ -7,9 +7,9 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../common/styles/style.css">
     <link rel="stylesheet" type="text/css" href="../common/styles/blog.css">
-    <script src="../common/javascript/cookies.js"></script>
-    <script src="../common/javascript/theme.js"></script>
-    <script src="../common/javascript/menu.js"></script>
+    <script src="../common/javascript/utils/cookies.js"></script>
+    <script src="../common/javascript/utils/theme.js"></script>
+    <script src="../common/javascript/utils/menu.js"></script>
 </head>
 <body>
     <header id="header" class="header">
@@ -26,35 +26,45 @@
             <li><button class="theme" id="theme-switcher" onclick="switchTheme(data-theme)"></button></li>
         </ul>
     </header>
-    <div class="sec">
-        <section class="blog-container">
-            <!-- Add more articles as needed -->
-            <a href="./blog/2025-04-23_Unfinished_art.html" class="blog-link">
-                <img src="../assets/blog/UnfinishedArt/Title.png" alt="Blog banner"">
-                <article>
-                    <h2>The beauty of unfinished art</h2>
-                    <p class="date">April 23, 2025</p>
-                    <p>Don't scold your masterpieces for not being finished. It's not their fault.</p>
-                </article>
-            </a>
-            <a href="./blog/2024-07-14_Dress.html" class="blog-link">
-                <img src="../assets/blog/Dress/have_them_all_meme.jpg" alt="Blog banner">
-                <article>
-                    <h2>Bryan wearing dresses</h2>
-                    <p class="date">July 14, 2024</p>
-                    <p>... AKA the ongoing history of me putting one of my characters in a dress. </p>
-                </article>
-            </a>
-            <a href="./blog/2024-07-11_The_Halloween_Saga.html" class="blog-link">
-                <img src="../assets/blog/HalloweenSaga/Halloween.jpg" alt="Blog banner">
-                <article>
-                    <h2>The Halloween Saga</h2>
-                    <p class="date">July 11, 2024</p>
-                    <p>The story behind the various costumes my characters had to go through :P</p>
-                </article>
-            </a>
+    <main>
+        <section class="section blog-container">
+            <h2 class="text-center" style="margin-top: var(--space-10);">Welcome to my Blog!</h2>
+            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-6);">
+                <!-- Add more articles as needed -->
+                <div class="card blog-container">
+                    <img src="../assets/blog/UnfinishedArt/Games_meets_games.png" alt="Blog banner">
+                    <div>
+                        <h3>Beauty of unfinished art</h3>
+                        <p class="date">April 23, 2025</p>
+                        <p>Don't scold your masterpieces for not being finished. It's not their fault.</p>
+                        <a href="./blog/2025-04-23_Unfinished_art.html" class="button outline">Read More</a>
+                    </div>
+                </div>
+                <div class="card blog-container">
+                    <img src="../assets/blog/Dress/have_them_all_meme.jpg" alt="Blog banner">
+                    <div>
+                        <h3>Bryan wearing dresses</h3>
+                        <p class="date">July 14, 2024</p>
+                        <p>... AKA the ongoing history of me putting one of my characters in a dress.</p>
+                        <a href="./blog/2024-07-14_Dress.html" class="button outline">Read More</a>
+                    </div>
+                </div>
+                <div class="card blog-container">
+                    <img src="../assets/blog/HalloweenSaga/Halloween.jpg" alt="Blog banner">
+                    <div>
+                        <h3>The Halloween Saga</h3>
+                        <p class="date">July 11, 2024</p>
+                        <p>The story behind the various costumes my characters had to go through :P</p>
+                        <a href="./blog/2024-07-11_The_Halloween_Saga.html" class="button outline">Read More</a>
+                    </div>
+                </div>
+            </div>
         </section>
-        
-    </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>© 2025 Catwithamask. All rights reserved.</p>
+    </footer>
 </body>
 </html>

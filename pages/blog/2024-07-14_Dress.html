@@ -7,17 +7,18 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../../common/styles/style.css">
     <link rel="stylesheet" type="text/css" href="../../common/styles/blog.css"> 
-    <script src="../../common/javascript/cookies.js"></script>
-    <script src="../../common/javascript/theme.js"></script>
-    <script src="../../common/javascript/menu.js"></script>
-    <script src="../../common/javascript/totop.js"></script>
+    <script src="../../common/javascript/utils/cookies.js"></script>
+    <script src="../../common/javascript/utils/theme.js"></script>
+    <script src="../../common/javascript/utils/menu.js"></script>
+    <script src="../../common/javascript/utils/totop.js"></script>
+    <script src="../../common/javascript/utils/progressbar.js"></script>
 </head>
-<body>
+<body id="top">
     <header id="header" class="header">
         <a href="../../index.html#about-me" class="logo">Catwithamask</a>
         <div id="hamburger" class="toggle" onclick="menuToggle()"></div>
         <ul class="navigation">
-            <li><a href="../index.html">Home</a></li>
+            <li><a href="../../index.html">Home</a></li>
             <li><a href="../gallery.html">Gallery</a></li>
             <li><a href="../characters.html">Characters</a></li>
             <li><a href="../template.html">Stories</a></li> <!-- TODO: correct link -->
@@ -27,11 +28,13 @@
             <li><button class="theme" id="theme-switcher" onclick="switchTheme(data-theme)"></button></li>
         </ul>
     </header>
-    <div class="sec">
-        <button class="totop none" id="totop"><a class="totop" href="#header">▲ To the Top</a></button>
+    <div id="bar">
+        <div id="progress-bar"></div>
+    </div>
+    <section class="section blog">
+        <a class="button outline totop none" id="totop" href="#top">▲ To the Top</a>
         <div>
-            <!-- TODO: Fill in content -->
-            <a class="button" href="../blog.html">◀ Back</a>
+            <a class="button outline" href="../blog.html">◀ Back</a>
             <br>
             <br>
             <h2>Bryan wearing dresses</h2>
@@ -58,13 +61,9 @@
             <br>
             <p>
                 So you now may ask: <it>"But why tho?"</it> and <it>"why him?"</it> 
-            </p>
-            <br>
-            <p>
                 It's simple:
             </p>
-            <br>
-            <ol style="padding-left: 1.5em;">
+            <ol style="padding-left: var(--space-10);">
                 <li>
                     He's the first male character I put in a dress.
                 </li>
@@ -79,16 +78,13 @@
             <p>
                 The first time I put him (or any male character) into a dress was 7 years ago, way back in 2017. Back then he didn't even have a name :v I just scribbled a bunch of doodles on a sheet of paper while I was in a plane.
             </p>
-            <br>
             <div class="image-box">
                 <img src="../../assets/blog/Dress/2017_2.jpg" alt="Doodle from 2017" class="blog-image">
                 <span class="caption">Doodle made on a plane in 2017</span>
             </div>
-            <br>
             <p>
                 Back then I didn't even know what I started. Just a year later I decided to again, put him in a dress. And then for <a href="./2024-07-11_The_Halloween_Saga.html">Halloween 2018</a> again. 
             </p>
-            <br>
             <div class="image-box">
                 <img src="../../assets/blog/Dress/2018.jpg" alt="Bryan in a tango dress" class="blog-image">
                 <span class="caption">Bryan wearing a tango dress (2018)</span>
@@ -104,7 +100,6 @@
             <p>
                 It all became such a meme among my friends that I even did a little comic about it:
             </p>
-            <br>
             <div class="image-box">
                 <img src="../../assets/blog/Dress/20200807.jpg" alt="Am I glad that he is just a fictional character... in my head" class="blog-image">
                 <span class="caption">Bryan chasing me because I put him in a dress once again (2020)</span>
@@ -113,12 +108,10 @@
             <p>
                 The most recent drawing was made earlier this year. Honestly, I can't remember what directly inspired me but I had this very cool dress idea in my head that I wanted to try out. And so Bryan had to be the model yet again. 
             </p>
-            <br>
             <div class="image-box">
                 <img src="../../assets/blog/Dress/20240417_diditagain.jpg" alt="Blue dress 2024" class="blog-image">
                 <span class="caption">Bryan wearing a starry blue dress (2024)</span>
             </div>
-            <br>
             <h3>Not solely him</h3>
             <br>
             <p>
@@ -128,12 +121,10 @@
             <p>
                 So I knew what I had to do. Put Bryan in another dress. Though this time he shouldn't be alone, so I put his best friend in the goth dress. And will you look at them both rocking the dresses. 
             </p>
-            <br>
             <div class="image-box">
                 <img src="../../assets/blog/Dress/20200831_Dress.png" alt="Two gorgeous men" class="blog-image">
                 <span class="caption">Nathan and Bryan wearing the trend dresses (2020)</span>
             </div>
-            <br>
             <p>
                 In hindsight I think the dresses would have fitted them better the other way around. Oh well. 
             </p>
@@ -147,16 +138,13 @@
             <p>
                 So to compensate that and make that man happy for once in a while I doodled him in 2020 wearing a much longer dress. And look at that, is that a genuine smile? :D
             </p>
-            <br>
             <div class="image-box">
                 <img src="../../assets/blog/Dress/20200919.jpg" alt="Look at him smile" class="blog-image">
                 <span class="caption">Bryan happy in a dress (2020)</span>
             </div>
-            <br>
             <p>
                 Two years later, 2022, he even got a full water color drawing where he is wearing a dress that actually fits his character. So you see, it all comes down to what the dress is like ^^
             </p>
-            <br>
             <div class="image-box">
                 <img src="../../assets/blog/Dress/20220527_finallyHappyInADress.png" alt="I know this dress does not make any sense, shhhhh" class="blog-image">
                 <span class="caption">Second time that he is happy in a dress (2022)</span>
@@ -167,12 +155,10 @@
             <p>
                 I gotta admit, my favorite drawing so far is the one from 2021 where I put Bryan in a maid dress. This idea originated from one of my friends back then and honestly I think it suits him. 
             </p>
-            <br>
             <div class="image-box">
                 <img src="../../assets/blog/Dress/20210730.png" alt="I know this dress does not make any sense, shhhhh" class="blog-image">
                 <span class="caption">Maid dress (2021)</span>
             </div>
-            <br>
             <p>
                 But the real reason why that drawing is my favorite is that I really like the way my art style was back then :') I like the colors, the shading and ofc the way I drew his hair. 
             </p>
@@ -186,12 +172,10 @@
             <p>
                 As previously mentioned, me putting Bryan in a dress is quite well known among my friends. So much that when I drew the most recent piece (the one from 2024) I asked about the color palette. And since I decided to use a blue color palette while a friend of mine was imagining a more fiery dress, he himself drew Bryan a wonderful dress: 
             </p>
-            <br>
             <div class="image-box">
                 <img src="../../assets/blog/Dress/BRYAN_IN_A_VERY_BEAUTIFUL_PHEONIX_DRESS.jpg" alt="Very awesome art by a very awesome person" class="blog-image">
                 <span class="caption">"BRYAN IN A VERY BEAUTIFUL PHEONIX DRESS" by Robin (2024)</span>
             </div>
-            <br>
             <p>
                 I did draw a sketch of the friend of mine (Robin) taking a picture of Bryan. Though since it's basically the same drawing as above but as a quick sketch I won't count that one. 
             </p>
@@ -214,12 +198,15 @@
             <p>
                 I hope you had fun following me trough my journey of drawing guys in dresses and see you on the next post :D
             </p>
-            <br>
+            <h4>Searching for all the drawings just to write a blog post be like:</h4>
             <div class="image-box">
-                <h3>Searching for all the drawings just to write a blog post be like:</h4>
                 <img src="../../assets/blog/Dress/have_them_all_meme.jpg" alt="Gravity Falls Notebook meme" class="blog-image">
             </div>
         </div>
-    </div>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center">
+        <p>© 2025 Catwithamask. All rights reserved.</p>
+    </footer>
 </body>
 </html>

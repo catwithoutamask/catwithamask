@@ -1,93 +1,138 @@
-<!DOCTYPE html> 
-<html lang="en" data-theme="light">
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
 <head>
-    <title>About Catwithamask</title>
-    <link rel="icon" href="assets/icons/favicon/favicon_64x64.svg" sizes="64x64">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="../common/styles/style.css">
-    <link rel="stylesheet" type="text/css" href="../common/styles/parallax.css">
-    <link rel="stylesheet" type="text/css" href="../common/styles/index.css">
-    <script src="../common/javascript/cookies.js"></script>
-    <script src="../common/javascript/theme.js"></script>
-    <script src="../common/javascript/menu.js"></script>
-    <script src="../common/javascript/parallax.js"></script>
+  <title>About Catwithamask</title>
+  <link rel="icon" href="../assets/icons/favicon/favicon_64x64.svg" sizes="64x64">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="./common/styles/style.css">
+  <link rel="stylesheet" type="text/css" href="./common/styles/parallax.css">
+  <script src="./common/javascript/utils/cookies.js"></script>
+  <script src="./common/javascript/utils/theme.js"></script>
+  <script src="./common/javascript/utils/menu.js"></script>
+  <script defer src="common/javascript/parallax.js"></script>
 </head>
 <body>
-    <header id="header" class="header">
-        <a href="#about-me" class="logo">Catwithamask</a>
-        <div id="hamburger" class="toggle" onclick="menuToggle()"></div>
-        <ul class="navigation">
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="./pages/gallery.html">Gallery</a></li>
-            <li><a href="./pages/characters.html">Characters</a></li> 
-            <li><a href="./pages/template.html">Stories</a></li> <!-- TODO: correct link -->
-            <li><a href="./pages/blog.html">Blog</a></li>
-            <li><a href="./pages/fanarts.html">Fanart</a></li>
-            <li><a href="./pages/contact.html">Contact</a></li>
-            <li><button class="theme parallax-switcher" id="theme-switcher" onclick="switchTheme(data-theme)"></button></li>
-        </ul>
-    </header>
-    <section class="parallax">
-        <img src="../assets/parallax/lines.png" id="lines" class="lines"/>
-        <img src="../assets/parallax/stars.png" id="stars" class="stars"/>
-        <img src="../assets/parallax/layer-1.png" id="layer-1" class="layer-1"/>
-        <img src="../assets/parallax/layer-2.png" id="layer-2" class="layer-2"/>
-        <img src="../assets/parallax/layer-3.png" id="layer-3" class="layer-3"/> <!--Toggle this-->
-        
-        <img src="../assets/parallax/red-2.jpg" id="red-2" class="red-2"/>
-        
-        <img src="../assets/parallax/layer-4.png" id="layer-4" class="layer-4"/> <!--Toggle this-->
-        <img src="../assets/parallax/red-1.png" id="red-1" class="red-1"/>
-
-        <img src="../assets/parallax/sun.png" id="sun" class="sun"/> <!--Toggle this-->
+  <header id="header" class="header">
+      <a href="#about-me" class="logo">Catwithamask</a>
+      <div id="hamburger" class="toggle" onclick="menuToggle()"></div>
+      <ul class="navigation">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="./pages/gallery.html">Gallery</a></li>
+          <li><a href="./pages/characters.html">Characters</a></li> 
+          <li><a href="./pages/template.html">Stories</a></li> <!-- TODO: correct link -->
+          <li><a href="./pages/blog.html">Blog</a></li>
+          <li><a href="./pages/fanarts.html">Fanart</a></li>
+          <li><a href="./pages/contact.html">Contact</a></li>
+          <li><button class="theme parallax-switcher" id="theme-switcher" onclick="switchTheme(data-theme)"></button></li>
+      </ul>
+  </header>
+  
+  <main>
+    <!-- Hero Section -->
+    <section class="text-center parallax">
+      <div class="hero">
+        <div>
+          <h2 style="text-shadow: 1px 1px 5px var(--color-bg);">Dark fantasy artworks, original characters, and immersive stories.</h1>
+          <p style="text-shadow: 1px 1px 5px var(--color-bg);"></p>
+          <a href="./pages/gallery.html" class="button primary" style="box-shadow: var(--shadow-md);">Explore my Artworks</a>
+        </div>
+        <a href="#feature" class="jump" style="font-size: var(--font-size-3xl); font-weight: 900;"><b>&#8681</b></a>
+      </div>
+      <img src="./assets/parallax/lines.png" id="lines" class="lines"/>
+      <img src="./assets/parallax/stars.png" id="stars" class="stars"/>
+      <img src="./assets/parallax/sun.png" id="sun" class="sun"/> <!--Toggle this-->
+  
+      <img src="./assets/parallax/layer-1.webp" id="layer-1" class="layer-1"/>
+      <img src="./assets/parallax/layer-2.webp" id="layer-2" class="layer-2"/>
+      <img src="./assets/parallax/layer-3.webp" id="layer-3" class="layer-3"/> <!--Toggle this-->
+      
+      <img src="./assets/parallax/red-2.jpg" id="red-2" class="red-2"/>
+      
+      <img src="./assets/parallax/layer-4.png" id="layer-4" class="layer-4"/> <!--Toggle this-->
+      <img src="./assets/parallax/red-1.png" id="red-1" class="red-1"/>
     </section>
-    <div id="about-me" class="sec">
-        <div>
-            <h2>About me</h2>
-            <div class="two-cols">
-                <img src="../assets/misc/Illustration.jpg" class="its-me"/>
-                <div>
-                    <p>
-                        Hi, my name is Cat (<i>short for Catwithamask</i>) <br>
-                        I am a hobby artist & writer and love to create stories!<br>
-                    </p>
-                    <br>
-                    <p>
-                        Most of my stories have fantasy aspacts to them. I mostly draw my characters but you can also finds lots of other arts here! I use both traditional artsupplies as well as digital art. But be warned, I also draw a lot of dark themes. 
-                    </p>
-                </div>
-            </div>
-            <br>
-            <p>
-                Stick around and take a look at my art in the <a href="./pages/gallery.html">Gallery</a> :D
-            </p>
+    <!-- Featured Gallery -->
+    <section id="feature" class="section">
+      <h2 class="text-center" style="margin-top: var(--space-10);">Featured pieces from the Gallery</h2>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-6);">
+        <div class="card blog-container">
+          <img src="assets/gallery/images/2fd8780a-5dcf-4fac-ac9b-cedfffcf391f.png" alt="Oil Painting"/>
+          <h3>King Lukas - <i style="color: var(--color-muted); opacity: 50%; font-size: var(--font-size-base); ">2025-06-07</i></h3>
+          <p>Oil on canvas (30x40). Portraying Lukas as the tragic kind I imagine him to be. Even though there are many things that could have been made better it's my best oil portrait so far.</p>
         </div>
-        <div>
-            <br>
-            <br>
-            <h2>About this site</h2>
-            <p>
-                This site is a fun little project for me to experiment and learn more about webdesign as well as to express myself in a way no social media can provide.
-            </p>
-            <br>
-            <p>
-                This also means it is a constant work in progress and will change over time. Some contents are currently not available as I haven't had time to work on them. But I am planning on expanding on them eventually. 
-            </p>
-            <br>
-            <p>
-                Following subpage is still in planning:
-                <ul>
-                    <li>
-                        Stories: Here I want to write a bit about the stories that I write. Short descriptions about them and maybe share some bits and pieces of things I have written.
-                    </li>
-                </ul>
-            </p>
-            <br>
-            <p>
-                If you have any questions, you can <a href="./pages/contact.html">contact me</a>.
-            </p>
+        <div class="card">
+          <img id="toggleme" src="assets/gallery/images/da74be0f-e553-4ea8-b541-d8eab8ac68d3.png" alt="Mystic Cat"/>
+          <h3>Two Sides - <i style="color: var(--color-muted); opacity: 50%; font-size: var(--font-size-base); ">2023-02-09</i></h3>
+          <p><a href="https://www.youtube.com/watch?v=K2deQY_yHJg" target="_blank">Watch the Speedart on youtube</a></p>
         </div>
-    </div>
+        <div class="card">
+          <img src="assets/gallery/images/b40c162e-f264-435e-bea8-6160c48a3e85.png" alt="Save the bees poster" />
+          <h3>Save the Bees - <i style="color: var(--color-muted); opacity: 50%; font-size: var(--font-size-base); ">2024-02-01</i></h3>
+          <p>A quite threatening poster telling you to save the bees. Bees are actually nice (even though I am scared of them). So bee nice, and save the bees.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About me -->
+    <section id="about-me" class="section">
+      <h2 class="text-center" style="margin-top: var(--space-10);">About me</h2>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-6);">
+        <img src="./assets/misc/Illustration.jpg" alt="It's me" class="its-me" style="box-shadow: var(--shadow-lg); justify-self: center; max-width: 70%; border-radius: var(--radius-lg); margin-bottom: var(--space-4); justify-self: center; display: flex; align-self: center; pointer-events: none; user-select: none;"/>
+        <div>
+          <p>
+            Hi, my name is Catwithamask (<i>"Cat" for short</i>), <br>
+            I am a hobby artist & writer and love to create stories!<br>
+          </p>
+          <p>
+            Most of my stories have fantasy aspacts to them. I mostly draw my characters but you can also finds lots of other arts here! I use both traditional artsupplies as well as digital art. But be warned, I also draw a lot of dark themes. 
+          </p>
+          <h4>About this Website</h4>
+          <p>
+            This site is a fun little project for me to experiment and learn more about webdesign as well as to express myself in a way no social media can provide.
+          </p>
+          <p>
+            This also means it is a constant work in progress and will change over time. Some contents are currently not available as I haven't had time to work on them. But I am planning on expanding on them eventually. 
+          </p>
+          <p>
+            Following subpage is still in planning: <br> <i>Stories &#10142</i> Here I want to write a bit about the stories that I write. Short descriptions about them and maybe share some bits and pieces of things I have written.
+          </p>
+          <p>
+            If you have any questions, you can <a href="./pages/contact.html">contact me</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="section">
+      <h2 class="text-center" style="margin-top: var(--space-10);">Recent Blogposts</h2>
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-6);">
+        <div class="card">
+          <h3>Beauty of unfinished art</h3>
+          <p>Don't scold your masterpieces for not being finished. It's not their fault.</p>
+          <a href="./pages/blog/2025-04-23_Unfinished_art.html" class="button outline">Read More</a>
+        </div>
+        <div class="card">
+          <h3>Bryan wearing dresses</h3>
+          <p>... AKA the ongoing history of me putting one of my characters in a dress.</p>
+          <a href="./pages/blog/2024-07-14_Dress.html" class="button outline">Read More</a>
+        </div>
+        <div class="card">
+          <div>
+            <h3>The Halloween Saga</h3>
+            <p>The story behind the various costumes my characters had to go through :P</p>
+          </div>
+          <a href="./pages/blog/2024-07-11_The_Halloween_Saga.html" class="button outline">Read More</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <p>© 2025 Catwithamask. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>

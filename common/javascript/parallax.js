@@ -4,7 +4,6 @@ let stars;
 let layer1;
 let layer2;
 let layer3;
-let header;
 
 document.addEventListener('DOMContentLoaded', () => {
     lines = document.getElementById('lines');
@@ -24,6 +23,4 @@ window.addEventListener('scroll', function(){
     layer1.style.bottom = (value * (-0.5)) + 'px';
     layer2.style.bottom = (value * (-0.25)) + 'px';
     layer3.style.bottom = (value * (-0.15)) + 'px';
-
-    header.style.top = value * 0.5 + 'px';
 });

@@ -1,43 +1,45 @@
-<!DOCTYPE html> 
-<html lang="en" data-theme="light">
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
 <head>
-    <title><!-- TODO: pagename here --></title>
-    <link rel="icon" href="../assets/icons/favicon/favicon_64x64.svg" sizes="64x64">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="../common/styles/style.css">
-    <link rel="stylesheet" type="text/css" href="../common/styles/character_sheet.css"> 
-    <script src="../common/javascript/cookies.js"></script>
-    <script src="../common/javascript/theme.js"></script>
-    <script src="../common/javascript/menu.js"></script>
-    <script src="../common/javascript/character_sheet/loadCharacter.js"></script>
-    <script src="../common/javascript/character_sheet/loadOriginalArt.js"></script>
-    <script src="../common/javascript/character_sheet/loadFanArt.js"></script>
+  <title><!-- TODO: Title goes here --></title>
+  <link rel="icon" href="../assets/icons/favicon/favicon_64x64.svg" sizes="64x64">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../common/styles/style.css">
+  <link rel="stylesheet" type="text/css" href="../common/styles/characters.css"> 
+  <script src="../common/javascript/utils/cookies.js"></script>
+  <script src="../common/javascript/utils/theme.js"></script>
+  <script src="../common/javascript/utils/menu.js"></script>
+  <script src="../common/javascript/character_sheet/loadCharacter.js"></script>
+  <script src="../common/javascript/character_sheet/loadOriginalArt.js"></script>
+  <script src="../common/javascript/character_sheet/loadFanArt.js"></script>
 </head>
 <body>
-    <header id="header" class="header">
-        <a href="../index.html#about-me" class="logo">Catwithamask</a>
-        <div id="hamburger" class="toggle" onclick="menuToggle()"></div>
-        <ul class="navigation">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./gallery.html">Gallery</a></li>
-            <li><a href="./characters.html" class="active">Characters</a></li> 
-            <li><a href="./template.html">Stories</a></li> <!-- TODO: correct link -->
-            <li><a href="./blog.html">Blog</a></li>
-            <li><a href="./fanarts.html">Fanart</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            <li><button class="theme" id="theme-switcher" onclick="switchTheme(data-theme)"></button></li>
-        </ul>
-    </header>
-    <section class="character-sheet">
+  <header id="header" class="header">
+      <a href="#about-me" class="logo">Catwithamask</a>
+      <div id="hamburger" class="toggle" onclick="menuToggle()"></div>
+      <ul class="navigation">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./gallery.html">Gallery</a></li>
+          <li><a href="./characters.html" class="active">Characters</a></li> 
+          <li><a href="./template.html">Stories</a></li> <!-- TODO: correct link -->
+          <li><a href="./blog.html">Blog</a></li>
+          <li><a href="./fanarts.html">Fanart</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><button class="theme" id="theme-switcher" onclick="switchTheme(data-theme)"></button></li>
+      </ul>
+  </header>
+  
+  <main>
+    <section class="character-sheet section">
         <!-- Character Info -->
-        <h2 id="fullname"><!--Filled on load--></h2>
+        <h2 class="text-center" style="margin-top: var(--space-10);" id="fullname"><!--Filled on load--></h2>
         <div class="character-header">
             <div class="character-image" id="character-image"><!--Filled on load--></div>
             <div class="character-details">
                 <p id="age"><!--Filled on load--></p>
                 <p id="height"><!--Filled on load--></p>
-                <h3>Appearance</h3>
+                <h3 style="margin-top: var(--space-10);">Appearance</h3>
                 <p id="appearance">
                     No Information available yet.
                 </p>
@@ -46,7 +48,7 @@
 
         <!-- Color Palette -->
         <div class="color-palette">
-            <h3>Color Palette</h3>
+            <h3 class="text-center" style="margin-top: var(--space-10);">Color Palette</h3>
             <div class="palette" id="palette">
                 <!--Filled on load-->
             </div>
@@ -54,21 +56,21 @@
 
         <!-- Descriptions -->
         <div class="character-descriptions">
-            <h3>Personality</h3>
+            <h3 style="margin-top: var(--space-10);">Personality</h3>
             <p id="personality">
                 No Information available yet.
             </p>
 
-            <h3>Backstory</h3>
+            <h3 style="margin-top: var(--space-10);">Backstory</h3>
             <p id="backstory">
                 No Information available yet.
             </p>
         </div>
 
         <!-- Relationships -->
-        <div class="relationships">
-            <h3>Relationships</h3>
-            <div class="relationship-gallery" id="relationships">
+        <div class="relationships" >
+            <h3 class="text-center" style="margin-top: var(--space-10);" id="rel-section"></h3>
+            <div class="relationship-gallery" id="relationships" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-6);">
                 <!--Filled on load-->
             </div>
         </div>
@@ -76,20 +78,27 @@
 
         <!-- Original Artwork -->
         <div class="art-section">
-            <h3 id="art-section"></h3>
+            <h3 class="text-center" style="margin-top: var(--space-10);" id="art-section"></h3>
             <div class="art-gallery" id="art-gallery">
                 <h4>No Art made yet.</h4>
             </div>
         </div>
 
         <!-- Fanart -->
-        <div class="art-section">
-            <h3 id="fanart-title"></h3>
+        <div style="margin-top: var(--space-10);" class="art-section">
+            <h3 class="text-center" id="fanart-title"></h3>
             <div class="art-gallery" id="fanart-gallery">
                 <!--Filled on load-->
             </div>
         </div>
 
     </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <p>© 2025 Catwithamask. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
