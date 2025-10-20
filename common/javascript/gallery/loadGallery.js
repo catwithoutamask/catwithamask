@@ -34,41 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
 async function loadData(data){
     imageList = data;
     allImages = data;
-    await preLoadImages();
-    console.log(imgObjects, "from loadData");
     sortImagesBy("Creation Date", "desc");
-}
-
-async function preLoadImages() {
-  for (i = 0; i < imageList.length; i++) {
-    let image = imageList[i];
-    let pathOfImage = "../assets/gallery/thumbnails/" + image.Id + ".thumbnail";
-  
-    await fetch("../"+pathOfImage)
-      .then(response => {
-        if(!response.ok) {
-          throw new Error("couldn't load image with id: ", image.Id);
-        }
-        return response.blob();
-      })
-      .then(imageBlob => addImage(imageBlob, image))
-      .catch(error => console.error("There was a problem with the fetch operation: ", error));
-  }
-  console.log("done preloading");
-}
-
-function addImage(imageBlob, image) {
-  let img = document.createElement("img");
-  img.src = URL.createObjectURL(imageBlob);
-  img.id = image.Id;
-  img.alt = image.AltText;
-  imgObjects.push(img);
-
-  let poll = setInterval(function () {
-    if (img.naturalWidth) {
-        clearInterval(poll);
-    }
-  }, 1);
 }
 
 function updateNumberOfColumns() {
@@ -91,22 +57,17 @@ function updateNumberOfColumns() {
 }
 
 function addImagesToColumns(image) {
-  let img = imgObjects.find(x => x.id == `${image.Id}`);
-  let imageHeigth = Math.round((img.naturalHeight / img.naturalWidth) * 100);
-  if (isNaN(imageHeigth)) {
-    console.log(img);
-    imageHeigth = 100; 
-  }
+  let imageHeigth = Math.round((image.Height / image.Width) * 100);
   let shortestColumn = columnHeights.indexOf(Math.min(...columnHeights));
-  // https://www.cssscript.com/image-gallery-masonry-grid/
   let toolTip = image.Title + "\n" + image.CreationDate;
+  let pathOfImage = "../assets/gallery/thumbs/" + image.Id + ".png";
   let imagesHTML = "";
   if(image.NeedsTriggerWarning) {
     imagesHTML += "<div title='" + toolTip + "\nDisable trigger warning to view image' class='triggercontainer warning' onclick=\"openModal('" + image.Id + "')\">";
   } else {
     imagesHTML += "<div title='" + toolTip + "' onclick=\"openModal('" + image.Id + "')\">";
   }
-  imagesHTML += img.outerHTML;
+  imagesHTML += "<img src='" + pathOfImage +"' alt='" + image.AltText + "' loading='lazy' style='object-fit: contain;' height='100%' width='auto'/>"
   imagesHTML += "</div>";
 
   columnStrings[shortestColumn] += imagesHTML;
@@ -129,7 +90,7 @@ function storeDataInDOM(){
 function storeDataInDOM_withInfo(){
     let imagesHTML = "";
   imageList.forEach(image => {
-    let pathOfImage = "../assets/gallery/thumbnails/" + image.Id + ".thumbnail";
+    let pathOfImage = "../assets/gallery/thumbs/" + image.Id + ".png";
 
     imagesHTML += "<div class='infos'>";
       if(image.NeedsTriggerWarning) {
@@ -137,7 +98,7 @@ function storeDataInDOM_withInfo(){
       } else {
         imagesHTML += "<div style='display: grid; justify-content: center;'>";
       }
-      imagesHTML += imgObjects.find(x => x.id == `${image.Id}`).outerHTML;
+      imagesHTML += "<img src='" + pathOfImage +"' alt='" + image.AltText + "' loading='lazy' style='object-fit: contain;' height='100%' width='auto'/>"
       imagesHTML += "</div>";
 
       imagesHTML += "<div class='infoBox'>";

@@ -36,8 +36,8 @@ function toggleInformation(){
 function openModal(id) {
   image = imageList.find(img => img.Id === id)
   
-  document.getElementById('modalImage').src = "../assets/gallery/thumbnails/" + id + ".thumbnail";
-  document.getElementById('modalImage').src = "../assets/gallery/" + image.PathOfImage.substring(1);
+  document.getElementById('modalImage').src = "../assets/gallery/thumbs/" + id + ".png";
+  document.getElementById('modalImage').src = "../assets/gallery/images/" + id + ".png"; //" + image.PathOfImage.substring(1);
   document.getElementById('modalTitle').innerText = image.Title;
   document.getElementById('modalDate').innerText = image.CreationDate;
   document.getElementById('modalDescription').innerText = image.Description;
