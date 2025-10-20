@@ -4,11 +4,11 @@
     "age": "23",
     "height": "5' 9''",
     "appearance": 
-      "",
+      "He's your average tall guy. He has brown messy hair and magenta eyes (that tend to glow sometimes). He wears a purple jacket (because Nathan said it suits him) over a white shirt, jeans and has your average sneakers. Whenever he is in public he will always make shure to cover as much of his body as possible to hide his scars. Even in summer he will keep his jacket on. He also seemes to be tired most of the time.",
     "personality": 
-      "",
+      "Most of the time he is a reservated but friendly person. But his mind (or whatever has made it's way inside his mind) likes to play tricks on him. Plagued by hallucinations of blood and gore, while most people would be desturbed or freak out, he endorces it. His personality becomes more manic and sociopathic.",
     "backstory": 
-      "",
+      "Bryan lived the first decade of his life in a broken home with a troubled father. One day when he was nine, he got killed by said man. Because he was born with two lives he survived that night. But he didn't come back alone. He doesn't remember it but in the in-between he encountered a demon that promised him to make him stronger and to keep him saved. Bryan was a scared kid and didn't know better. The demon kept it's promise by making Bryan strong enough to get rid of his father.<br><br>Together with his mother they moved to her hometown, Brommere. There he met a boy named Nathan in school. Though they had a rough start, the only true friendship Bryan had, was formed. His best friend unfortunately developed a crush for him. Even though they tried, it was nothing for Bryan and they remained as friends. <br><br>When he was 17 the hallucinations had gotten stronger and eventually led him to killing his first victim. Over time killing got more and more an adiction making him a serial killer.<br><br>Years past and when he was about to kill his eigth victim, he suddenly had a change of heart let her flee. Being trapped in the blind alley that was the crime scene he just wanted to disappear. As if something had listened to his wish, he did disappear, right before the police could get to him. Without knowing why and how, Bryan was now trapped in an endless white void with a misterious lady, called Clisty (who calles herself a witch). Still troubled by his \"condition\" he kills her multiple times while starting to develop feelings for her. If only he could save her from himself somehow...",
     "color_palette": [
       ["Hair", "#523f34"],
       ["Skin", "#e3bba8"],
@@ -24,28 +24,28 @@
         "id": "Clisty",
         "name": "Clisty Farhal",
         "relation": "Crush",
-        "backstory": "Acidentally ended up in a white Void where she was trapped in. Falls in love with her. But it's complicated",
+        "backstory": "Acidentally ended up in a white Void where she was trapped in. Falls in love with her. But it's complicated...",
         "image_url": "../../assets/characters/Clisty/character_image.png"
       },
       {
         "id": "Lillieth",
         "name": "Lillieth Collier",
         "relation": "Mother",
-        "backstory": "Moved with his mother to her hometown after his father died.",
+        "backstory": "Loving mother. Moved with her to her hometown after his father died.",
         "image_url": "../../assets/characters/Lillieth/character_image.png"
       },
       {
         "id": "Jane",
         "name": "Jane Collier",
         "relation": "Father",
-        "backstory": "Lotta shit happened.",
+        "backstory": "Lotta shit happened. Got rid of him but at what cost?",
         "image_url": "../../assets/characters/Jane/character_image.png"
       },
       {
         "id": "Nathan",
         "name": "Nathan Walt",
         "relation": "Best Friend",
-        "backstory": "Lotta shit happened",
+        "backstory": "Tried to have a romantic relationship but ended up as staying best friends.",
         "image_url": "../../assets/characters/Nathan/character_image.png"
       }
     ]

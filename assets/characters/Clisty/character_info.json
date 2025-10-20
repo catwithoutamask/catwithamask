@@ -3,11 +3,11 @@
     "name": "Clisty Farhal",
     "age": "25 (Mortal age: 799)",
     "height": "5' 3''",
-    "appearance": "She has pale as snow skin, bright blue eyes and straight, thin, purple hair. <br>- She weras a big green hoodie, jeans and in Part one grey socks, in Part two she wears dark boots).",
+    "appearance": "She has pale as snow skin, bright blue eyes and straight, thin, purple hair. She wears a big green hoodie and jeans. In Part one she wears grey socks and no shoes, in Part two she wears dark boots she got from Samantha.",
     "personality": 
-      "- she is very creative and can be a bit annoying at times. She would do anything to save all humans. <br>- Often she acts rather cold and careless over herself, but she tends to hide it by trying to be as polite as possible. <br>- She is also a very curious person. She is bisexual and asexual. She also loves the comic series 'Aquavia'.",
+      "- She is very creative and curious and can be a bit annoying at times. <br>- She would do anything to save all humans. <br>- Often she acts rather cold and careless over herself, but she tends to hide it by trying to be as polite as possible. <br>- She also loves the comic series 'Aquavia'.",
     "backstory": 
-      "- she was the first child of a duke. <br>- It was her who had the grandious idea to use a spell at the mysterious kid. <br>- Seeing all of her partners die over the hundred of years led her to a slight jealousy over Delyria and Hestya,  as well as she decided not to bond to anyone as long as she isn't sure she would even break the promise to the other witches just for that person. <br>- When she was banned to the magic prision, in 2018, she asked for the favour to have no memory. <br>- After being trapped there for about (twelve years??) she accidentally brought Bryan there. <br>- She fell in love with him but wasn't 100 percent sure of it. <br>- When they tried to escape two years later she wanted to choose death when she died after Bryan but Lukas stopped and possessed her. <br>- Together in a body they escaped. After three years and after Delyria and Hestya died she sacrifed her body to Lukas in order to finally be able to die and have peace.",
+      "Born in the 12th century as a witch and the first child of a duke Clisty grew up with a happy family. She is Lukas' older Sister. Their parents were also mages and thus capable of magic. Both Lukas and Clisty got training in fighting and magic by their parents (father did the combat training and mother the magic training). First only Lukas got combat training but when the cultists started hunting down for mages and witches Clisty also began to be trained in combat. Lukas was never really good in combat and Clisty learned pretty quickly. When she was a young adult the cultists attacked their family, killing their parents and capturing her. She was eventually saved by her brother. But she saw that he had changed somehow. Together they fought against the cultists. But one day, Clisty caught Lukas using red magic and trapped hin in the pentagram he was standing. She took him to talk but failed. He tried to convince Clisty that the humans have wronged them and if humans already fear them, witches should show them what they are really capable of. But Clisty refused to think that way. She believed in the good of humanity and that their purpose was to protect the humans from evil, Lukas for example. It took a couple of decades until she and the other witches (Delyria and Hestya) stumbled across a mysterious sick kid. It was her who had the grandious idea to use a spell at the mysterious kid, letting Lukas free in the world again. They captured and burned the demon. But this riddance would only last till the 21st century.<br><br>Seeing all of her partners die over the hundred of years led her to a slight jealousy over Delyria and Hestya, as well as she decided not to bond to anyone as long as she isn't sure she would even break the promise (of staying alive forever) to the other witches just for that person.<br><br>In 2018 she and the other witches found out about a prophacy: \"Clisty will bring downfall to humanity after her rescue\". In order to try to prevent it and unsure what it meant she was banned to a magic prision. For her own sake she asked for the favour to have no memory<br><br>After being trapped there for about (two years??) she accidentally brought Bryan there by creating a portal. It should not have been possible but it happened.<br>Trapped with him for another year or more she starts to develop some sort of feelings for him but never sure if it's just her desperation for human contact. After all, their relationship was never bound to work...<br>",
     "color_palette": [
       ["Hair", "#61558d"],
       ["Skin", "#fefefe"],
@@ -30,6 +30,27 @@
         "relation": "Friend (maybe more?)",
         "backstory": "Acidentally helped bringing him into the white void she is trapped in. If there weren't the trust issues there could be more between them.",
         "image_url": "../../assets/characters/Bryan/character_image.png"
+      },
+      {
+        "id": "Hestya",
+        "name": "Hestya Blackwei",
+        "relation": "Friend",
+        "backstory": "Thought together against Lukas.",
+        "image_url": "../../assets/characters/Hestya/character_image.png"
+      },
+      {
+        "id": "Delyria",
+        "name": "Delyria Hyhra",
+        "relation": "Friend",
+        "backstory": "Thought together against the cultists and later against Lukas.",
+        "image_url": "../../assets/characters/Delyria/character_image.png"
+      },
+      {
+        "id": "Samantha",
+        "name": "Samantha Taen",
+        "relation": "Mutual trust",
+        "backstory": "Got shelter from Samantha after she escaped the magic prison.",
+        "image_url": "../../assets/characters/Samantha/character_image.png"
       }
     ]
   }
