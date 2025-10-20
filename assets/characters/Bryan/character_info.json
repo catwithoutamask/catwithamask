@@ -1,0 +1,53 @@
+{
+  "character": {
+    "name": "Bryan Collier",
+    "age": "23",
+    "height": "5' 9''",
+    "appearance": 
+      "",
+    "personality": 
+      "",
+    "backstory": 
+      "",
+    "color_palette": [
+      ["Hair", "#523f34"],
+      ["Skin", "#e3bba8"],
+      ["Eyes", "#871043"],
+      ["Jacket", "#765092"],
+      ["Hood", "#b193cd"],
+      ["Shirt", "#d6d0d9"],
+      ["Pants", "#5b5683"],
+      ["Shoes", "#26243e"]
+    ],
+    "relationships": [
+      {
+        "id": "Clisty",
+        "name": "Clisty Farhal",
+        "relation": "Crush",
+        "backstory": "Acidentally ended up in a white Void where she was trapped in. Falls in love with her. But it's complicated",
+        "image_url": "../../assets/characters/Clisty/character_image.png"
+      },
+      {
+        "id": "Lillieth",
+        "name": "Lillieth Collier",
+        "relation": "Mother",
+        "backstory": "Moved with his mother to her hometown after his father died.",
+        "image_url": "../../assets/characters/Lillieth/character_image.png"
+      },
+      {
+        "id": "Jane",
+        "name": "Jane Collier",
+        "relation": "Father",
+        "backstory": "Lotta shit happened.",
+        "image_url": "../../assets/characters/Jane/character_image.png"
+      },
+      {
+        "id": "Nathan",
+        "name": "Nathan Walt",
+        "relation": "Best Friend",
+        "backstory": "Lotta shit happened",
+        "image_url": "../../assets/characters/Nathan/character_image.png"
+      }
+    ]
+  }
+}
