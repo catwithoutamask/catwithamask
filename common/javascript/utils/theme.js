@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function switchThemeParallax() {
     const sun_moon =  document.getElementById('sun');
-    const layer3 =  document.getElementById('layer-3');
     const layer4 =  document.getElementById('layer-4');
 
     const stars =  document.getElementById('stars');
