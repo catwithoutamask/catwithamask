@@ -72,7 +72,6 @@ function switchThemeParallax() {
 function checkforchristmas() {
     const today = new Date();
     const red1 =  document.getElementById('red-1');
-    console.log(today.getMonth());
 
     if(today.getMonth() == 10 || today.getMonth() < 2) {
         itsnow = true

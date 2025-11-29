@@ -28,6 +28,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     header = document.getElementById('header');
     document.getElementById('theme-switcher').addEventListener('click', function () { switchTheme(this) });
+    const year = (new Date()).getFullYear();
+    document.getElementsByTagName("footer")[0].innerHTML = "<p>© "+ year +" Catwithamask. All rights reserved.</p>";
+    console.log(document.getElementsByTagName("footer"))
 });
 
 window.addEventListener('scroll', function(){

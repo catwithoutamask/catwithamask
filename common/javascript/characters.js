@@ -12,6 +12,7 @@ async function loadCharacterOverview() {
 
         const container = document.getElementById("overviewContainer");
         container.innerHTML = Object.keys(grouped).map(groupName => `
+            <div class="divider"></div>
             <div class="section">
                 <h3 class="text-center">${groupName}</h3>
                 <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-6);">
