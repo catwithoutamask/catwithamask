@@ -81,13 +81,13 @@ function checkforchristmas() {
         layer1.setAttribute('src', "../assets/parallax/winter/layer-1.webp");
         layer2.setAttribute('src', "../assets/parallax/winter/layer-2.webp");
         layer3.setAttribute('src', "../assets/parallax/winter/layer-3.webp");
-        layer4.setAttribute('src', "../assets/parallax/winter/layer-4.webp");
         red1.setAttribute('src', "../assets/parallax/winter/red-1.webp");
+        switchThemeParallax();
     } else if(today.getMonth() == 11) {
         hohoho = true
         layer3.setAttribute('src', "../assets/parallax/winter/layer-3-xmas.webp");
-        layer4.setAttribute('src', "../assets/parallax/winter/layer-4-xmas.webp");
         red1.setAttribute('src', "../assets/parallax/winter/red-1.webp");
+        switchThemeParallax();
     }
 }
 

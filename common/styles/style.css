@@ -344,6 +344,27 @@ footer p{
   padding: var(--space-2);
 }
 
+/* Social icon styling */
+.socials {
+  margin-left: var(--space-2);
+}
+
+.socials a {
+  margin: 0 var(--space-2);
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.socials a svg {
+  fill: var(--color-muted);
+  transition: fill 0.2s ease, transform 0.2s ease;
+}
+
+.socials a:hover svg {
+  fill: var(--color-accent-light);
+}
+
 @media (max-width: 1040px) {
     .header {
         padding: 20px;
