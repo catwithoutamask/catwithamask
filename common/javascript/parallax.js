@@ -85,6 +85,8 @@ function checkforchristmas() {
         switchThemeParallax();
     } else if(today.getMonth() == 11) {
         hohoho = true
+        layer1.setAttribute('src', "../assets/parallax/winter/layer-1.webp");
+        layer2.setAttribute('src', "../assets/parallax/winter/layer-2.webp");
         layer3.setAttribute('src', "../assets/parallax/winter/layer-3-xmas.webp");
         red1.setAttribute('src', "../assets/parallax/winter/red-1.webp");
         switchThemeParallax();
