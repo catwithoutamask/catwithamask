@@ -16,15 +16,20 @@ and: responsive parallax mobile friendly
 }
 
 .parallax img {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    min-width: 1920px; /* Now it's not optimized for big screens */
-    min-height: 100%;
-    pointer-events: none;
-    user-select: none;
-    object-position: right bottom;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  min-width: 1920px; /* Now it's not optimized for big screens */
+  min-height: 100%;
+  pointer-events: none;
+  user-select: none;
+  object-position: right bottom;
+}
+
+img.stick-right {
+  min-width: 0;
 }
 
 .parallax img.lines {

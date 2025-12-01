@@ -5,6 +5,7 @@ let layer1;
 let layer2;
 let layer3;
 let layer4;
+let red1;
 let itsnow = false;
 let hohoho = false
 
@@ -12,13 +13,15 @@ document.addEventListener('DOMContentLoaded', () => {
     lines = document.getElementById('lines');
     sun = document.getElementById('sun');
     stars = document.getElementById('stars');
+    red1 =  document.getElementById('red-1');
     layer1 = document.getElementById('layer-1');
     layer2 = document.getElementById('layer-2');
     layer3 = document.getElementById('layer-3');
     layer4 = document.getElementById('layer-4');
-    header = document.getElementById('header');
 
     checkforchristmas();
+    fitToViewportHeight(layer4);
+    fitToViewportHeight(red1);
 });
 
 window.addEventListener('scroll', function(){
@@ -87,3 +90,24 @@ function checkforchristmas() {
         red1.setAttribute('src', "../assets/parallax/winter/red-1.webp");
     }
 }
+
+function fitToViewportHeight(img) {
+  const vh = window.innerHeight;
+  const scale = vh / img.naturalHeight;
+  const renderWidth = img.naturalWidth * scale;
+
+  img.style.height = vh + 'px';
+  img.style.width = 'auto';
+  img.style.left = (window.innerWidth - renderWidth) + 'px';
+
+  console.log("vh:", vh);
+  console.log("scale:", scale);
+  console.log("renderWidth:", renderWidth);
+  console.log("window width:", window.innerWidth);
+  console.log("left:", img.style.left);
+}
+
+window.addEventListener('resize', () => {
+    fitToViewportHeight(layer4);
+    fitToViewportHeight(red1);
+});
