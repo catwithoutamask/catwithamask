@@ -54,18 +54,23 @@
   border: 1px solid var(--color-border);
   background: var(--color-surface);
   box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+.story-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
 
 .story-card img {
   width: 160px;
-  height: 120px;
   object-fit: cover;
   border-radius: var(--radius-md);
 }
 
 .story-card-content h3 {
   font-family: var(--font-serif);
-  margin-bottom: var(--space-2);
+  margin-bottom: var(--space-4);
 }
 
 .story-card-content p {

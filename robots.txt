@@ -2,3 +2,5 @@ User-agent: *
 Disallow: /pages/blog/
 Disallow: /assets/lel/secret/login.html
 Disallow: /pages/character_sheet.html
+Disallow: /pages/stories/shortstory.html
+Disallow: /assets
