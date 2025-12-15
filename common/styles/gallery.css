@@ -386,6 +386,7 @@ p.but:hover {
   justify-content: center;
   padding: 100px;
   overflow: hidden;
+  overflow-y: scroll;
 }
 
 .modal-infos {
