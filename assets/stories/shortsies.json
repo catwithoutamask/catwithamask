@@ -1,6 +1,7 @@
 [
     {
         "id": "lovers2enemies2lovers",
+        "group": "Independent",
         "title": "Lovers to enemies to lover - Concept ending",
         "date": "2024-07-02",
         "textbody": [
@@ -35,7 +36,8 @@
         "cast": ["Zed", "Lance"]
     },
     {
-        "id": "",
+        "id": "didntremember",
+        "group": "A Demon's Promise",
         "title": "Didn't remember",
         "date": "2024-06-16",
         "textbody": [
@@ -60,6 +62,7 @@
     },
     {
         "id": "onemoretime",
+        "group": "A Demon's Promise",
         "title": "One more time",
         "date": "2024-06-16",
         "textbody": [
@@ -105,6 +108,7 @@
     },
     {
         "id": "theone",
+        "group": "A Demon's Promise",
         "title": "The one",
         "date": "2025-06-07",
         "textbody": [
@@ -148,6 +152,7 @@
     },
     {
         "id": "whydoifeelthisway",
+        "group": "Independent",
         "title": "Why do I feel this way? - Story concept",
         "date": "2025-10-10",
         "textbody": [
@@ -163,6 +168,7 @@
     },
     {
         "id": "wrongplace",
+        "group": "A Demon's Promise",
         "title": "Wrong place, wrong time",
         "date": "2025-04-11",
         "textbody": [

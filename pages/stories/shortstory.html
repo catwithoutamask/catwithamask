@@ -2,15 +2,19 @@
 <html lang="en" data-theme="dark">
 <head>
   <title><!-- TODO: Title goes here --></title>
-  <link rel="icon" href="../assets/icons/favicon/favicon_64x64.svg" sizes="64x64">
+  <link rel="icon" href="../../assets/icons/favicon/favicon_64x64.svg" sizes="64x64">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="../../common/styles/style.css">
+  <link rel="stylesheet" type="text/css" href="../../common/styles/blog.css">
+  <script src="../../common/javascript/stories/loadStory.js"></script>
   <script src="../../common/javascript/utils/cookies.js"></script>
   <script src="../../common/javascript/utils/theme.js"></script>
   <script src="../../common/javascript/utils/menu.js"></script>
+    <script src="../../common/javascript/utils/totop.js"></script>
+    <script src="../../common/javascript/utils/progressbar.js"></script>
 </head>
-<body>
+<body id="top">
   <header id="header" class="header">
       <a href="../index.html#about-me" class="logo">Catwithamask</a>
       <div id="hamburger" class="toggle" onclick="menuToggle()"></div>
@@ -25,10 +29,21 @@
           <li><button class="theme" id="theme-switcher" onclick="switchTheme(data-theme)"></button></li>
       </ul>
   </header>
-  
-  <main>
-    <img src="../../assets/misc/Hammertim3.gif" width="100%" height="100%"/>
-  </main>
+  <div id="bar">
+      <div id="progress-bar"></div>
+  </div>
+  <section class="section blog">
+      <a class="button outline totop none" id="totop" href="#top">▲ To the Top</a>
+      <div>
+          <a class="button outline" href="../stories.html">◀ Back</a>
+          <br>
+          <br>
+          <h2 id="story-title">Title goes here</h2>
+          <h3 id="date" class="date">Month xx, 20xx</h3>
+          <div id="textbody">
+          </div>
+      </div>
+  </section>
 
   <!-- Footer -->
   <footer id="footer" class="text-center">
