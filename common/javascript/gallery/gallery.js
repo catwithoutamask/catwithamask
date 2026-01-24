@@ -44,10 +44,10 @@ function openModal(id) {
 
   let imagesHTML = "";
   if(image.YouTubeLink) {
-    imagesHTML += "<a target='_blank' href='" + image.YouTubeLink + "' class='filterbtn'>Speedart on YouTube</a>";
+    imagesHTML += "<a target='_blank' href='" + image.YouTubeLink + "' class='button outline'>Speedart on YouTube</a>";
   }
   if(image.SpotifyLink) {
-    imagesHTML += "<a target='_blank' href='" + image.SpotifyLink + "' class='filterbtn'>Inspiration</a>";
+    imagesHTML += "<a target='_blank' href='" + image.SpotifyLink + "' class='button outline'>Inspiration</a>";
   }
   document.getElementById('links').innerHTML = imagesHTML
   

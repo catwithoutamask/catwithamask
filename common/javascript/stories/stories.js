@@ -34,7 +34,7 @@ async function loadShortStories(group) {
             <div class="card">
                 <h3>${s.title}<i style="color: var(--color-muted); opacity: 50%; font-size: var(--font-size-base); "> - ${s.date}</i></h3>
                 <p>${s.textbody[0].substring(0, 200)}...</p>
-                <a href="./stories/shortstory.html#${s.id}" class="button outline">Read More</a>
+                <a href="./shortstory.html#${s.id}" class="button outline">Read More</a>
             </div>
         `).join("");
     } catch (err) {
